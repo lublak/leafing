@@ -1,0 +1,17 @@
+{
+  "name": "Probe",
+  "icon": "theoneprobe:probe",
+  "category": "patchouli:gui",
+  "pages": [
+    {
+      "type": "text",
+      "text": "The probe is a tool that provides some basic block informations. Some examples:$(li)Name of the block$(br)$(li)the mod of the block$(br)$(li)tool to harvesting this block$(br)$(li)RF energy$(br)$(li)(Sneak)Items in the inventory of this block.$(br2)To get this overlay you must first craft a probe."
+    },
+    {
+      "type": "spotlight",
+      "title": "The Probe",
+      "text": "Can also combined with any helmet in a workbench, so you don't have to carry it around with you.",
+      "item": "theoneprobe:probe"
+    }
+  ]
+}

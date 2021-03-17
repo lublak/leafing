@@ -1,0 +1,60 @@
+{
+  "components": [
+    {
+      "type": "header",
+      "text": "#title",
+      "guard": "#title->exists",
+      "x": -1,
+      "y": -1
+    },
+    {
+      "type": "item",
+      "item": "#input",
+      "framed": true,
+      "x": 10,
+      "y": 25
+    },
+    {
+      "type": "item",
+      "item": "#tool",
+      "framed": true,
+      "x": 35,
+      "y": 40
+    },
+    {
+      "type": "item",
+      "item": "#output",
+      "framed": true,
+      "x": 90,
+      "y": 25
+    },
+    {
+      "type": "text",
+      "text": "Trick:$(br)#trick#",
+      "guard": "#trick->exists",
+      "x": 55,
+      "y": 50
+    },
+    {
+      "type": "header",
+      "text": "→",
+      "scale": 2,
+      "x": 60,
+      "y": 25
+    },
+    {
+      "type": "text",
+      "text": "To create $(item)#output->iname#$(0), first throw a $(item)#input->iname#$(0) on the ground. Then stand neraby and cast ($(rmb)) with a $(item)#tool->iname#$(0) that has no Spell selected.",
+      "guard": "#trick->exists->inv",
+      "x": 0,
+      "y": 80
+    },
+    {
+      "type": "text",
+      "text": "To create $(item)#output->iname#$(0), first throw a $(item)#input->iname#$(0) on the ground. Then stand neraby and cast ($(rmb)) the trick \"#trick#\" with a $(item)#tool->iname#$(0).",
+      "guard": "#trick->exists",
+      "x": 0,
+      "y": 80
+    }
+  ]
+}

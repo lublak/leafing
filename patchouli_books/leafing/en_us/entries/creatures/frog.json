@@ -1,0 +1,19 @@
+{
+  "name": "Frog",
+  "icon": "quark:frog_leg",
+  "category": "patchouli:creatures",
+  "pages": [
+    {
+      "type": "patchouli:entity_description_breedable",
+      "title": "Frog",
+      "breed1": "minecraft:brown_mushroom",
+      "infos": "Hop hop. I'm a frog!"
+    },
+    {
+      "type": "entity",
+      "entity": "mysticalworld:frog",
+      "scale": 1.5,
+      "offset": -0.3
+    }
+  ]
+}

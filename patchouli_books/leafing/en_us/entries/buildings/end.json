@@ -1,0 +1,66 @@
+{
+  "name": "End",
+  "icon": "minecraft:end_portal_frame",
+  "category": "patchouli:buildings",
+  "pages": [
+    {
+      "type": "text",
+      "text": "There is not only one dimension in Minecraft. Besides the $(l:buildings/nether)nether$(/l), there is also the end, where certain items are only available there. To find most of the items, the boss monster, the end dragon, must first be defeated. You enter the end with a portal."
+    },
+    {
+      "type": "text",
+      "title": "The End Portal",
+      "text": "Warning, you can only leave the end after you have defeated the dragon, so prepare yourself. To find the portal you need an $(item)eye of ender$(0), which you can then throw into the air and it will fly briefly in the direction of the end portal."
+    },
+    {
+      "type": "multiblock",
+      "enable_visualize": false,
+      "multiblock": {
+        "pattern": [
+          [ " WWW ", "NAAAS", "NA0AS", "NAAAS", " EEE " ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "A": "AIR",
+          "W": "minecraft:end_portal_frame[facing=west]",
+          "N": "minecraft:end_portal_frame[facing=north]",
+          "S": "minecraft:end_portal_frame[facing=south]",
+          "E": "minecraft:end_portal_frame[facing=east]",
+          "0": "AIR"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "The portal."
+    },
+    {
+      "type": "spotlight",
+      "title": "Activate it!",
+      "text": "Just fill all frames with $(item)eyes of ender$(0). Some portals already have pre-filled frames (0-12).",
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "type": "multiblock",
+      "enable_visualize": false,
+      "multiblock": {
+        "pattern": [
+          [ " WWW ", "NPPPS", "NP0PS", "NPPPS", " EEE " ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "P": "minecraft:end_portal",
+          "W": "minecraft:end_portal_frame[facing=west, eye=true]",
+          "N": "minecraft:end_portal_frame[facing=north, eye=true]",
+          "S": "minecraft:end_portal_frame[facing=south, eye=true]",
+          "E": "minecraft:end_portal_frame[facing=east, eye=true]",
+          "0": "minecraft:end_portal"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "The activated portal."
+    }
+  ]
+}

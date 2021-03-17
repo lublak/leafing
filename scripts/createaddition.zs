@@ -1,0 +1,1 @@
+removeAndHideItem(<item:createaddition:creative_energy>);

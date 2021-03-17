@@ -1,0 +1,8 @@
+{
+  "name": "Hello",
+  "icon": "brazier:living_flame",
+  "category": "patchouli:get_started",
+  "priority": true,
+  "pages": [
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Silver Fox",
+  "icon": "mysticalworld:pelt",
+  "category": "patchouli:creatures",
+  "pages": [
+    {
+      "type": "patchouli:entity_description_breedable_tamable",
+      "title": "Silver Fox",
+      "breed1": "minecraft:chicken",
+      "taming1": "minecraft:apple",
+      "infos": "Fox, you've stolen the goose aaaand the $(l:creatures/chicken)chickens$(/l) and $(l:creatures/rabbit)rabbits$(/l)."
+    },
+    {
+      "type": "entity",
+      "entity": "mysticalworld:silver_fox",
+      "scale": 0.8,
+      "offset": 0
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Hell Sprout",
+  "icon": "minecraft:nether_wart",
+  "category": "patchouli:creatures",
+  "pages": [
+    {
+      "type": "patchouli:entity_description_breedable",
+      "title": "Hell Sprout",
+      "breed1": "mysticalworld:cooked_aubergine",
+      "infos": "A hell of a gardener. Plant $(item)nether wart crops$(0) on $(block)soul sand$(0)."
+    },
+    {
+      "type": "entity",
+      "entity": "mysticalworld:hell_sprout",
+      "scale": 1,
+      "offset": 0
+    }
+  ]
+}

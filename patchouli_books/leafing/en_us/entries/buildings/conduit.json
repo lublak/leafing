@@ -1,0 +1,80 @@
+{
+  "name": "Conduit",
+  "icon": "minecraft:conduit",
+  "category": "patchouli:buildings",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Conduit power effects all players in water or rain. It restores oxygen, gives underwater night vision and increases mining speed by 16,7%. The buildings are just examples and can be varied."
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "     ", "BBBBB", "     " ],
+          [ " WWW ", "BWWWB", " WWW " ],
+          [ " WWW ", "BWCWB", " WWW " ],
+          [ " WWW ", "BWWWB", " WWW " ],
+          [ "     ", "BB0BB", "     " ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "C": "minecraft:conduit",
+          "B": "#forge:conduit_base_block",
+          "0": "#forge:conduit_base_block",
+          "W": "minecraft:water"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 0, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "31 Block Range"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "  B  ", "  B  ", "BBBBB", "  B  ", "  B  " ],
+          [ "  B  ", " WWW ", "BWWWB", " WWW ", "  B  " ],
+          [ "  B  ", " WWW ", "BWCWB", " WWW ", "  B  " ],
+          [ "  B  ", " WWW ", "BWWWB", " WWW ", "  B  " ],
+          [ "  B  ", "  B  ", "BB0BB", "  B  ", "  B  " ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "C": "minecraft:conduit",
+          "B": "#forge:conduit_base_block",
+          "0": "#forge:conduit_base_block",
+          "W": "minecraft:water"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 0, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "63 Block Range"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "  B  ", "  B  ", "BBBBB", "  B  ", "  B  " ],
+          [ "  B  ", " WWW ", "BWWWB", " WWW ", "  B  " ],
+          [ "BBBBB", "BWWWB", "BWCWB", "BWWWB", "BBBBB" ],
+          [ "  B  ", " WWW ", "BWWWB", " WWW ", "  B  " ],
+          [ "  B  ", "  B  ", "BB0BB", "  B  ", "  B  " ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "C": "minecraft:conduit",
+          "B": "#forge:conduit_base_block",
+          "0": "#forge:conduit_base_block",
+          "W": "minecraft:water"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 0, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "96 Block Range"
+    }
+  ]
+}

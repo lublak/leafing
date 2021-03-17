@@ -1,0 +1,26 @@
+{
+  "name": "Lava Cat",
+  "icon": "minecraft:lava_bucket",
+  "category": "patchouli:creatures",
+  "pages": [
+    {
+      "type": "patchouli:entity_description_breedable_tamable",
+      "title": "Lava Cat",
+      "breed1": "minecraft:blaze_powder",
+      "taming1": "minecraft:blaze_rod",
+      "infos": "A hot kitty ;)$(br)Lava Cat+Water = Obsidian Cat$(br)Obsidian Cat+Lava = Lava Cat"
+    },
+    {
+      "type": "entity",
+      "entity": "mysticalworld:lava_cat",
+      "scale": 0.5,
+      "offset": -0.3
+    },
+    {
+      "type": "entity",
+      "entity": "mysticalworld:lava_cat{IS_LAVA: false}",
+      "scale": 0.5,
+      "offset": -0.3
+    }
+  ]
+}

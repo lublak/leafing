@@ -1,0 +1,11 @@
+{
+  "name": "Color",
+  "icon": "quark:rainbow_rune",
+  "category": "patchouli:get_started",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Sometimes we use colors in the book to help you identify what it is exactly about.$(br) $(li)$(item)It is an item$(0)$(li)$(block)It is a block$(0)$(li)$(thing)It is one thing in game$(0)$(li)$(t:Tooltip)$(hover)It is hoverable$()$(li)$(l:get_started/color)It links to another page$(/l)$(li)$(l:https://minecraft.gamepedia.com/Minecraft_Wiki)$(link)It is an external link$()$(li)$(l:https://youtu.be/qRC4Vk6kisY)$(t:And here is the pink fluffy unicorn dancing on it)$(white)R$(orange)a$(magenta)i$(light_blue)n$(yellow)b$(lime)o$(pink)w $(gray)C$(light_gray)o$(cyan)l$(purple)o$(blue)r $(brown)T$(green)e$(red)x$(black)t$()"
+    }
+  ]
+}

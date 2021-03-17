@@ -1,0 +1,74 @@
+{
+  "name": "Enchanting Table",
+  "icon": "minecraft:enchanting_table",
+  "category": "patchouli:buildings",
+  "pages": [
+    {
+      "type": "text",
+      "text": "It allows you to enchant your tools and armor. Each $(item)bookshelf$(0), with one block air between the $(item)bookshelf$(0) and the $(item)enchanting table$(0), increase the enchantment level. Up to 4 candels of a single type will enhance the chance you'll find a given enchantment."
+    },
+    {
+      "type": "empty"
+    },
+    {
+      "type": "text",
+      "title": "Levels (0-6 Shelves)",
+      "text": "$(li) 0: 1- 8$(li) 1: 1- 9$(li) 2: 1-11$(li) 2: 1-11$(li) 3: 1-12$(li) 4: 1-14$(li) 5: 1-15$(li) 6: 1-17"
+    },
+    {
+      "type": "text",
+      "title": "Levels (7-15 Shelves)",
+      "text": "$(li) 7: 1-18$(li) 8: 1-20$(li) 9: 1-21$(li)10: 2-23$(li)11: 2-24$(li)12: 2-26$(li)13: 2-27$(li)14: 2-29$(li)15: 2-30"
+    },
+    {
+      "type": "text",
+      "title": "Candels",
+      "text": "$(li)$(white)White$(0): Unbreaking$(li)$(orange)Orange$(0): Fire Protection$(li)$(magenta)Magenta$(0): Knockback, Punch$(li)$(light_blue)Light Blue$(0): Feather Falling$(li)$(yellow)Yellow$(0): Looting, Fortune, Luck of the Sea$(li)$(lime)Lime$(0): Blast Protection$(li)$(pink)Pink$(0): Silk Touch, Channeling$(li)$(gray)Gray$(0): Bane of Arhtropods$(li)$(light_gray)Light Gray$(0): Protection$(li)$(cyan)Cyan$(0): Respiration, Loyalty, Infinity"
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(purple)Purple$(0): Sweeping Edge, Multishot$(li)$(blue)Blue$(0): Efficiency, Sharpness, Lure, Power, Impaling, Quick Charge$(li)$(brown)Brown$(0): Aqua Affinity, Depth Strider, Riptide$(li)$(green)Green$(0): Thorns, Piercing$(li)$(red)Red$(0): Fire Aspect, Flame$(li)$(black)Black$(0): Smite, Projectile Protection"
+    },
+    {
+      "type": "text",
+      "title": "How to enchant",
+      "text": "Pieces can be generated using $(item)lapis$(0) and $(thin)XP$(0) and used in the grid to enchant the item. If you right click on a pieces, it will rotate."
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "BB BB", "B   B", "B 0 B", "B   B", "BBBBB" ]
+        ],
+        "mapping": {
+          " ": "AIR",
+          "0": "minecraft:enchanting_table",
+          "B": "#forge:bookshelves"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Example for a maximal setup"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "C   C", "     ", "     ", "     ", "C   C" ],
+          [ "BB BB", "B   B", "B 0 B", "B   B", "BBBBB" ]
+        ],
+        "mapping": {
+          " ": "AIR",
+          "0": "minecraft:enchanting_table",
+          "C": "#buzzier_bees:candles",
+          "B": "#forge:bookshelves"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Example for a maximal setup with candles"
+    }
+  ]
+}

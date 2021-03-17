@@ -1,0 +1,19 @@
+{
+  "name": "Cow",
+  "icon": "minecraft:milk_bucket",
+  "category": "patchouli:creatures",
+  "pages": [
+    {
+      "type": "patchouli:entity_description_breedable",
+      "title": "Cow",
+      "breed1": "minecraft:wheat",
+      "infos": "$(l:https://youtu.be/foFKXS6Nyho?t=119)Meow meow. I'm a cow.$(/l)$(br)Can be milked with a $(item)bucket$(0)."
+    },
+    {
+      "type": "entity",
+      "entity": "minecraft:cow",
+      "scale": 1,
+      "offset": 0
+    }
+  ]
+}

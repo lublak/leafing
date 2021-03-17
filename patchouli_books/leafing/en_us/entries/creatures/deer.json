@@ -1,0 +1,19 @@
+{
+  "name": "Deer",
+  "icon": "mysticalworld:antlers",
+  "category": "patchouli:creatures",
+  "pages": [
+    {
+      "type": "patchouli:entity_description_breedable",
+      "title": "Deer",
+      "breed1": "minecraft:wheat",
+      "infos": "Rudolph? Is that you?"
+    },
+    {
+      "type": "entity",
+      "entity": "mysticalworld:deer",
+      "scale": 0.6,
+      "offset": 0.4
+    }
+  ]
+}

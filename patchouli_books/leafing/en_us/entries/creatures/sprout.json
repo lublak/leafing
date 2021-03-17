@@ -1,0 +1,47 @@
+{
+  "name": "Sprout",
+  "icon": "mysticalworld:aubergine",
+  "category": "patchouli:creatures",
+  "pages": [
+    {
+      "type": "patchouli:entity_description_breedable",
+      "title": "Sprout",
+      "breed1": "mysticalworld:aubergine",
+      "infos": "Like Bertie Bott's Every Flavour Beans, they are also available in different flavours and very sweet. Yummy. Depending on the Color, something else is dropped."
+    },
+    {
+      "type": "entity",
+      "entity": "mysticalworld:sprout{variant:0}"
+    },
+    {
+      "type": "patchouli:entity_description_breedable",
+      "title": "Sprout",
+      "breed1": "mysticalworld:aubergine",
+      "infos": "Like Bertie Bott's Every Flavour Beans, they are also available in different flavours and very sweet. Yummy. Depending on the Color, something else is dropped."
+    },
+    {
+      "type": "entity",
+      "entity": "mysticalworld:sprout{variant:1}"
+    },
+    {
+      "type": "patchouli:entity_description_breedable",
+      "title": "Sprout",
+      "breed1": "mysticalworld:aubergine",
+      "infos": "Like Bertie Bott's Every Flavour Beans, they are also available in different flavours and very sweet. Yummy. Depending on the Color, something else is dropped."
+    },
+    {
+      "type": "entity",
+      "entity": "mysticalworld:sprout{variant:2}"
+    },
+    {
+      "type": "patchouli:entity_description_breedable",
+      "title": "Sprout",
+      "breed1": "mysticalworld:aubergine",
+      "infos": "Like Bertie Bott's Every Flavour Beans, they are also available in different flavours and very sweet. Yummy. Depending on the Color, something else is dropped."
+    },
+    {
+      "type": "entity",
+      "entity": "mysticalworld:sprout{variant:3}"
+    }
+  ]
+}

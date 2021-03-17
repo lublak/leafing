@@ -1,0 +1,27 @@
+{
+    "name": "Just Enough Items",
+    "icon": "minecraft:book",
+    "category": "patchouli:gui",
+    "sortnum": 3,
+    "pages": [
+      {
+        "type": "text",
+        "text": "Just Enough Items is the surface when you open your Invetar. It shows you all available items, their recipes, occurrences and other informations."
+      },
+      {
+        "type": "text",
+        "title": "Searchbox",
+        "text": "$(li)$(bold)@$() searches for all items in a specific mod$(br)$(li)$(bold)#$() searches for all the items with a certain tooltip$(br)$(li)$(bold)%$() searches for all the items in a certain creative tab$(br)$(li)$(bold)$$() searches for all the items with a certain tag$(li)$(bold)-$() in front of a term filters this term out$(br)You can combine multiple terms."
+      },
+      {
+        "type": "text",
+        "title": "Item Informations",
+        "text": "In the list you can simple left click on a item to show the recipe or/and informations and right click to show the uses.$(br)If you hover over an item you can simple press $(k:jei.showRecipe) to show the recipes or/and informations and $(k:jei.showUses) to show the uses."
+      },
+      {
+        "type": "text",
+        "title": "Bookmarks",
+        "text": "If you hover over an item and press $(k:jei.bookmark) you can simply bookmark the item. It will then be listed in the inventory menu on the left. To remove it, simply hover over the item again and press $(k:jei.bookmark)."
+      }
+    ]
+}

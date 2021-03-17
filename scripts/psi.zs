@@ -1,0 +1,1 @@
+removeAndHideItem(<item:psi:cad_assembly_creative>);

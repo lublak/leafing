@@ -1,0 +1,27 @@
+{
+  "name": "Inventory Mouse Control",
+  "icon": "create:brass_hand",
+  "category": "patchouli:gui",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(li)$(bold)Click $(lmb)$(bold) (on Item):$()$(br)Pick an item up from a slot.$(br)$(li)$(bold)Click $(lmb)$(bold) + Shift (on Item):$()$(br)Move a stack items from a slot into another inventory (in a meaningful slot) or hotbar.$(br)For crafting output: Automatic creation of the possible maximum number and move them to the inventory."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(bold)Double Click $(lmb)$(bold) (on Item):$()$(br)Sort loose items into one stack.$(br)$(li)$(bold)Double Click $(lmb)$(bold) + Shift (on Item):$()$(br)Moves all items of the same time into another inventory.$(br)$(li)$(bold)Click $(rmb)$(bold) (on Item):$()$(br)Pick up half of multiple items.$(br)$(li)$(bold)Hold $(lmb)$(bold) (with Item):$()$(br)Hold your left button and drag over multiple slots with items to pick up the same items."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(bold)Hold $(rmb)$(bold) (with Item):$()$(br)Hold your right button and drag over multiple slots to place in each slot one block. You can drag over the same item multiple times.$(br)$(li)$(bold)Hold $(lmb)$(bold) (with Item):$()$(br)Hold your left button and drag over multiple slots with items to pick up the same items.$(br)Also can used to add items directly to a shulker box in an inventory, by right clicking it."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(bold)Hold $(lmb)$(bold) + Shift (without Item):$()$(br)Hold your left button + shift and drag over multiple slots with items to move them into another inventory.$(br)$(li)$(bold)Hold $(lmb)$(bold) + Shift (without Item):$()$(br)Hold your left button + shift and drag over multiple slots with items to move them into another inventory."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(bold)Scroll (on Item):$()$(br)Scroll Down: Move items into another inventory (push). Scroll Up: Move items from another invetory (pull)."
+    }
+  ]
+}

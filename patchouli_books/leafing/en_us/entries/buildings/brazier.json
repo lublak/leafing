@@ -1,0 +1,246 @@
+{
+  "name": "Brazier",
+  "icon": "brazier:brazier",
+  "category": "patchouli:buildings",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A Brazier prevents mobs from spawning within a certain radius around it. To see how far the brazier spreads, you can light a $(item)torch$(0) on the $(item)brazier$(0). If a zone is to be excluded, $(item)cursed ash$(0) can be used."
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "     ", "     ", "  B  ", "     ", "     " ],
+          [ " OOO ", "OOOOO", "OO0OO", "OOOOO", " OOO " ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "#brazier:brazier_base_blocks",
+          "B": "brazier:brazier",
+          "O": "#brazier:brazier_base_blocks"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Level 1 (30 Blocks Range)"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "     ", "     ", "  B  ", "     ", "     " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OO0OO", "OOOOO", " OOO " ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "#brazier:brazier_base_blocks",
+          "B": "brazier:brazier",
+          "O": "#brazier:brazier_base_blocks"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Level 2 (40 Blocks Range)"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "     ", "     ", "  B  ", "     ", "     " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OO0OO", "OOOOO", " OOO " ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "#brazier:brazier_base_blocks",
+          "B": "brazier:brazier",
+          "O": "#brazier:brazier_base_blocks"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Level 3 (50 Blocks Range)"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "     ", "     ", "  B  ", "     ", "     " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OO0OO", "OOOOO", " OOO " ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "#brazier:brazier_base_blocks",
+          "B": "brazier:brazier",
+          "O": "#brazier:brazier_base_blocks"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Level 4 (60 Blocks Range)"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "     ", "     ", "  B  ", "     ", "     " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OO0OO", "OOOOO", " OOO " ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "#brazier:brazier_base_blocks",
+          "B": "brazier:brazier",
+          "O": "#brazier:brazier_base_blocks"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Level 5 (70 Blocks Range)"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "     ", "     ", "  B  ", "     ", "     " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OO0OO", "OOOOO", " OOO " ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "#brazier:brazier_base_blocks",
+          "B": "brazier:brazier",
+          "O": "#brazier:brazier_base_blocks"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Level 6 (80 Blocks Range)"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "     ", "     ", "  B  ", "     ", "     " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OO0OO", "OOOOO", " OOO " ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "#brazier:brazier_base_blocks",
+          "B": "brazier:brazier",
+          "O": "#brazier:brazier_base_blocks"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Level 7 (90 Blocks Range)"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "     ", "     ", "  B  ", "     ", "     " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OO0OO", "OOOOO", " OOO " ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "#brazier:brazier_base_blocks",
+          "B": "brazier:brazier",
+          "O": "#brazier:brazier_base_blocks"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Level 8 (100 Blocks Range)"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "     ", "     ", "  B  ", "     ", "     " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OO0OO", "OOOOO", " OOO " ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "#brazier:brazier_base_blocks",
+          "B": "brazier:brazier",
+          "O": "#brazier:brazier_base_blocks"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Level 9 (110 Blocks Range)"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "     ", "     ", "  B  ", "     ", "     " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OOOOO", "OOOOO", " OOO " ],
+          [ " OOO ", "OOOOO", "OO0OO", "OOOOO", " OOO " ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "#brazier:brazier_base_blocks",
+          "B": "brazier:brazier",
+          "O": "#brazier:brazier_base_blocks"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Level 10 (120 Blocks Range)"
+    }
+  ]
+}

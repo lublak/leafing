@@ -1,0 +1,178 @@
+{
+  "components": [
+    {
+      "type": "header",
+      "text": "#title",
+      "guard": "#title->exists",
+      "x": -1,
+      "y": -1
+    },
+    {
+      "type": "separator",
+      "guard": "#title->exists",
+      "x": -1,
+      "y": -1
+    },
+    {
+      "type": "text",
+      "text": "Breed Item:",
+      "guard": "#breed1->iexists",
+      "x": 0,
+      "y": 30
+    },
+    {
+      "type": "item",
+      "item": "#breed1",
+      "guard": "#breed1->iexists",
+      "x": 0,
+      "y": 40
+    },
+    {
+      "type": "item",
+      "item": "#breed2",
+      "guard": "#breed2->iexists",
+      "x": 20,
+      "y": 40
+    },
+    {
+      "type": "item",
+      "item": "#breed3",
+      "guard": "#breed3->iexists",
+      "x": 40,
+      "y": 40
+    },
+    {
+      "type": "item",
+      "item": "#breed4",
+      "guard": "#breed4->iexists",
+      "x": 60,
+      "y": 40
+    },
+    {
+      "type": "item",
+      "item": "#breed5",
+      "guard": "#breed5->iexists",
+      "x": 80,
+      "y": 40
+    },
+    {
+      "type": "item",
+      "item": "#breed6",
+      "guard": "#breed6->iexists",
+      "x": 100,
+      "y": 40
+    },
+    {
+      "type": "text",
+      "text": "Breed:$(br)#custom_breed#",
+      "guard": "#custom_breed->exists",
+      "x": 0,
+      "y": 30
+    },
+    {
+      "type": "text",
+      "text": "Taming Item:",
+      "guard": "#taming1->iexists",
+      "x": 0,
+      "y": 60
+    },
+    {
+      "type": "item",
+      "item": "#taming1",
+      "guard": "#taming1->iexists",
+      "x": 0,
+      "y": 70
+    },
+    {
+      "type": "item",
+      "item": "#taming2",
+      "guard": "#taming2->iexists",
+      "x": 20,
+      "y": 70
+    },
+    {
+      "type": "item",
+      "item": "#taming3",
+      "guard": "#taming3->iexists",
+      "x": 40,
+      "y": 70
+    },
+    {
+      "type": "item",
+      "item": "#taming4",
+      "guard": "#taming4->iexists",
+      "x": 60,
+      "y": 70
+    },
+    {
+      "type": "item",
+      "item": "#taming5",
+      "guard": "#taming5->iexists",
+      "x": 80,
+      "y": 70
+    },
+    {
+      "type": "item",
+      "item": "#taming6",
+      "guard": "#taming6->iexists",
+      "x": 100,
+      "y": 70
+    },
+		{
+      "type": "item",
+      "item": "#taming7",
+      "guard": "#taming7->iexists",
+      "x": 0,
+      "y": 90
+    },
+    {
+      "type": "item",
+      "item": "#taming8",
+      "guard": "#taming8->iexists",
+      "x": 20,
+      "y": 90
+    },
+    {
+      "type": "item",
+      "item": "#taming9",
+      "guard": "#taming9->iexists",
+      "x": 40,
+      "y": 90
+    },
+    {
+      "type": "item",
+      "item": "#taming10",
+      "guard": "#taming10->iexists",
+      "x": 60,
+      "y": 90
+    },
+    {
+      "type": "item",
+      "item": "#taming11",
+      "guard": "#taming11->iexists",
+      "x": 80,
+      "y": 90
+    },
+    {
+      "type": "item",
+      "item": "#taming12",
+      "guard": "#taming12->iexists",
+      "x": 100,
+      "y": 90
+    },
+    {
+      "type": "text",
+      "text": "Taming:$(br)#custom_taming#",
+      "guard": "#custom_taming->exists",
+      "x": 0,
+      "y": 60
+    },
+    {
+      "type": "text",
+      "text": "Infos:$(br)#infos#",
+      "guard": "#infos->exists",
+      "x": 0,
+      "y": 110
+    }
+  ]
+}

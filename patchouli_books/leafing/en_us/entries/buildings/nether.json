@@ -1,0 +1,89 @@
+{
+  "name": "Nether",
+  "icon": "minecraft:obsidian",
+  "category": "patchouli:buildings",
+  "pages": [
+    {
+      "type": "text",
+      "text": "There is not only one dimension in Minecraft. Besides the $(l:buildings/end)end$(/l), there is also the nether, where certain items are only available there. To get there you need a portal."
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ " OO " ],
+          [ "OAAO" ],
+          [ "OAAO" ],
+          [ "OAAO" ],
+          [ " O0 " ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "#charm:nether_portal_frames",
+          "O": "#charm:nether_portal_frames",
+          "A": "AIR"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 0, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "The portal. It can also be bigger."
+    },
+    {
+      "type": "spotlight",
+      "title": "Activate it!",
+      "text": "Just set a top face of one of the lower obsidian blocks on fire.",
+      "item": "minecraft:flint_and_steel"
+    },
+    {
+      "type": "multiblock",
+      "name": "The Result!",
+      "text": "The activated portal.",
+      "enable_visualize": false,
+      "multiblock": {
+        "pattern": [
+          [ " OO " ],
+          [ "OPPO" ],
+          [ "OPPO" ],
+          [ "OPPO" ],
+          [ " O0 " ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "#charm:nether_portal_frames",
+          "O": "#charm:nether_portal_frames",
+          "P": "minecraft:nether_portal[axis=z]"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 0, 0],
+        "view_offset": [0, 0, 0]
+      }
+    },
+    {
+      "type": "multiblock",
+      "name": "Tinted portals",
+      "text": "You can Color your portals like a beacon by placing certain blocks under the portal.",
+      "enable_visualize": false,
+      "multiblock": {
+        "pattern": [
+          [ " OO " ],
+          [ "OPPO" ],
+          [ "OPPO" ],
+          [ "OPPO" ],
+          [ " OO " ],
+          [ " G0 " ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "#forge:stained_glass",
+          "O": "#charm:nether_portal_frames",
+          "P": "minecraft:nether_portal[axis=z]",
+          "G": "#forge:stained_glass"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 0, 0],
+        "view_offset": [0, 0, 0]
+      }
+    }
+  ]
+}

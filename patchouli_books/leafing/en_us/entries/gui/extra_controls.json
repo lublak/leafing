@@ -1,0 +1,15 @@
+{
+  "name": "Not listed Controls",
+  "icon": "supplementaries:key",
+  "category": "patchouli:gui",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Here is a list with all unlisted controls. All other controlls are avaible under ESC -> Options... -> Controls..."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(bold)Mouse Move:$()$(br)Moves the camera.$(br)$(li)$(bold)Scroll:$()$(br)Scrolls to the hotbar or a list.$(br)$(li)$(bold)Mouse (in Inventory):$()$(br)Look one the page: $(l:gui/inventory_mouse)Inventory Mouse Control$(/l).$(li)$(bold)Esc (in game):$()$(br)Open the menu.$(li)$(bold)Esc (in any gui):$()$(br)Close the gui.$(li)$(bold)F1:$()$(br)Toggles the Heads-Up Display.$(li)$(bold)F3:$()$(br)Shows the information screen."
+    }
+  ]
+}

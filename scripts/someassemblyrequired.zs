@@ -1,0 +1,1 @@
+removeAndHideItem(<item:someassemblyrequired:kitchen_knife>);

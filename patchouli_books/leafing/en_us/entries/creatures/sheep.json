@@ -1,0 +1,19 @@
+{
+  "name": "Sheep",
+  "icon": "minecraft:white_wool",
+  "category": "patchouli:creatures",
+  "pages": [
+    {
+      "type": "patchouli:entity_description_breedable",
+      "title": "Sheep",
+      "breed1": "minecraft:wheat",
+      "infos": "$(l:https://youtu.be/foFKXS6Nyho?t=91)Beep beep. I'm a sheep.$(/l)$(br)Can be dyed and sheared with $(item)shears$(0)."
+    },
+    {
+      "type": "entity",
+      "entity": "minecraft:sheep",
+      "scale": 1,
+      "offset": 0
+    }
+  ]
+}

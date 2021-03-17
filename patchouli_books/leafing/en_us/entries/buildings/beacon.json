@@ -1,0 +1,522 @@
+{
+  "name": "Beacon",
+  "icon": "minecraft:beacon",
+  "category": "patchouli:buildings",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A beacon pyramid projects a beam of light and provides various status effects for nearby players and non-hostile mobs."
+    },
+    {
+      "type": "text",
+      "title": "Effects",
+      "text": "$(t:Increased movement speed, available from level 1)$(hover)Speed I$()$(br)$(t:Increased mining and attack speed, available from level 1)$(hover)Haste I$()$(br)$(t:Decreased nearly all incoming damage, available from level 2)$(hover)Resistance I$()$(br)$(t:Increased jumping distance and height, available from level 2)$(hover)Jump Boost I$()$(br)$(t:Increased melee damage, available from level 3)$(hover)Strength I$()$(br)$(t:Regenerates health, available from level 4)$(hover)Regeneration I$()$(br2)Pyramid Level 4 also increasing the primary power to level II."
+    },
+    {
+      "type": "text",
+      "title": "Pyramids",
+      "text": "$(l:buildings/beacon#iron_pyramid)Iron Pyramid$(/l)$(br)$(l:buildings/beacon#gold_pyramid)Gold Pyramid$(/l)$(br)$(l:buildings/beacon#emerald_pyramid)Emerald Pyramid$(/l)$(br)$(l:buildings/beacon#diamond_pyramid)Diamond Pyramid$(/l)$(br)$(l:buildings/beacon#netherite_pyramid)Netherite Pyramid$(/l)$(br)$(l:buildings/beacon#golden_apple_crate_pyramid)Golden Apple Crate Pyramid$(/l)"
+    },
+    {
+      "type": "empty"
+    },
+    {
+      "type": "multiblock",
+      "anchor": "iron_pyramid",
+      "multiblock": {
+        "pattern": [
+          [ "   ", " B ", "   " ],
+          [ "GGG", "G0G", "GGG" ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "minecraft:iron_block",
+          "B": "minecraft:beacon",
+          "G": "minecraft:iron_block"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Iron Level 1"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "     ", "     ", "  B  ", "     ", "     " ],
+          [ "     ", " GGG ", " GGG ", " GGG ", "     " ],
+          [ "GGGGG", "GGGGG", "GG0GG", "GGGGG", "GGGGG" ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "minecraft:iron_block",
+          "B": "minecraft:beacon",
+          "G": "minecraft:iron_block"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Iron Level 2"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "       ", "       ", "       ", "   B   ", "       ", "       ", "       " ],
+          [ "       ", "       ", "  GGG  ", "  GGG  ", "  GGG  ", "       ", "       " ],
+          [ "       ", " GGGGG ", " GGGGG ", " GGGGG ", " GGGGG ", " GGGGG ", "       " ],
+          [ "GGGGGGG", "GGGGGGG", "GGGGGGG", "GGG0GGG", "GGGGGGG", "GGGGGGG", "GGGGGGG" ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "minecraft:iron_block",
+          "B": "minecraft:beacon",
+          "G": "minecraft:iron_block"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Iron Level 3"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "         ", "         ", "         ", "         ", "    B    ", "         ", "         ", "         ", "         " ],
+          [ "         ", "         ", "         ", "   GGG   ", "   GGG   ", "   GGG   ", "         ", "         ", "         " ],
+          [ "         ", "         ", "  GGGGG  ", "  GGGGG  ", "  GGGGG  ", "  GGGGG  ", "  GGGGG  ", "         ", "         " ],
+          [ "         ", " GGGGGGG ", " GGGGGGG ", " GGGGGGG ", " GGGGGGG ", " GGGGGGG ", " GGGGGGG ", " GGGGGGG ", "         " ],
+          [ "GGGGGGGGG", "GGGGGGGGG", "GGGGGGGGG", "GGGGGGGGG", "GGGG0GGGG", "GGGGGGGGG", "GGGGGGGGG", "GGGGGGGGG", "GGGGGGGGG" ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "minecraft:iron_block",
+          "B": "minecraft:beacon",
+          "G": "minecraft:iron_block"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Iron Level 4"
+    },
+    {
+      "type": "multiblock",
+      "anchor": "gold_pyramid",
+      "multiblock": {
+        "pattern": [
+          [ "   ", " B ", "   " ],
+          [ "GGG", "G0G", "GGG" ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "minecraft:gold_block",
+          "B": "minecraft:beacon",
+          "G": "minecraft:gold_block"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Gold Level 1"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "     ", "     ", "  B  ", "     ", "     " ],
+          [ "     ", " GGG ", " GGG ", " GGG ", "     " ],
+          [ "GGGGG", "GGGGG", "GG0GG", "GGGGG", "GGGGG" ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "minecraft:gold_block",
+          "B": "minecraft:beacon",
+          "G": "minecraft:gold_block"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Gold Level 2"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "       ", "       ", "       ", "   B   ", "       ", "       ", "       " ],
+          [ "       ", "       ", "  GGG  ", "  GGG  ", "  GGG  ", "       ", "       " ],
+          [ "       ", " GGGGG ", " GGGGG ", " GGGGG ", " GGGGG ", " GGGGG ", "       " ],
+          [ "GGGGGGG", "GGGGGGG", "GGGGGGG", "GGG0GGG", "GGGGGGG", "GGGGGGG", "GGGGGGG" ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "minecraft:gold_block",
+          "B": "minecraft:beacon",
+          "G": "minecraft:gold_block"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Gold Level 3"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "         ", "         ", "         ", "         ", "    B    ", "         ", "         ", "         ", "         " ],
+          [ "         ", "         ", "         ", "   GGG   ", "   GGG   ", "   GGG   ", "         ", "         ", "         " ],
+          [ "         ", "         ", "  GGGGG  ", "  GGGGG  ", "  GGGGG  ", "  GGGGG  ", "  GGGGG  ", "         ", "         " ],
+          [ "         ", " GGGGGGG ", " GGGGGGG ", " GGGGGGG ", " GGGGGGG ", " GGGGGGG ", " GGGGGGG ", " GGGGGGG ", "         " ],
+          [ "GGGGGGGGG", "GGGGGGGGG", "GGGGGGGGG", "GGGGGGGGG", "GGGG0GGGG", "GGGGGGGGG", "GGGGGGGGG", "GGGGGGGGG", "GGGGGGGGG" ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "minecraft:gold_block",
+          "B": "minecraft:beacon",
+          "G": "minecraft:gold_block"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Gold Level 4"
+    },
+    {
+      "type": "multiblock",
+      "anchor": "emerald_pyramid",
+      "multiblock": {
+        "pattern": [
+          [ "   ", " B ", "   " ],
+          [ "GGG", "G0G", "GGG" ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "minecraft:emerald_block",
+          "B": "minecraft:beacon",
+          "G": "minecraft:emerald_block"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Emerald Level 1"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "     ", "     ", "  B  ", "     ", "     " ],
+          [ "     ", " GGG ", " GGG ", " GGG ", "     " ],
+          [ "GGGGG", "GGGGG", "GG0GG", "GGGGG", "GGGGG" ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "minecraft:emerald_block",
+          "B": "minecraft:beacon",
+          "G": "minecraft:emerald_block"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Emerald Level 2"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "       ", "       ", "       ", "   B   ", "       ", "       ", "       " ],
+          [ "       ", "       ", "  GGG  ", "  GGG  ", "  GGG  ", "       ", "       " ],
+          [ "       ", " GGGGG ", " GGGGG ", " GGGGG ", " GGGGG ", " GGGGG ", "       " ],
+          [ "GGGGGGG", "GGGGGGG", "GGGGGGG", "GGG0GGG", "GGGGGGG", "GGGGGGG", "GGGGGGG" ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "minecraft:emerald_block",
+          "B": "minecraft:beacon",
+          "G": "minecraft:emerald_block"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Emerald Level 3"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "         ", "         ", "         ", "         ", "    B    ", "         ", "         ", "         ", "         " ],
+          [ "         ", "         ", "         ", "   GGG   ", "   GGG   ", "   GGG   ", "         ", "         ", "         " ],
+          [ "         ", "         ", "  GGGGG  ", "  GGGGG  ", "  GGGGG  ", "  GGGGG  ", "  GGGGG  ", "         ", "         " ],
+          [ "         ", " GGGGGGG ", " GGGGGGG ", " GGGGGGG ", " GGGGGGG ", " GGGGGGG ", " GGGGGGG ", " GGGGGGG ", "         " ],
+          [ "GGGGGGGGG", "GGGGGGGGG", "GGGGGGGGG", "GGGGGGGGG", "GGGG0GGGG", "GGGGGGGGG", "GGGGGGGGG", "GGGGGGGGG", "GGGGGGGGG" ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "minecraft:emerald_block",
+          "B": "minecraft:beacon",
+          "G": "minecraft:emerald_block"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Emerald Level 4"
+    },
+    {
+      "type": "multiblock",
+      "anchor": "diamond_pyramid",
+      "multiblock": {
+        "pattern": [
+          [ "   ", " B ", "   " ],
+          [ "GGG", "G0G", "GGG" ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "minecraft:diamond_block",
+          "B": "minecraft:beacon",
+          "G": "minecraft:diamond_block"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Diamond Level 1"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "     ", "     ", "  B  ", "     ", "     " ],
+          [ "     ", " GGG ", " GGG ", " GGG ", "     " ],
+          [ "GGGGG", "GGGGG", "GG0GG", "GGGGG", "GGGGG" ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "minecraft:diamond_block",
+          "B": "minecraft:beacon",
+          "G": "minecraft:diamond_block"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Diamond Level 2"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "       ", "       ", "       ", "   B   ", "       ", "       ", "       " ],
+          [ "       ", "       ", "  GGG  ", "  GGG  ", "  GGG  ", "       ", "       " ],
+          [ "       ", " GGGGG ", " GGGGG ", " GGGGG ", " GGGGG ", " GGGGG ", "       " ],
+          [ "GGGGGGG", "GGGGGGG", "GGGGGGG", "GGG0GGG", "GGGGGGG", "GGGGGGG", "GGGGGGG" ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "minecraft:diamond_block",
+          "B": "minecraft:beacon",
+          "G": "minecraft:diamond_block"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Diamond Level 3"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "         ", "         ", "         ", "         ", "    B    ", "         ", "         ", "         ", "         " ],
+          [ "         ", "         ", "         ", "   GGG   ", "   GGG   ", "   GGG   ", "         ", "         ", "         " ],
+          [ "         ", "         ", "  GGGGG  ", "  GGGGG  ", "  GGGGG  ", "  GGGGG  ", "  GGGGG  ", "         ", "         " ],
+          [ "         ", " GGGGGGG ", " GGGGGGG ", " GGGGGGG ", " GGGGGGG ", " GGGGGGG ", " GGGGGGG ", " GGGGGGG ", "         " ],
+          [ "GGGGGGGGG", "GGGGGGGGG", "GGGGGGGGG", "GGGGGGGGG", "GGGG0GGGG", "GGGGGGGGG", "GGGGGGGGG", "GGGGGGGGG", "GGGGGGGGG" ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "minecraft:diamond_block",
+          "B": "minecraft:beacon",
+          "G": "minecraft:diamond_block"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Diamond Level 4"
+    },
+    {
+      "type": "multiblock",
+      "anchor": "netherite_pyramid",
+      "multiblock": {
+        "pattern": [
+          [ "   ", " B ", "   " ],
+          [ "GGG", "G0G", "GGG" ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "minecraft:netherite_block",
+          "B": "minecraft:beacon",
+          "G": "minecraft:netherite_block"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Netherite Level 1"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "     ", "     ", "  B  ", "     ", "     " ],
+          [ "     ", " GGG ", " GGG ", " GGG ", "     " ],
+          [ "GGGGG", "GGGGG", "GG0GG", "GGGGG", "GGGGG" ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "minecraft:netherite_block",
+          "B": "minecraft:beacon",
+          "G": "minecraft:netherite_block"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Netherite Level 2"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "       ", "       ", "       ", "   B   ", "       ", "       ", "       " ],
+          [ "       ", "       ", "  GGG  ", "  GGG  ", "  GGG  ", "       ", "       " ],
+          [ "       ", " GGGGG ", " GGGGG ", " GGGGG ", " GGGGG ", " GGGGG ", "       " ],
+          [ "GGGGGGG", "GGGGGGG", "GGGGGGG", "GGG0GGG", "GGGGGGG", "GGGGGGG", "GGGGGGG" ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "minecraft:netherite_block",
+          "B": "minecraft:beacon",
+          "G": "minecraft:netherite_block"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Netherite Level 3"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "         ", "         ", "         ", "         ", "    B    ", "         ", "         ", "         ", "         " ],
+          [ "         ", "         ", "         ", "   GGG   ", "   GGG   ", "   GGG   ", "         ", "         ", "         " ],
+          [ "         ", "         ", "  GGGGG  ", "  GGGGG  ", "  GGGGG  ", "  GGGGG  ", "  GGGGG  ", "         ", "         " ],
+          [ "         ", " GGGGGGG ", " GGGGGGG ", " GGGGGGG ", " GGGGGGG ", " GGGGGGG ", " GGGGGGG ", " GGGGGGG ", "         " ],
+          [ "GGGGGGGGG", "GGGGGGGGG", "GGGGGGGGG", "GGGGGGGGG", "GGGG0GGGG", "GGGGGGGGG", "GGGGGGGGG", "GGGGGGGGG", "GGGGGGGGG" ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "minecraft:netherite_block",
+          "B": "minecraft:beacon",
+          "G": "minecraft:netherite_block"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Netherite Level 4"
+    },
+    {
+      "type": "multiblock",
+      "anchor": "golden_apple_crate_pyramid",
+      "multiblock": {
+        "pattern": [
+          [ "   ", " B ", "   " ],
+          [ "GGG", "G0G", "GGG" ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "quark:golden_apple_crate",
+          "B": "minecraft:beacon",
+          "G": "quark:golden_apple_crate"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Golden Apple Crate Level 1"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "     ", "     ", "  B  ", "     ", "     " ],
+          [ "     ", " GGG ", " GGG ", " GGG ", "     " ],
+          [ "GGGGG", "GGGGG", "GG0GG", "GGGGG", "GGGGG" ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "quark:golden_apple_crate",
+          "B": "minecraft:beacon",
+          "G": "quark:golden_apple_crate"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Golden Apple Crate Level 2"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "       ", "       ", "       ", "   B   ", "       ", "       ", "       " ],
+          [ "       ", "       ", "  GGG  ", "  GGG  ", "  GGG  ", "       ", "       " ],
+          [ "       ", " GGGGG ", " GGGGG ", " GGGGG ", " GGGGG ", " GGGGG ", "       " ],
+          [ "GGGGGGG", "GGGGGGG", "GGGGGGG", "GGG0GGG", "GGGGGGG", "GGGGGGG", "GGGGGGG" ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "quark:golden_apple_crate",
+          "B": "minecraft:beacon",
+          "G": "quark:golden_apple_crate"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Golden Apple Crate Level 3"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "         ", "         ", "         ", "         ", "    B    ", "         ", "         ", "         ", "         " ],
+          [ "         ", "         ", "         ", "   GGG   ", "   GGG   ", "   GGG   ", "         ", "         ", "         " ],
+          [ "         ", "         ", "  GGGGG  ", "  GGGGG  ", "  GGGGG  ", "  GGGGG  ", "  GGGGG  ", "         ", "         " ],
+          [ "         ", " GGGGGGG ", " GGGGGGG ", " GGGGGGG ", " GGGGGGG ", " GGGGGGG ", " GGGGGGG ", " GGGGGGG ", "         " ],
+          [ "GGGGGGGGG", "GGGGGGGGG", "GGGGGGGGG", "GGGGGGGGG", "GGGG0GGGG", "GGGGGGGGG", "GGGGGGGGG", "GGGGGGGGG", "GGGGGGGGG" ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "quark:golden_apple_crate",
+          "B": "minecraft:beacon",
+          "G": "quark:golden_apple_crate"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Golden Apple Crate Level 4"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Find Deco",
+  "icon": "chiselsandbits:magnifying_glass",
+  "category": "patchouli:deco",
+  "pages": [
+    {
+      "type": "text",
+      "text": "You can use any block to decorate your house. You can find dedicated decorative elements in jei by searching with the term #leafing:deco. A few special ones are also explained in this category."
+    }
+  ]
+}

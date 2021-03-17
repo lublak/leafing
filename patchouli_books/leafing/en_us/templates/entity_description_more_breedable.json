@@ -1,0 +1,122 @@
+{
+  "components": [
+    {
+      "type": "header",
+      "text": "#title",
+      "guard": "#title->exists",
+      "x": -1,
+      "y": -1
+    },
+    {
+      "type": "separator",
+      "guard": "#title->exists",
+      "x": -1,
+      "y": -1
+    },
+    {
+      "type": "text",
+      "text": "Breed Item:",
+      "guard": "#breed1->iexists",
+      "x": 0,
+      "y": 30
+    },
+    {
+      "type": "item",
+      "item": "#breed1",
+      "guard": "#breed1->iexists",
+      "x": 0,
+      "y": 40
+    },
+    {
+      "type": "item",
+      "item": "#breed2",
+      "guard": "#breed2->iexists",
+      "x": 20,
+      "y": 40
+    },
+    {
+      "type": "item",
+      "item": "#breed3",
+      "guard": "#breed3->iexists",
+      "x": 40,
+      "y": 40
+    },
+    {
+      "type": "item",
+      "item": "#breed4",
+      "guard": "#breed4->iexists",
+      "x": 60,
+      "y": 40
+    },
+    {
+      "type": "item",
+      "item": "#breed5",
+      "guard": "#breed5->iexists",
+      "x": 80,
+      "y": 40
+    },
+    {
+      "type": "item",
+      "item": "#breed6",
+      "guard": "#breed6->iexists",
+      "x": 100,
+      "y": 40
+    },
+    {
+      "type": "item",
+      "item": "#breed7",
+      "guard": "#breed7->iexists",
+      "x": 0,
+      "y": 60
+    },
+    {
+      "type": "item",
+      "item": "#breed8",
+      "guard": "#breed8->iexists",
+      "x": 20,
+      "y": 60
+    },
+    {
+      "type": "item",
+      "item": "#breed9",
+      "guard": "#breed9->iexists",
+      "x": 40,
+      "y": 60
+    },
+    {
+      "type": "item",
+      "item": "#breed10",
+      "guard": "#breed10->iexists",
+      "x": 60,
+      "y": 60
+    },
+    {
+      "type": "item",
+      "item": "#breed11",
+      "guard": "#breed11->iexists",
+      "x": 80,
+      "y": 60
+    },
+    {
+      "type": "item",
+      "item": "#breed12",
+      "guard": "#breed12->iexists",
+      "x": 100,
+      "y": 60
+    },
+    {
+      "type": "text",
+      "text": "Breed:$(br)#custom_breed#",
+      "guard": "#custom_breed->exists",
+      "x": 0,
+      "y": 30
+    },
+    {
+      "type": "text",
+      "text": "Infos:$(br)#infos#",
+      "guard": "#infos->exists",
+      "x": 0,
+      "y": 80
+    }
+  ]
+}

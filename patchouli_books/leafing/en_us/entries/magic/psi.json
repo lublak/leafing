@@ -1,0 +1,19 @@
+{
+    "name": "Psi",
+    "icon": "patchouli:guide_book{\"patchouli:book\": \"psi:encyclopaedia_psionica\"}",
+    "category": "patchouli:magic",
+    "sortnum": 3,
+    "pages": [
+      {
+        "type": "text",
+        "text": "Psi is a magical tech spell programming. It has its own manual, the $(item)Encyclopaedoa Psionica$(0).$(br2)The magic is inspired by$(br)\"The Irregular at Magic High School\"."
+      },
+      {
+        "type": "patchouli:spell_infusion",
+        "title": "Spell Infusion",
+        "input": "minecraft:book",
+        "tool": "psi:cad_assembly_iron",
+        "output": "patchouli:guide_book{\"patchouli:book\": \"psi:encyclopaedia_psionica\"}"
+      }
+    ]
+}

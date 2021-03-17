@@ -1,0 +1,20 @@
+{
+  "name": "Beetle",
+  "icon": "mysticalworld:carapace",
+  "category": "patchouli:creatures",
+  "pages": [
+    {
+      "type": "patchouli:entity_description_breedable_tamable",
+      "title": "Beetle",
+      "breed1": "minecraft:melon_slice",
+      "taming1": "minecraft:melon_seeds",
+      "infos": "Do they sing like the beatles?"
+    },
+    {
+      "type": "entity",
+      "entity": "mysticalworld:beetle",
+      "scale": 1.5,
+      "offset": -0.3
+    }
+  ]
+}

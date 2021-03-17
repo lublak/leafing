@@ -1,0 +1,19 @@
+{
+  "name": "Owl",
+  "icon": "mysticalworld:owl_spawn_egg",
+  "category": "patchouli:creatures",
+  "pages": [
+    {
+      "type": "patchouli:entity_description_breedable",
+      "title": "Owl",
+      "breed1": "minecraft:rabbit",
+      "infos": "Hoot! Hoot!"
+    },
+    {
+      "type": "entity",
+      "entity": "mysticalworld:owl",
+      "scale": 0.7,
+      "offset": 0.3
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Wolf",
+  "icon": "minecraft:bone",
+  "category": "patchouli:creatures",
+  "pages": [
+    {
+      "type": "patchouli:entity_description_more_breedable_tamable",
+      "title": "Wolf",
+      "breed1": "minecraft:chicken",
+      "breed2": "minecraft:cooked_chicken",
+      "breed3": "minecraft:porkchop",
+      "breed4": "minecraft:cooked_porkchop",
+      "breed5": "minecraft:beef",
+      "breed6": "minecraft:rabbit",
+      "breed7": "minecraft:cooked_beef",
+      "breed8": "minecraft:mutton",
+      "breed9": "minecraft:cooked_mutton",
+      "breed10": "minecraft:cooked_rabbit",
+      "taming1": "minecraft:bone",
+      "infos": "Ahwooooo!$(br)You can dye the collar."
+    },
+    {
+      "type": "entity",
+      "entity": "minecraft:wolf",
+      "scale": 1,
+      "offset": 0
+    }
+  ]
+}

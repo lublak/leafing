@@ -1,0 +1,6 @@
+{
+  "name": "Gui",
+  "description": "$(playername) don't push this button",
+  "icon": "appliedenergistics2:storage_monitor",
+  "sortnum": 1
+}

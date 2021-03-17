@@ -1,0 +1,67 @@
+{
+  "name": "Golems",
+  "icon": "minecraft:carved_pumpkin",
+  "category": "patchouli:buildings",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A golem can help defend against hostile and neutral mobs. Shearing a snow golem with $(item)shears$(0) removes the pumpkin."
+    },
+    {
+      "type": "multiblock",
+      "title": "Snow Golem",
+      "multiblock": {
+        "pattern": [
+          ["P"],
+          ["S"],
+          ["0"]
+        ],
+        "mapping": {
+          "0": "minecraft:snow_block",
+          "S": "minecraft:snow_block",
+          "P": "#forge:golem_head"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 0, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Do you wanna build a snowman?"
+    },
+    {
+      "type": "entity",
+      "entity": "minecraft:snow_golem",
+      "text": "A snow golem"
+    },
+    {
+      "type": "entity",
+      "entity": "minecraft:snow_golem{Pumpkin:0b}",
+      "text": "A sheared snow golem"
+    },
+    {
+      "type": "multiblock",
+      "title": "Iron Golem",
+      "multiblock": {
+        "pattern": [
+          [" ", "P", " "],
+          ["I", "I", "I"],
+          [" ", "0", " "]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "minecraft:iron_block",
+          "I": "minecraft:iron_block",
+          "P": "#forge:golem_head"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 0, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Ironmaaaan!"
+    },
+    {
+      "type": "entity",
+      "entity": "minecraft:iron_golem",
+      "text": "A iron golem"
+    }
+  ]
+}

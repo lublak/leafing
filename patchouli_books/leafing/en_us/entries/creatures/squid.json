@@ -1,0 +1,18 @@
+{
+  "name": "Squid",
+  "icon": "mysticalworld:raw_squid",
+  "category": "patchouli:creatures",
+  "pages": [
+    {
+      "type": "patchouli:entity_description",
+      "title": "Squid",
+      "infos": "Do you like tentacles? They even have eight of them. Can be mil ... inked with a $(item)glass bottle$(0)."
+    },
+    {
+      "type": "entity",
+      "entity": "minecraft:squid",
+      "scale": 0.5,
+      "offset": -0.65
+    }
+  ]
+}

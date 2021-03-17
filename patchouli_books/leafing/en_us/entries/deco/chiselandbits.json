@@ -1,0 +1,41 @@
+{
+  "name": "Chisel And Bits",
+  "icon": "chiselsandbits:chisel_diamond",
+  "category": "patchouli:deco",
+  "pages": [
+    {
+      "type": "text",
+      "text": "You don't have enough decoration? You are missing something? Then you can build it yourself!Just take a chisel in your hand and sculpt a new decoration from the existing blocks."
+    },
+    {
+      "type": "spotlight",
+      "item": "chisel",
+      "text": "$(li)$(bold)$(lmb): Use the chisel in current mode$(li)$(bold)$(lmb)$(bold)+Alt$(): Open Chisel Menu$(li)$(bold)Shift+Scroll$(): Cycle through the modes"
+    },
+    {
+      "type": "spotlight",
+      "item": "chiselsandbits:magnifying_glass",
+      "text": "Can I use it for chiseling? To be or not to be that is the magnifying glass here."
+    },
+    {
+      "type": "spotlight",
+      "item": "saw",
+      "text": "Can be used in the crafting table to cut blocks in half."
+    },
+    {
+      "type": "spotlight",
+      "item": "chiselsandbits:bit_bag",
+      "text": "Holds your bits. $(rmb) to open the $(item)bag$(0). Can be dyed."
+    },
+    {
+      "type": "spotlight",
+      "item": "chiselsandbits:tape_measure",
+      "text": "$(li)$(bold)Hold $(rmb): Measure with current mode$(li)$(bold)Sneak+$(rmb): Clear current measurements$(li)$(bold)$(lmb)$(bold)+Alt$(): Open Measure Menu$(li)$(bold)Shift+Scroll$(): Cycle through the modes"
+    },
+    {
+      "type": "spotlight",
+      "item": "chiselsandbits:wrench_wood",
+      "text": "$(rmb) rotates blocks."
+    }
+  ]
+}
