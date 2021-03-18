@@ -7,7 +7,7 @@
       "type": "patchouli:entity_description_breedable",
       "title": "Moobloom",
       "breed1": "minecraft:wheat",
-      "infos": "If near to the player they are giving a $(orange)Sunny effect$(0).$(br)Can be turned into a cow with $(item)shears$(0).$(br)Can be milked with a $(item)bucket$(0)."
+      "infos": "If near to the player they are giving a $(effect)sunny effect$(0).$(br)Can be turned into a cow with $(item)shears$(0) and will drop $(item)sunflowers$(0).$(br)Can be milked with a $(item)bucket$(0)."
     },
     {
       "type": "entity",
