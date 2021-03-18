@@ -11,6 +11,7 @@
     "$(hover)": "$(#330)",
     "$(link)": "$(#603)",
     "$(block)": "$(#b0b)",
+    "$(effect)": "$(#7263e6)",
     "$(lmb)": "$(t:Left Mouse Button)$(hover)LMB$()",
     "$(rmb)": "$(t:Right Mouse Button)$(hover)RMB$()",
     "$(white)": "$(#E9ECEC)",
