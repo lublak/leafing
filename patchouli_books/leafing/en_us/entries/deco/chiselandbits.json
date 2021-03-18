@@ -9,7 +9,7 @@
     },
     {
       "type": "spotlight",
-      "item": "chisel",
+      "item": "chiselsandbits:chisel_stone",
       "text": "$(li)$(bold)$(lmb): Use the chisel in current mode$(li)$(bold)$(lmb)$(bold)+Alt$(): Open Chisel Menu$(li)$(bold)Shift+Scroll$(): Cycle through the modes"
     },
     {
@@ -19,7 +19,7 @@
     },
     {
       "type": "spotlight",
-      "item": "saw",
+      "item": "chiselsandbits:bitsaw_stone",
       "text": "Can be used in the crafting table to cut blocks in half."
     },
     {
