@@ -1,0 +1,20 @@
+{
+ "name": "Ocelot",
+ "icon": "minecraft:ocelot_spawn_egg",
+ "category": "patchouli:creatures",
+ "pages": [
+  {
+   "type": "patchouli:entity_description_breedable_tamable",
+   "title": "Ocelot",
+   "breed1": "minecraft:melon_slice",
+   "taming1": "minecraft:melon_seeds",
+   "infos": ""
+  },
+  {
+   "type": "entity",
+   "entity": "minecraft:ocelot",
+   "scale": 1,
+   "offset": 0
+  }
+ ]
+}

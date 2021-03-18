@@ -1,0 +1,20 @@
+{
+ "name": "Adelie Penguin",
+ "icon": "waddles:adelie_penguin_spawn_egg",
+ "category": "patchouli:creatures",
+ "pages": [
+  {
+   "type": "patchouli:entity_description_breedable_tamable",
+   "title": "Adelie Penguin",
+   "breed1": "minecraft:melon_slice",
+   "taming1": "minecraft:melon_seeds",
+   "infos": ""
+  },
+  {
+   "type": "entity",
+   "entity": "waddles:adelie_penguin",
+   "scale": 1,
+   "offset": 0
+  }
+ ]
+}

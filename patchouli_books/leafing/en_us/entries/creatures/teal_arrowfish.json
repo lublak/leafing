@@ -1,0 +1,20 @@
+{
+ "name": "Teal Arrowfish",
+ "icon": "fins:teal_arrowfish_spawn_egg",
+ "category": "patchouli:creatures",
+ "pages": [
+  {
+   "type": "patchouli:entity_description_breedable_tamable",
+   "title": "Teal Arrowfish",
+   "breed1": "minecraft:melon_slice",
+   "taming1": "minecraft:melon_seeds",
+   "infos": ""
+  },
+  {
+   "type": "entity",
+   "entity": "fins:teal_arrowfish",
+   "scale": 1,
+   "offset": 0
+  }
+ ]
+}

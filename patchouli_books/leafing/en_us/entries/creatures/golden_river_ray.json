@@ -1,0 +1,20 @@
+{
+ "name": "Golden River Ray",
+ "icon": "fins:golden_river_ray_spawn_egg",
+ "category": "patchouli:creatures",
+ "pages": [
+  {
+   "type": "patchouli:entity_description_breedable_tamable",
+   "title": "Golden River Ray",
+   "breed1": "minecraft:melon_slice",
+   "taming1": "minecraft:melon_seeds",
+   "infos": ""
+  },
+  {
+   "type": "entity",
+   "entity": "fins:golden_river_ray",
+   "scale": 1,
+   "offset": 0
+  }
+ ]
+}

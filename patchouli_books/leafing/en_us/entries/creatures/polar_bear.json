@@ -1,0 +1,20 @@
+{
+ "name": "Polar Bear",
+ "icon": "minecraft:polar_bear_spawn_egg",
+ "category": "patchouli:creatures",
+ "pages": [
+  {
+   "type": "patchouli:entity_description_breedable_tamable",
+   "title": "Polar Bear",
+   "breed1": "minecraft:melon_slice",
+   "taming1": "minecraft:melon_seeds",
+   "infos": ""
+  },
+  {
+   "type": "entity",
+   "entity": "minecraft:polar_bear",
+   "scale": 1,
+   "offset": 0
+  }
+ ]
+}

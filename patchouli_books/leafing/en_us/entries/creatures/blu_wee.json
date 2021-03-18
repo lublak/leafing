@@ -1,0 +1,20 @@
+{
+ "name": "Blu Wee",
+ "icon": "fins:blu_wee_spawn_egg",
+ "category": "patchouli:creatures",
+ "pages": [
+  {
+   "type": "patchouli:entity_description_breedable_tamable",
+   "title": "Blu Wee",
+   "breed1": "minecraft:melon_slice",
+   "taming1": "minecraft:melon_seeds",
+   "infos": ""
+  },
+  {
+   "type": "entity",
+   "entity": "fins:blu_wee",
+   "scale": 1,
+   "offset": 0
+  }
+ ]
+}

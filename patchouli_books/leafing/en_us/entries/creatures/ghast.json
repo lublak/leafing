@@ -1,0 +1,20 @@
+{
+ "name": "Ghast",
+ "icon": "minecraft:ghast_spawn_egg",
+ "category": "patchouli:creatures",
+ "pages": [
+  {
+   "type": "patchouli:entity_description_breedable_tamable",
+   "title": "Ghast",
+   "breed1": "minecraft:melon_slice",
+   "taming1": "minecraft:melon_seeds",
+   "infos": ""
+  },
+  {
+   "type": "entity",
+   "entity": "minecraft:ghast",
+   "scale": 1,
+   "offset": 0
+  }
+ ]
+}

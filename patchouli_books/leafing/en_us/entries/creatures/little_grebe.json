@@ -1,0 +1,20 @@
+{
+ "name": "Little Grebe",
+ "icon": "cnb:little_grebe_spawn_egg",
+ "category": "patchouli:creatures",
+ "pages": [
+  {
+   "type": "patchouli:entity_description_breedable_tamable",
+   "title": "Little Grebe",
+   "breed1": "minecraft:melon_slice",
+   "taming1": "minecraft:melon_seeds",
+   "infos": ""
+  },
+  {
+   "type": "entity",
+   "entity": "cnb:little_grebe",
+   "scale": 1,
+   "offset": 0
+  }
+ ]
+}

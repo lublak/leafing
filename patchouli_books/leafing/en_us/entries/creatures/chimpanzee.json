@@ -1,0 +1,20 @@
+{
+ "name": "Chimpanzee",
+ "icon": "neapolitan:chimpanzee_spawn_egg",
+ "category": "patchouli:creatures",
+ "pages": [
+  {
+   "type": "patchouli:entity_description_breedable_tamable",
+   "title": "Chimpanzee",
+   "breed1": "minecraft:melon_slice",
+   "taming1": "minecraft:melon_seeds",
+   "infos": ""
+  },
+  {
+   "type": "entity",
+   "entity": "neapolitan:chimpanzee",
+   "scale": 1,
+   "offset": 0
+  }
+ ]
+}

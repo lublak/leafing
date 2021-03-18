@@ -1,0 +1,20 @@
+{
+ "name": "Rabbit",
+ "icon": "minecraft:rabbit_spawn_egg",
+ "category": "patchouli:creatures",
+ "pages": [
+  {
+   "type": "patchouli:entity_description_breedable_tamable",
+   "title": "Rabbit",
+   "breed1": "minecraft:melon_slice",
+   "taming1": "minecraft:melon_seeds",
+   "infos": ""
+  },
+  {
+   "type": "entity",
+   "entity": "minecraft:rabbit",
+   "scale": 1,
+   "offset": 0
+  }
+ ]
+}
