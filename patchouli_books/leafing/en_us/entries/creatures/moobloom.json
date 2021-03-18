@@ -1,20 +1,19 @@
 {
-  "name": "Beetle",
-  "icon": "mysticalworld:carapace",
+  "name": "Moobloom",
+  "icon": "minecraft:sunflower",
   "category": "patchouli:creatures",
   "pages": [
     {
-      "type": "patchouli:entity_description_breedable_tamable",
-      "title": "Beetle",
-      "breed1": "minecraft:melon_slice",
-      "taming1": "minecraft:melon_seeds",
-      "infos": "Do they sing like the beatles?"
+      "type": "patchouli:entity_description_breedable",
+      "title": "Moobloom",
+      "breed1": "minecraft:wheat",
+      "infos": "If near to the player they are giving a $(orange)Sunny effect$(0).$(br)Can be turned into a cow with $(item)shears$(0).$(br)Can be milked with a $(item)bucket$(0)."
     },
     {
       "type": "entity",
-      "entity": "mysticalworld:beetle",
-      "scale": 1.5,
-      "offset": -0.3
+      "entity": "buzzier_bees:moobloom",
+      "scale": 0.8,
+      "offset": 0.25
     }
   ]
 }
