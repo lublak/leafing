@@ -2,9 +2,12 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.data.MapData;
 import crafttweaker.api.data.IntData;
 import crafttweaker.api.data.IData;
+import crafttweaker.api.util.text.MCTextComponent;
+import crafttweaker.api.util.text.MCStyle;
 
 for helmet_definition in <tag:items:forge:helmets>.getElements() {
   var helmet = helmet_definition.defaultInstance;
+	var helmet_with_probe = helmet.withTag({theoneprobe: 1});
   craftingTable.addShapeless(
     "leafing_probe_helm_" + helmet.registryName.namespace + "_" + helmet.registryName.path,
     helmet,
@@ -14,13 +17,6 @@ for helmet_definition in <tag:items:forge:helmets>.getElements() {
       var tag = new MapData(out.tag.asMap());
       if(!tag.contains("theoneprobe") || tag.getAt("theoneprobe").asNumber().getInt() != 1) {
         tag.put("theoneprobe", 1);
-        if(tag.contains("display")) {
-          val display = new MapData(tag.getAt("display").asMap());
-          display.put("Lore", [ "{\"text\": \"with Probe\"}" ]);
-          tag.put("display", display);
-        } else {
-          tag.put("display", {"Lore": [ "{\"text\": \"with Probe\"}" ]});
-        }
         return out.withTag(tag);
       }
       return <item:minecraft:air>;
@@ -30,17 +26,16 @@ for helmet_definition in <tag:items:forge:helmets>.getElements() {
   craftingTable.addShapeless(
     "leafing_probe_helm_remove_" + helmet.registryName.namespace + "_" + helmet.registryName.path,
     helmet,
-    [helmet.withTag({theoneprobe: 1}).anyDamage()],
+    [helmet_with_probe.anyDamage()],
     (usualOut as IItemStack, inputs as IItemStack[]) => {
       var out = inputs[0];
       var tag = new MapData(out.tag.asMap());
       tag.remove("theoneprobe");
-      val display = new MapData(tag.getAt("display").asMap());
-      display.remove("Lore");
-      tag.put("display", display);
       return out.withTag(tag);
     }
   );
+	
+	helmet_with_probe.addTooltip(("with Probe" as MCTextComponent).setStyle(new MCStyle().setItalic(true).setColor(<formatting:aqua>)));
 }
 
 removeAndHideItem(<item:theoneprobe:probenote>);
