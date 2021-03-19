@@ -5,36 +5,48 @@
   "pages": [
     {
       "type": "text",
-      "text": "You don't have enough decoration? You are missing something? Then you can build it yourself!Just take a chisel in your hand and sculpt a new decoration from the existing blocks."
+      "text": "You don't have enough decoration? You are missing something? Then you can build it yourself! Just take a chisel in your hand and sculpt a new decoration from the existing blocks."
     },
     {
       "type": "spotlight",
       "item": "chiselsandbits:chisel_stone",
+			"title": "Chisel",
       "text": "$(li)$(bold)$(lmb): Use the chisel in current mode$(li)$(bold)$(lmb)$(bold)+Alt$(): Open Chisel Menu$(li)$(bold)Shift+Scroll$(): Cycle through the modes"
     },
     {
       "type": "spotlight",
       "item": "chiselsandbits:magnifying_glass",
+			"title": "Magnifying Glass",
       "text": "Can I use it for chiseling? To be or not to be that is the magnifying glass here."
     },
     {
       "type": "spotlight",
       "item": "chiselsandbits:bitsaw_stone",
+			"title": "Saw",
       "text": "Can be used in the crafting table to cut blocks in half."
     },
     {
       "type": "spotlight",
       "item": "chiselsandbits:bit_bag",
+			"title": "Bit Bag",
       "text": "Holds your bits. $(rmb) to open the $(item)bag$(0). Can be dyed."
     },
     {
       "type": "spotlight",
+      "item": "chiselsandbits:bit_storage",
+			"title": "Bit Tank",
+      "text": "Helps you to convent fluids into bits and back.$(li)$(bold)$(rmb)$(bold) with bucket: Insert/Remove fluid$(li)$(bold)$(rmb)$(bold)$(): Get bits out of the liquid$(li)$(bold)$(rmb)$(bold)+Shift$(): Put the bits back"
+    },
+    {
+      "type": "spotlight",
       "item": "chiselsandbits:tape_measure",
+			"title": "Tape Measure",
       "text": "$(li)$(bold)Hold $(rmb): Measure with current mode$(li)$(bold)Sneak+$(rmb): Clear current measurements$(li)$(bold)$(lmb)$(bold)+Alt$(): Open Measure Menu$(li)$(bold)Shift+Scroll$(): Cycle through the modes"
     },
     {
       "type": "spotlight",
       "item": "chiselsandbits:wrench_wood",
+			"title": "Wooden Wrench",
       "text": "$(rmb) rotates blocks."
     }
   ]
