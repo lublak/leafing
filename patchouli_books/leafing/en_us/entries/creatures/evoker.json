@@ -1,0 +1,20 @@
+{
+ "name": "Evoker",
+ "icon": "minecraft:evoker_spawn_egg",
+ "category": "patchouli:creatures",
+ "pages": [
+  {
+   "type": "patchouli:entity_description_breedable_tamable",
+   "title": "Evoker",
+   "breed1": "minecraft:melon_slice",
+   "taming1": "minecraft:melon_seeds",
+   "infos": ""
+  },
+  {
+   "type": "entity",
+   "entity": "minecraft:evoker",
+   "scale": 1,
+   "offset": 0
+  }
+ ]
+}

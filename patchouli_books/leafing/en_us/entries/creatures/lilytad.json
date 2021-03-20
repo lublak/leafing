@@ -1,0 +1,20 @@
+{
+ "name": "Lilytad",
+ "icon": "cnb:lilytad_spawn_egg",
+ "category": "patchouli:creatures",
+ "pages": [
+  {
+   "type": "patchouli:entity_description_breedable_tamable",
+   "title": "Lilytad",
+   "breed1": "minecraft:melon_slice",
+   "taming1": "minecraft:melon_seeds",
+   "infos": ""
+  },
+  {
+   "type": "entity",
+   "entity": "cnb:lilytad",
+   "scale": 1,
+   "offset": 0
+  }
+ ]
+}

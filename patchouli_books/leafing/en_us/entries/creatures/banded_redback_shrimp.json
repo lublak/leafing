@@ -1,0 +1,20 @@
+{
+ "name": "Banded Redback Shrimp",
+ "icon": "fins:banded_redback_shrimp_spawn_egg",
+ "category": "patchouli:creatures",
+ "pages": [
+  {
+   "type": "patchouli:entity_description_breedable_tamable",
+   "title": "Banded Redback Shrimp",
+   "breed1": "minecraft:melon_slice",
+   "taming1": "minecraft:melon_seeds",
+   "infos": ""
+  },
+  {
+   "type": "entity",
+   "entity": "fins:banded_redback_shrimp",
+   "scale": 1,
+   "offset": 0
+  }
+ ]
+}

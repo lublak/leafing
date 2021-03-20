@@ -1,0 +1,20 @@
+{
+ "name": "Skeleton",
+ "icon": "minecraft:skeleton_spawn_egg",
+ "category": "patchouli:creatures",
+ "pages": [
+  {
+   "type": "patchouli:entity_description_breedable_tamable",
+   "title": "Skeleton",
+   "breed1": "minecraft:melon_slice",
+   "taming1": "minecraft:melon_seeds",
+   "infos": ""
+  },
+  {
+   "type": "entity",
+   "entity": "minecraft:skeleton",
+   "scale": 1,
+   "offset": 0
+  }
+ ]
+}

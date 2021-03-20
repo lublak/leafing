@@ -1,0 +1,20 @@
+{
+ "name": "Forgotten",
+ "icon": "quark:forgotten_spawn_egg",
+ "category": "patchouli:creatures",
+ "pages": [
+  {
+   "type": "patchouli:entity_description_breedable_tamable",
+   "title": "Forgotten",
+   "breed1": "minecraft:melon_slice",
+   "taming1": "minecraft:melon_seeds",
+   "infos": ""
+  },
+  {
+   "type": "entity",
+   "entity": "quark:forgotten",
+   "scale": 1,
+   "offset": 0
+  }
+ ]
+}

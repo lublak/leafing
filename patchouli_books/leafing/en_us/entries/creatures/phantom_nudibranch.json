@@ -1,0 +1,20 @@
+{
+ "name": "Phantom Nudibranch",
+ "icon": "fins:phantom_nudibranch_spawn_egg",
+ "category": "patchouli:creatures",
+ "pages": [
+  {
+   "type": "patchouli:entity_description_breedable_tamable",
+   "title": "Phantom Nudibranch",
+   "breed1": "minecraft:melon_slice",
+   "taming1": "minecraft:melon_seeds",
+   "infos": ""
+  },
+  {
+   "type": "entity",
+   "entity": "fins:phantom_nudibranch",
+   "scale": 1,
+   "offset": 0
+  }
+ ]
+}

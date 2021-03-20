@@ -1,0 +1,20 @@
+{
+ "name": "Phantom",
+ "icon": "minecraft:phantom_spawn_egg",
+ "category": "patchouli:creatures",
+ "pages": [
+  {
+   "type": "patchouli:entity_description_breedable_tamable",
+   "title": "Phantom",
+   "breed1": "minecraft:melon_slice",
+   "taming1": "minecraft:melon_seeds",
+   "infos": ""
+  },
+  {
+   "type": "entity",
+   "entity": "minecraft:phantom",
+   "scale": 1,
+   "offset": 0
+  }
+ ]
+}

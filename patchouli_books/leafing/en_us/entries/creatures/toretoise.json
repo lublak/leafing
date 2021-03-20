@@ -1,0 +1,20 @@
+{
+ "name": "Toretoise",
+ "icon": "quark:toretoise_spawn_egg",
+ "category": "patchouli:creatures",
+ "pages": [
+  {
+   "type": "patchouli:entity_description_breedable_tamable",
+   "title": "Toretoise",
+   "breed1": "minecraft:melon_slice",
+   "taming1": "minecraft:melon_seeds",
+   "infos": ""
+  },
+  {
+   "type": "entity",
+   "entity": "quark:toretoise",
+   "scale": 1,
+   "offset": 0
+  }
+ ]
+}

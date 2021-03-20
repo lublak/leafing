@@ -1,0 +1,20 @@
+{
+ "name": "Witch",
+ "icon": "minecraft:witch_spawn_egg",
+ "category": "patchouli:creatures",
+ "pages": [
+  {
+   "type": "patchouli:entity_description_breedable_tamable",
+   "title": "Witch",
+   "breed1": "minecraft:melon_slice",
+   "taming1": "minecraft:melon_seeds",
+   "infos": ""
+  },
+  {
+   "type": "entity",
+   "entity": "minecraft:witch",
+   "scale": 1,
+   "offset": 0
+  }
+ ]
+}

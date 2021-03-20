@@ -1,0 +1,20 @@
+{
+ "name": "Tropical Fish",
+ "icon": "minecraft:tropical_fish_spawn_egg",
+ "category": "patchouli:creatures",
+ "pages": [
+  {
+   "type": "patchouli:entity_description_breedable_tamable",
+   "title": "Tropical Fish",
+   "breed1": "minecraft:melon_slice",
+   "taming1": "minecraft:melon_seeds",
+   "infos": ""
+  },
+  {
+   "type": "entity",
+   "entity": "minecraft:tropical_fish",
+   "scale": 1,
+   "offset": 0
+  }
+ ]
+}

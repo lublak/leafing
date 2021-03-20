@@ -1,0 +1,20 @@
+{
+ "name": "Wandering Trader",
+ "icon": "minecraft:wandering_trader_spawn_egg",
+ "category": "patchouli:creatures",
+ "pages": [
+  {
+   "type": "patchouli:entity_description_breedable_tamable",
+   "title": "Wandering Trader",
+   "breed1": "minecraft:melon_slice",
+   "taming1": "minecraft:melon_seeds",
+   "infos": ""
+  },
+  {
+   "type": "entity",
+   "entity": "minecraft:wandering_trader",
+   "scale": 1,
+   "offset": 0
+  }
+ ]
+}
