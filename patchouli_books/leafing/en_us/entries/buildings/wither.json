@@ -1,0 +1,38 @@
+{
+  "name": "Wither",
+  "icon": "minecraft:wither_skeleton_skull",
+  "category": "patchouli:buildings",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A wither is one of the vanilla minecraft $(red)bosses$(0). It is weaker than the $(l:creatures/ender_dragon)ender dragon$(/l).$(br)If spawned it will charge itself to full life and making a huge explosion when fully charged. It attacks players and creatures by firing with wither skulls, which are also making explosions."
+    },
+    {
+      "type": "multiblock",
+      "title": "Wither",
+      "multiblock": {
+        "pattern": [
+          ["P", "P", "P"],
+          ["I", "I", "I"],
+          [" ", "0", " "],
+          [" ", " ", " "]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "0": "#minecraft:wither_summon_base_blocks",
+          "I": "#minecraft:wither_summon_base_blocks",
+          "P": "minecraft:wither_skeleton_skull"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 0, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Be ready when finished building!"
+    },
+    {
+      "type": "entity",
+      "entity": "minecraft:wither",
+      "text": "A wither"
+    }
+  ]
+}
