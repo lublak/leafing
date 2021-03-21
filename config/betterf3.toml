@@ -68,3 +68,21 @@
 		gpu = true
 		opengl_version = true
 		gpu_driver = true
+
+[[modules_right]]
+	name = "empty"
+	enabled = true
+
+	[modules_right.lines]
+		nothing = true
+
+[[modules_right]]
+	name = "server"
+	name_color = 11184810
+	value_color = 16777045
+	enabled = true
+
+	[modules_right.lines]
+		server_tick = true
+		packets_sent = true
+		packets_received = true
