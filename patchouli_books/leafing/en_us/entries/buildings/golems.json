@@ -14,9 +14,11 @@
         "pattern": [
           ["P"],
           ["S"],
-          ["0"]
+          ["0"],
+          [" "]
         ],
         "mapping": {
+          " ": "ANY",
           "0": "minecraft:snow_block",
           "S": "minecraft:snow_block",
           "P": "#forge:golem_head"
@@ -44,7 +46,8 @@
         "pattern": [
           [" ", "P", " "],
           ["I", "I", "I"],
-          [" ", "0", " "]
+          [" ", "0", " "],
+          [" ", " ", " "]
         ],
         "mapping": {
           " ": "ANY",
