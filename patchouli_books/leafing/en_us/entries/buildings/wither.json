@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "A wither is one of the vanilla minecraft $(red)bosses$(0). It is weaker than the $(l:creatures/ender_dragon)ender dragon$(/l).$(br)If spawned it will charge itself to full life and making a huge explosion when fully charged. It attacks players and creatures by firing with wither skulls, which are also making explosions."
+      "text": "A wither is one of the vanilla minecraft $(thing)bosses$(0). It is weaker than the $(l:creatures/ender_dragon)ender dragon$(/l).$(br)If spawned it will charge itself to full life and making a huge explosion when fully charged. It attacks players and creatures by firing with wither skulls, which are also making explosions."
     },
     {
       "type": "multiblock",
