@@ -1,0 +1,18 @@
+{
+ "name": "Ender Dragon",
+ "icon": "minecraft:dragon_head",
+ "category": "patchouli:creatures",
+ "pages": [
+  {
+   "type": "patchouli:entity_description",
+   "title": "Ender Dragon",
+   "infos": "The ender dragon is the 'final' minecraft $(red)boss$(0). It lives in the end dimension.$(br)It is stronger than the $(l:buildings/wither)wither$(/l).$(br)If using a $(item)glass bottle$(0) while he is breathing out, you will recieve $(item)dragon breath$(0)."
+  },
+  {
+   "type": "entity",
+   "entity": "minecraft:ender_dragon",
+   "scale": 1.1,
+   "offset": -6
+  }
+ ]
+}
