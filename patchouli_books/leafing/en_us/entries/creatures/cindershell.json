@@ -4,16 +4,16 @@
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
+   "type": "patchouli:entity_description_breedable",
    "title": "Cindershell",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "breed1": "minecraft:crimson_fungus",
+   "breed2": "minecraft:warped_fungus",
+   "infos": "A friendly nether tortoise with a $(thing)volcano-like shell$(0)."
   },
   {
    "type": "entity",
    "entity": "cnb:cindershell",
-   "scale": 1,
+   "scale": 0.6,
    "offset": 0
   }
  ]

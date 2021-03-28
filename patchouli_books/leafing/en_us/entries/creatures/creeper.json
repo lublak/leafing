@@ -4,15 +4,14 @@
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
+   "type": "patchouli:entity_description",
    "title": "Creeper",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "infos": "Be careful...$(br)$(l:https://www.youtube.com/watch?v=cPJUBQd-PNM)Creeper! Oh man...$(/l)$(br)They are afraid of $(l:creatures/ocelot)ocelots$(/l)."
   },
   {
    "type": "entity",
    "entity": "minecraft:creeper",
+   "text": "$(l:https://www.youtube.com/watch?v=ZZujisNZuw0)OH HAI I'M A CREEPER!$(/l)",
    "scale": 1,
    "offset": 0
   }

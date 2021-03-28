@@ -1,20 +1,33 @@
 {
- "name": "Foxhound",
- "icon": "quark:foxhound_spawn_egg",
- "category": "patchouli:creatures",
- "pages": [
-  {
-   "type": "patchouli:entity_description_breedable_tamable",
-   "title": "Foxhound",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
-  },
-  {
-   "type": "entity",
-   "entity": "quark:foxhound",
-   "scale": 1,
-   "offset": 0
-  }
- ]
+    "name": "Foxhound",
+    "icon": "quark:foxhound_spawn_egg",
+    "category": "patchouli:creatures",
+    "pages": [
+        {
+            "type": "patchouli:entity_description_breedable_tamable",
+            "title": "Foxhound",
+            "breed1": "minecraft:rotten_flesh",
+            "taming1": "minecraft:coal",
+            "taming2": "minecraft:bone",
+            "infos": "Foxhounds are similar to the $(l:creatures/wolf)wolf$(/l) in appearance and behavior. Like most mobs native to the Nether, they are immune to $(effect)fire damage$(0)."
+        },
+        {
+            "type": "entity",
+            "entity": "quark:foxhound",
+            "text": "Foxhounds growl and will attack $(l:creatures/skeleton)skeletons$(/l). An attack from a Foxhound damages the player and sets them on $(thing)fire$(0).",
+            "scale": 0.5,
+            "offset": 0
+        },
+        {
+            "type": "patchouli:entity_description",
+            "title": "Foxhound",
+            "infos": "Tamed foxhounds will snooze on top of hot blocks such as $(block)magma blocks$(0). When a Foxhound sleeps on an $(block)active furnace$(0) it will speed up the $(thing)furnace's operation speed$(0)."
+        },
+        {
+            "type": "entity",
+            "entity": "quark:foxhound",
+            "scale": 0.5,
+            "offset": 0
+        }
+    ]
 }

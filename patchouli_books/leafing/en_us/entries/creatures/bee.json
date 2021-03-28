@@ -1,20 +1,19 @@
 {
- "name": "Bee",
- "icon": "minecraft:bee_spawn_egg",
- "category": "patchouli:creatures",
- "pages": [
-  {
-   "type": "patchouli:entity_description_breedable_tamable",
-   "title": "Bee",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
-  },
-  {
-   "type": "entity",
-   "entity": "minecraft:bee",
-   "scale": 1,
-   "offset": 0
-  }
- ]
+    "name": "Bee",
+    "icon": "minecraft:bee_spawn_egg",
+    "category": "patchouli:creatures",
+    "pages": [
+        {
+            "type": "patchouli:entity_description_breedable",
+            "title": "Bee",
+            "breed1": "minecraft:poppy",
+            "infos": "Bees are breedable with all $(item)small flowers$(0).$(br)I hope that you are nonallergic to bees."
+        },
+        {
+            "type": "entity",
+            "entity": "minecraft:bee",
+            "scale": 1,
+            "offset": -0.1
+        }
+    ]
 }

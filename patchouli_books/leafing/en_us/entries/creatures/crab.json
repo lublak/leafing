@@ -1,20 +1,19 @@
 {
- "name": "Crab",
- "icon": "quark:crab_spawn_egg",
- "category": "patchouli:creatures",
- "pages": [
-  {
-   "type": "patchouli:entity_description_breedable_tamable",
-   "title": "Crab",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
-  },
-  {
-   "type": "entity",
-   "entity": "quark:crab",
-   "scale": 1,
-   "offset": 0
-  }
- ]
+    "name": "Crab",
+    "icon": "quark:crab_spawn_egg",
+    "category": "patchouli:creatures",
+    "pages": [
+        {
+            "type": "patchouli:entity_description_breedable",
+            "title": "Crab",
+            "breed1": "minecraft:tropical_fish",
+            "infos": "Is breedable with every sort of fish.$(br)A crab dances to every song the $(l:https://www.youtube.com/watch?v=cE0wfjsybIQ)crab rave$(/l) dance."
+        },
+        {
+            "type": "entity",
+            "entity": "quark:crab",
+            "scale": 0.8,
+            "offset": -0.2
+        }
+    ]
 }

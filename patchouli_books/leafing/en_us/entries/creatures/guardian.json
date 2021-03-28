@@ -4,16 +4,14 @@
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
-   "title": "Guardian",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "type": "patchouli:entity_description",
+   "title": "Guardian"
   },
   {
    "type": "entity",
    "entity": "minecraft:guardian",
-   "scale": 1,
+   "text": "of the galaxy!",
+   "scale": 0.3,
    "offset": 0
   }
  ]

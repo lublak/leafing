@@ -4,17 +4,22 @@
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
+   "type": "patchouli:entity_description",
    "title": "Donkey",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "infos": "Mountable.$(br)$(rmb) with a $(item)chest$(0) to add them an $(thing)inventory$(0)."
   },
   {
    "type": "entity",
    "entity": "minecraft:donkey",
-   "scale": 1,
+   "scale": 0.7,
    "offset": 0
+  },
+  {
+    "type": "entity",
+    "entity": "minecraft:donkey{ChestedHorse:1}",
+    "text": "A donkey with an $(thing)inventory$(0).",
+    "scale": 0.7,
+    "offset": 0
   }
  ]
 }

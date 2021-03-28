@@ -4,17 +4,15 @@
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
+   "type": "patchouli:entity_description",
    "title": "Endermite",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "infos": "If throwing too much $(item)enderpearls$(0) then there will be a chance that one will spawn and attack you."
   },
   {
    "type": "entity",
    "entity": "minecraft:endermite",
    "scale": 1,
-   "offset": 0
+   "offset": -0.4
   }
  ]
 }

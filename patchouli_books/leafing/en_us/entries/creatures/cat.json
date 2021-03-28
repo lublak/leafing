@@ -6,15 +6,16 @@
   {
    "type": "patchouli:entity_description_breedable_tamable",
    "title": "Cat",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "breed1": "minecraft:salmon",
+   "taming1": "minecraft:salmon",
+   "infos": "Breed- and tamable with all kind of fish.$(br)Meow."
   },
   {
    "type": "entity",
    "entity": "minecraft:cat",
-   "scale": 1,
-   "offset": 0
+   "text": "It's bongo-time!",
+   "scale": 0.56,
+   "offset": -0.1
   }
  ]
 }

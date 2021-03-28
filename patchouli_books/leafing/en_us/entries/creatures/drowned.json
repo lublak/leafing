@@ -4,11 +4,9 @@
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
+   "type": "patchouli:entity_description",
    "title": "Drowned",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "infos": "A drowned $(l:creatures/zombie)zombie$(/l)."
   },
   {
    "type": "entity",

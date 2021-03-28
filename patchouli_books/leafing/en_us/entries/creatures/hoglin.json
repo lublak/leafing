@@ -4,16 +4,15 @@
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
+   "type": "patchouli:entity_description_breedable",
+   "breed1": "minecraft:crimson_fungus",
    "title": "Hoglin",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "infos": "Are afraid of $(block)warped fungus$(0)."
   },
   {
    "type": "entity",
    "entity": "minecraft:hoglin",
-   "scale": 1,
+   "scale": 0.48,
    "offset": 0
   }
  ]

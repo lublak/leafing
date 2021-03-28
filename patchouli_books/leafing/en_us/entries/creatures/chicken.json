@@ -1,14 +1,17 @@
 {
  "name": "Chicken",
- "icon": "minecraft:chicken_spawn_egg",
+ "icon": "minecraft:egg",
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
+   "type": "patchouli:entity_description_breedable",
    "title": "Chicken",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "breed1": "minecraft:melon_seeds",
+   "breed2": "minecraft:wheat_seeds",
+   "breed3": "minecraft:pumpkin_seeds",
+   "breed4": "minecraft:beetroot_seeds",
+   "breed5": "supplementaries:flax_seeds",
+   "infos": "*cluck*"
   },
   {
    "type": "entity",
