@@ -125,7 +125,7 @@
 	"Variant Ladders" = true
 	"Vertical Planks" = false
 	"Vertical Slabs" = false
-	"Wooden Posts" = true
+	"Wooden Posts" = false
 
 	[building.compressed_blocks]
 		"Charcoal Block and Blaze Lantern Stay On Fire Forever" = true
@@ -205,6 +205,12 @@
 	[building.variant_ladders]
 		"Change Names" = true
 		"Enable Iron Ladder" = true
+
+	[building.cobblestone_bricks]
+		"Enable Blackstone Bricks" = true
+		"Enable Dirt Bricks" = true
+		"Enable Netherrack Bricks" = true
+		"Enable Basalt Bricks" = true
 
 [management]
 	"Chests In Boats" = true
@@ -390,7 +396,7 @@
 		#Allowed values: (0,)
 		"Afk Time" = 2400
 		#Allowed values: (0,1]
-		"Percent Req" = 1.0
+		"Percent Req" = 0.6
 
 	[tweaks.infinity_bucket]
 		Cost = 10
@@ -457,8 +463,8 @@
 		"Bone Meal Utility" = true
 
 [world]
-	"Big Dungeon" = true
-	"Big Stone Clusters" = true
+	"Big Dungeon" = false
+	"Big Stone Clusters" = false
 	Biotite = true
 	"Blossom Trees" = true
 	"Cave Roots" = true
@@ -469,7 +475,7 @@
 	"Monster Box" = true
 	"Nether Obsidian Spikes" = true
 	"New Stone Types" = true
-	"Realistic World Gen" = true
+	"Realistic World Gen" = false
 	Speleothems = true
 	"Spiral Spires" = true
 	"Underground Clay" = true
@@ -1157,12 +1163,17 @@
 				"Is Blacklist" = false
 
 	[world.cave_crystal_underground_biome]
-		#Allowed values: [0,1]
-		"Crystal Spawn Chance" = 0.025
-		"Crystals Grow In Lava" = false
 		#The chance that a crystal can grow, this is on average 1 in X world ticks, set to a higher value to make them grow slower. Minimum is 1, for every tick. Set to 0 to disable growth.
 		"Cave Crystal Growth Chance" = 5
 		"Crystals Craft Runes" = true
+		#Allowed values: [0,1]
+		"Crystal Chance" = 0.16
+		#Allowed values: [0,1]
+		"Crystal Cluster Chance" = 0.2
+		#Allowed values: [0,1]
+		"Crystal Cluster On Sides Chance" = 0.6
+		#Allowed values: [0,1]
+		"Double Crystal Chance" = 0.2
 
 		[world.cave_crystal_underground_biome.biome_settings]
 			#Allowed values: [0,)
@@ -1725,7 +1736,7 @@
 		#Set this to true to make it so that if a totem is destroyed, the items it holds are destroyed alongside it rather than dropped
 		"Destroy Lost Items" = false
 		#Set this to false to only allow the owner of a totem to collect its items rather than any player
-		"Allow Anyone To Collect" = true
+		"Allow Anyone To Collect" = false
 		"Enable Soul Compass" = true
 
 [experimental]
@@ -1734,6 +1745,7 @@
 	"Game Nerfs" = false
 	"Narrator Readout" = false
 	"Overlay Shader" = false
+	Shiba = false
 
 	[experimental.adjustable_chat]
 		"Horizontal Shift" = 0
@@ -1764,4 +1776,21 @@
 		#Some useful shaders include 'desaturate', 'oversaturate', 'bumpy'
 		#Colorblind simulation shaders are available in the form of 'deuteranopia', 'protanopia', 'tritanopia', and 'achromatopsia'
 		Shader = "none"
+
+	[experimental.shiba]
+
+		[experimental.shiba.spawn_config]
+			#Allowed values: (0,)
+			"Spawn Weight" = 40
+			#Allowed values: [1,)
+			"Min Group Size" = 1
+			#Allowed values: [1,)
+			"Max Group Size" = 3
+
+			[experimental.shiba.spawn_config.biomes]
+				#Allowed values: [[none, taiga, extreme_hills, jungle, mesa, plains, savanna,
+				# icy, the_end, beach, forest, ocean, desert, river, swamp,
+				# mushroom, nether]
+				"Biome Categories" = ["extreme_hills"]
+				"Is Blacklist" = false
 

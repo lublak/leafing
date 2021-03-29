@@ -1,3 +1,5 @@
+#Enables logging the too large packets causing disconnects. , default = true
+displayTooLargePackets = true
 
 ["Load balancing settings"]
 
@@ -63,6 +65,8 @@
 	multiEntities = true
 	#Disables block changes notifying all entity paths in the world, to possibly adjust their paths, disable with IE, incompat, default = true
 	disableNotifyOnBlockChange = true
+	#Slower updating of armor stands, default = true
+	slowArmorStands = true
 
 ["Entity AI Settings"]
 	#Sets the tick interval in which non-running AI tasks are rechecked. Vanilla default is 1(starting with 1.13+), this mods suggested default is 4(as it was in 1.12)

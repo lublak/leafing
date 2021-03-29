@@ -51,7 +51,7 @@
 		"yeti spawn weight" = 1
 		#This defines which biomes the yetis will spawn in
 		"yeti biomes" = ["minecraft:snowy_tundra", "minecraft:snowy_mountains", "minecraft:snowy_taiga", "minecraft:snowy_taiga_hills", "minecraft:ice_spikes", "minecraft:snowy_taiga_mountains"]
-		#Define extra chance to spawn yeti. Each time a yeti should spawn it checks random.nextFloat() >= value. Increase this value up to 1.0 to make yetis more rare (default: 0.7)
+		#Define extra chance to spawn yeti. Each time a yeti should spawn it checks random.nextFloat() >= value. Increase this value up to 1.0 to make yetis more rare (default: 0.5)
 		#Range: 0.0 ~ 1.0
 		"yeti chance" = 0.7
 
