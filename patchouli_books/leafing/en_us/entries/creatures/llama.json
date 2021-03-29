@@ -1,20 +1,19 @@
 {
- "name": "Llama",
- "icon": "minecraft:llama_spawn_egg",
- "category": "patchouli:creatures",
- "pages": [
-  {
-   "type": "patchouli:entity_description_breedable_tamable",
-   "title": "Llama",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
-  },
-  {
-   "type": "entity",
-   "entity": "minecraft:llama",
-   "scale": 1,
-   "offset": 0
-  }
- ]
+    "name": "Llama",
+    "icon": "minecraft:llama_spawn_egg",
+    "category": "patchouli:creatures",
+    "pages": [
+        {
+            "type": "patchouli:entity_description_breedable",
+            "title": "Llama",
+            "breed1": "minecraft:wheat",
+            "infos": "You can $(rmb) with a $(item)carpet$(0) to decorate the llama."
+        },
+        {
+            "type": "entity",
+            "entity": "minecraft:llama",
+            "scale": 0.7,
+            "offset": 0
+        }
+    ]
 }

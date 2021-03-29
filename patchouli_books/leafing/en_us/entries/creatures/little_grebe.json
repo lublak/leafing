@@ -4,15 +4,15 @@
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
+   "type": "patchouli:entity_description_breedable",
    "title": "Little Grebe",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "breed1": "minecraft:salmon",
+   "infos": "A cute little duck-like bird that lives in rivers and lakes and likes to eat $(item)fish$(0)."
   },
   {
    "type": "entity",
    "entity": "cnb:little_grebe",
+   "text": "The model is based on one of the creator's old pets - A littcalledle grebe: $(thing)Pingu$(0).",
    "scale": 1,
    "offset": 0
   }

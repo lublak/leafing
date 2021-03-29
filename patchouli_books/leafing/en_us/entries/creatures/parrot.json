@@ -1,20 +1,23 @@
 {
- "name": "Parrot",
- "icon": "minecraft:parrot_spawn_egg",
- "category": "patchouli:creatures",
- "pages": [
-  {
-   "type": "patchouli:entity_description_breedable_tamable",
-   "title": "Parrot",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
-  },
-  {
-   "type": "entity",
-   "entity": "minecraft:parrot",
-   "scale": 1,
-   "offset": 0
-  }
- ]
+    "name": "Parrot",
+    "icon": "minecraft:parrot_spawn_egg",
+    "category": "patchouli:creatures",
+    "pages": [
+        {
+            "type": "patchouli:entity_description_tamable",
+            "title": "Parrot",
+            "taming1": "minecraft:melon_seeds",
+            "taming2": "minecraft:wheat_seeds",
+            "taming3": "minecraft:pumpkin_seeds",
+            "taming4": "minecraft:beetroot_seeds",
+            "infos": "They like $(thing)music$(0)."
+        },
+        {
+            "type": "entity",
+            "entity": "minecraft:parrot",
+            "text": "Don't feed them with $(item)cookies$(0)!",
+            "scale": 1,
+            "offset": 0
+        }
+    ]
 }

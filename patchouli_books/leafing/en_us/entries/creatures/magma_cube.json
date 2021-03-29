@@ -4,11 +4,9 @@
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
+   "type": "patchouli:entity_description",
    "title": "Magma Cube",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "infos": "A nether type of $(l:creatures/slime)slimes$(/l)."
   },
   {
    "type": "entity",

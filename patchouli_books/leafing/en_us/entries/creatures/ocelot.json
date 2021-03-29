@@ -6,14 +6,16 @@
   {
    "type": "patchouli:entity_description_breedable_tamable",
    "title": "Ocelot",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "breed1": "minecraft:salmon",
+   "breed2": "minecraft:cod",
+   "taming1": "minecraft:salmon",
+   "taming2": "minecraft:cod",
+   "infos": "$(l:creatures/creeper)Creeper$(/l) are afraid of them."
   },
   {
    "type": "entity",
    "entity": "minecraft:ocelot",
-   "scale": 1,
+   "scale": 0.4,
    "offset": 0
   }
  ]

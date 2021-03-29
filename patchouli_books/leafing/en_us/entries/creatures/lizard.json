@@ -4,17 +4,17 @@
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
+   "type": "patchouli:entity_description_breedable",
    "title": "Lizard",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "breed1": "someassemblyrequired:apple_slices",
+   "infos": "A small friend from the jungles and deserts. Sometimes they spawn as $(effect)sad$(0) lizards but you can cheer them up with $(item)apple slices$(0)."
   },
   {
    "type": "entity",
    "entity": "cnb:lizard",
-   "scale": 1,
-   "offset": 0
+   "text": "They like $(thing)music$(0)!",
+   "scale": 0.6,
+   "offset": -0.2
   }
  ]
 }
