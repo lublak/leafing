@@ -3,7 +3,7 @@ for vertical_slab_definition in <tag:items:quark:vertical_slab>.getElements() {
 	removeAndHideItem(vertical_slab);
 }
 
-TODO:
+//TODO:
 
 removeAndHideMultipleItems([
 	<item:quark:frog_spawn_egg>,
