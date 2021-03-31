@@ -22,7 +22,7 @@
     {
       "type": "entity",
       "entity": "minecraft:wolf",
-      "scale": 1,
+      "scale": 0.7,
       "offset": 0
     }
   ]

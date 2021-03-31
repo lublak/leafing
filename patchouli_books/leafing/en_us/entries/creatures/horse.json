@@ -4,17 +4,15 @@
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
+   "type": "patchouli:entity_description_breedable",
    "title": "Horse",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "breed1": "minecraft:golden_carrot"
   },
   {
    "type": "entity",
    "entity": "minecraft:horse",
-   "scale": 1,
-   "offset": 0
+   "scale": 0.5,
+   "offset": 0.3
   }
  ]
 }

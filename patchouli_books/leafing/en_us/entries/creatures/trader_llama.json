@@ -4,16 +4,15 @@
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
+   "type": "patchouli:entity_description_breedable",
    "title": "Trader Llama",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "breed1": "minecraft:wheat",
+   "infos": "A $(l:creatures/llama)llama$(/l) from a $(l:creatures/wandering_trader)wandering trader$(/l)."
   },
   {
    "type": "entity",
    "entity": "minecraft:trader_llama",
-   "scale": 1,
+   "scale": 0.7,
    "offset": 0
   }
  ]

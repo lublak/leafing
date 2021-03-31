@@ -4,16 +4,14 @@
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
+   "type": "patchouli:entity_description",
    "title": "Plantain Spider",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "infos": "A $(l:creatures/spider)spider$(/l) which is hiding in $(block)bananas$(0)."
   },
   {
    "type": "entity",
    "entity": "neapolitan:plantain_spider",
-   "scale": 1,
+   "scale": 0.8,
    "offset": 0
   }
  ]

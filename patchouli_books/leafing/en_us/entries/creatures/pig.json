@@ -4,17 +4,24 @@
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
+   "type": "patchouli:entity_description_breedable",
    "title": "Pig",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "breed1": "minecraft:carrot",
+   "infos": "You can mount them by $(rmb) with a $(item)saddle$(0)."
   },
   {
    "type": "entity",
    "entity": "minecraft:pig",
-   "scale": 1,
+   "text": "*Oink*",
+   "scale": 0.5,
    "offset": 0
-  }
+  },
+  {
+    "type": "entity",
+    "entity": "minecraft:pig{Saddle: 1}",
+    "text": "Pig with a $(item)saddle$(0).",
+    "scale": 0.5,
+    "offset": 0
+   }
  ]
 }

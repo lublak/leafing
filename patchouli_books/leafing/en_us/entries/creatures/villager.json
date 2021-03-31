@@ -4,15 +4,14 @@
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
+   "type": "patchouli:entity_description",
    "title": "Villager",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "infos": "A tradeable villager."
   },
   {
    "type": "entity",
    "entity": "minecraft:villager",
+   "text": "$(l:https://www.youtube.com/watch?v=pz6mQHleihw)OMG there is my wood!$(/l)",
    "scale": 1,
    "offset": 0
   }

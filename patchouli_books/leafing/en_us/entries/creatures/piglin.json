@@ -4,15 +4,14 @@
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
+   "type": "patchouli:entity_description",
    "title": "Piglin",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "infos": "Are the $(l:creatures/villager)villagers$(/l) from the $(thing)nether$(0).$(br)You can trade with them by dropping $(item)gold$(0) infront of them.$(br)$(l:https://www.youtube.com/watch?v=cad2Kl_dGDA)Now take the step!$(/l)"
   },
   {
    "type": "entity",
    "entity": "minecraft:piglin",
+   "text": "They can get aggressive, if you don't wear any $(item)gold armor$(0).",
    "scale": 1,
    "offset": 0
   }

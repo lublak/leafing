@@ -4,16 +4,14 @@
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
+   "type": "patchouli:entity_description",
    "title": "Dolphin",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "infos": "It's $(l:https://www.youtube.com/watch?v=EifnM3pRLdQ)Flipper!$(/l)"
   },
   {
    "type": "entity",
    "entity": "minecraft:dolphin",
-   "scale": 1,
+   "scale": 0.45,
    "offset": 0
   }
  ]

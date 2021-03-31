@@ -1,20 +1,19 @@
 {
- "name": "Phantom",
- "icon": "minecraft:phantom_spawn_egg",
- "category": "patchouli:creatures",
- "pages": [
-  {
-   "type": "patchouli:entity_description_breedable_tamable",
-   "title": "Phantom",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
-  },
-  {
-   "type": "entity",
-   "entity": "minecraft:phantom",
-   "scale": 1,
-   "offset": 0
-  }
- ]
+    "name": "Phantom",
+    "icon": "minecraft:phantom_spawn_egg",
+    "category": "patchouli:creatures",
+    "pages": [
+        {
+            "type": "patchouli:entity_description",
+            "title": "Phantom",
+            "infos": "They hunt you in the night, if you don't go to $(thing)sleep$(0)."
+        },
+        {
+            "type": "entity",
+            "entity": "minecraft:phantom",
+            "text": "They are also $(red)annoying$(0).",
+            "scale": 0.4,
+            "offset": 0
+        }
+    ]
 }

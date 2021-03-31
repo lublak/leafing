@@ -4,16 +4,14 @@
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
+   "type": "patchouli:entity_description",
    "title": "Lilytad",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "infos": "A cute little $(thing)swamp creature $(0)that likes to hide in $(block)shadow water$(0), disguising itself as a $(block)lilypad$(0). It's $(thing)flower$(0) can be sheared and will grow back after 15 minutes."
   },
   {
    "type": "entity",
    "entity": "cnb:lilytad",
-   "scale": 1,
+   "scale": 0.6,
    "offset": 0
   }
  ]

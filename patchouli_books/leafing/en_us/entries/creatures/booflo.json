@@ -1,19 +1,19 @@
 {
  "name": "Booflo",
- "icon": "endergetic:booflo_spawn_egg",
+ "icon": "endergetic:bolloom_fruit",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description_breedable_tamable",
    "title": "Booflo",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "breed1": "endergetic:poise_cluster",
+   "taming1": "endergetic:bolloom_fruit",
+   "infos": "Booflos are like huge frogs. They are rideable, when tamed."
   },
   {
    "type": "entity",
    "entity": "endergetic:booflo",
-   "scale": 1,
+   "scale": 0.4,
    "offset": 0
   }
  ]

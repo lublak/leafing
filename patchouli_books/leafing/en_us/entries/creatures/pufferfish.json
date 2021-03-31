@@ -1,20 +1,25 @@
 {
- "name": "Pufferfish",
- "icon": "minecraft:pufferfish_spawn_egg",
- "category": "patchouli:creatures",
- "pages": [
-  {
-   "type": "patchouli:entity_description_breedable_tamable",
-   "title": "Pufferfish",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
-  },
-  {
-   "type": "entity",
-   "entity": "minecraft:pufferfish",
-   "scale": 1,
-   "offset": 0
-  }
- ]
+    "name": "Pufferfish",
+    "icon": "minecraft:pufferfish_spawn_egg",
+    "category": "patchouli:creatures",
+    "pages": [
+        {
+            "type": "patchouli:entity_description",
+            "title": "Pufferfish",
+            "infos": "Like all $(thing)fish$(0).$(br)It goes *poof* if a player is near them to give them a $(effect)poison effect$(0)."
+        },
+        {
+            "type": "entity",
+            "entity": "minecraft:pufferfish",
+            "scale": 1,
+            "offset": 0
+        },
+        {
+            "type": "entity",
+            "entity": "minecraft:pufferfish{PuffState: 1}",
+            "text": "*poof*",
+            "scale": 1,
+            "offset": 0
+        }
+    ]
 }

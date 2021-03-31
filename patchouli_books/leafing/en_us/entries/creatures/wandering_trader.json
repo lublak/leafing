@@ -4,11 +4,9 @@
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
+   "type": "patchouli:entity_description",
    "title": "Wandering Trader",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "infos": "A wandering $(l:creatures/villager)villager$(/l) which is $(thing)tradeable$(0). Is also has 2-3 $(l:creatures/trader_llama)trader llamas$(/l)."
   },
   {
    "type": "entity",

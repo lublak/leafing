@@ -4,15 +4,14 @@
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
+   "type": "patchouli:entity_description",
    "title": "Vindicator",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "infos": "A sort of a $(l:creatures/pillager)pillager$(/l). They have an $(item)iron axe$(0)."
   },
   {
    "type": "entity",
    "entity": "minecraft:vindicator",
+   "text": "$(l:https://www.youtube.com/watch?v=WDpipB4yehk)Here's Johnny!$(/l)",
    "scale": 1,
    "offset": 0
   }

@@ -4,16 +4,14 @@
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
+   "type": "patchouli:entity_description",
    "title": "Salmon",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "infos": "Like all $(thing)fish$(0)."
   },
   {
    "type": "entity",
    "entity": "minecraft:salmon",
-   "scale": 1,
+   "scale": 0.6,
    "offset": 0
   }
  ]

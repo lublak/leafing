@@ -4,11 +4,9 @@
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
+   "type": "patchouli:entity_description",
    "title": "Wraith",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "infos": "A ghostlike $(l:creatures/zombie)zombie$(/l).$(br)The wraith does not have it's own sound. It uses sounds from a $(thing)random entity."
   },
   {
    "type": "entity",
