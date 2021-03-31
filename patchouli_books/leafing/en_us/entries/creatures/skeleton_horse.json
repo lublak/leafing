@@ -4,17 +4,17 @@
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
+   "type": "patchouli:entity_description",
    "title": "Skeleton Horse",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "infos": "A sort of a $(l:creatures/horse)horse$(/l)."
   },
   {
    "type": "entity",
    "entity": "minecraft:skeleton_horse",
-   "scale": 1,
-   "offset": 0
+   "scale": 0.5,
+   "offset": 0.3
   }
  ]
 }
+
+

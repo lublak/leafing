@@ -4,11 +4,9 @@
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
+   "type": "patchouli:entity_description",
    "title": "Vex",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "infos": "A $(thing)evil ghost/angel$(0) which will be spawned by $(l:creatures/evoker)evoker$(/l). They can go $(thing)through blocks$(0). It has an $(item)iron sword$(0)."
   },
   {
    "type": "entity",

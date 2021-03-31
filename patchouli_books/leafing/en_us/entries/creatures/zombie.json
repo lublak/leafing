@@ -4,15 +4,14 @@
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
+   "type": "patchouli:entity_description",
    "title": "Zombie",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "infos": "An undead."
   },
   {
    "type": "entity",
    "entity": "minecraft:zombie",
+   "text": "$(l:https://www.youtube.com/watch?v=X_XGxzMrq04)Don't mine at night!$(/l)",
    "scale": 1,
    "offset": 0
   }

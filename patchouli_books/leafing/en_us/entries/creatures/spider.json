@@ -4,16 +4,14 @@
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
+   "type": "patchouli:entity_description",
    "title": "Spider",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "infos": "They can $(thing)climb$(0) on $(block)blocks$(0)."
   },
   {
    "type": "entity",
    "entity": "minecraft:spider",
-   "scale": 1,
+   "scale": 0.7,
    "offset": 0
   }
  ]

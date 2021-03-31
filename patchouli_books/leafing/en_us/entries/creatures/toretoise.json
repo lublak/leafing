@@ -4,16 +4,14 @@
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
+   "type": "patchouli:entity_description",
    "title": "Toretoise",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "infos": "They defend themselves, if you hit them."
   },
   {
    "type": "entity",
    "entity": "quark:toretoise",
-   "scale": 1,
+   "scale": 0.7,
    "offset": 0
   }
  ]

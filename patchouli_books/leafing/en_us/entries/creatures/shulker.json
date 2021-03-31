@@ -4,16 +4,14 @@
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
+   "type": "patchouli:entity_description",
    "title": "Shulker",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "infos": "Don't get tricked by the $(thing)shulker$(0)! It hides in his $(thing)box$(0).$(br)It gives you a $(effect)levitation effect$(0) when hitted by it."
   },
   {
    "type": "entity",
    "entity": "minecraft:shulker",
-   "scale": 1,
+   "scale": 0.6,
    "offset": 0
   }
  ]

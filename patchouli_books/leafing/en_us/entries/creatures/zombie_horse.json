@@ -4,17 +4,15 @@
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
+   "type": "patchouli:entity_description",
    "title": "Zombie Horse",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "infos": "A zombiefied $(l:creatures/horse)horse$(/l)."
   },
   {
    "type": "entity",
    "entity": "minecraft:zombie_horse",
-   "scale": 1,
-   "offset": 0
+   "scale": 0.55,
+   "offset": 0.2
   }
  ]
 }

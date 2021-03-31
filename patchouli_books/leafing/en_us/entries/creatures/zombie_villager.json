@@ -4,11 +4,9 @@
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
+   "type": "patchouli:entity_description",
    "title": "Zombie Villager",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "infos": "A zombiefied $(l:creatures/villager)villager$(/l).$(br)Can be turned back into a normal one by giving it a $(effect)weakness effect$(0), then $(rmb) with a $(item)golden apple$(0)."
   },
   {
    "type": "entity",

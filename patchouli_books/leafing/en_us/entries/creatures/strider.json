@@ -4,17 +4,23 @@
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
+   "type": "patchouli:entity_description_breedable",
+   "breed1": "minecraft:warped_fungus",
    "title": "Strider",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "infos": "You can ride them like a $(l:creatures/pig)pig$(/l) but you need to hold a $(item)warped fungus on a stick$(0) to control them. They can $(thing)swim$(0) in $(block)lava$(0)."
   },
   {
    "type": "entity",
    "entity": "minecraft:strider",
    "scale": 1,
    "offset": 0
-  }
+  },
+  {
+    "type": "entity",
+    "entity": "minecraft:strider{Saddle: 1b}",
+    "text": "A saddled strider.",
+    "scale": 1,
+    "offset": 0
+   }
  ]
 }

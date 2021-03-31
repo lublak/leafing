@@ -8,7 +8,7 @@
    "title": "Stoneling",
    "breed1": "minecraft:melon_slice",
    "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "infos": "All stonelings are immune to $(thing)fall damage, projectile damage, $(0)and $(block)cactus $(0)and can $(thing)breathe underwater$(0). They cannot be pushed by $(block)water streams$(0)."
   },
   {
    "type": "entity",

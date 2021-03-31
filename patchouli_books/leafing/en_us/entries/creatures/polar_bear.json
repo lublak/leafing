@@ -4,16 +4,14 @@
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description_breedable_tamable",
+   "type": "patchouli:entity_description",
    "title": "Polar Bear",
-   "breed1": "minecraft:melon_slice",
-   "taming1": "minecraft:melon_seeds",
-   "infos": ""
+   "infos": "Very white $(thing)bears$(0). owo"
   },
   {
    "type": "entity",
    "entity": "minecraft:polar_bear",
-   "scale": 1,
+   "scale": 0.5,
    "offset": 0
   }
  ]
