@@ -1,10 +1,11 @@
 {
  "name": "Trader Llama",
- "icon": "minecraft:trader_llama_spawn_egg",
+ "icon": "minecraft:light_blue_carpet",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description_breedable",
+   "showSeparator": true,
    "title": "Trader Llama",
    "breed1": "minecraft:wheat",
    "infos": "A $(l:creatures/llama)llama$(/l) from a $(l:creatures/wandering_trader)wandering trader$(/l)."

@@ -5,6 +5,7 @@
   "pages": [
     {
       "type": "patchouli:entity_description_breedable",
+      "showSeparator": true,
       "title": "Cow",
       "breed1": "minecraft:wheat",
       "infos": "$(l:https://youtu.be/foFKXS6Nyho?t=119)Meow meow. I'm a cow.$(/l)$(br)Can be milked with a $(item)bucket$(0)."

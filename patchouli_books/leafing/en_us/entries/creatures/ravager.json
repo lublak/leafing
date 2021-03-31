@@ -1,10 +1,11 @@
 {
  "name": "Ravager",
- "icon": "minecraft:ravager_spawn_egg",
+ "icon": "fairylights:square_pennant{color: 11546150}",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Ravager",
    "infos": "RUN"
   },

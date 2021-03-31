@@ -1,10 +1,11 @@
 {
  "name": "Wraith",
- "icon": "quark:wraith_spawn_egg",
+ "icon": "quark:soul_bead",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Wraith",
    "infos": "A ghostlike $(l:creatures/zombie)zombie$(/l).$(br)The wraith does not have it's own sound. It uses sounds from a $(thing)random entity."
   },

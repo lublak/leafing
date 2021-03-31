@@ -1,10 +1,11 @@
 {
  "name": "Silverfish",
- "icon": "minecraft:silverfish_spawn_egg",
+ "icon": "buzzier_bees:silverfish_bottle",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Silverfish",
    "infos": "Hides/Lives in $(block)stone and other stoneblocks$(0)."
   },

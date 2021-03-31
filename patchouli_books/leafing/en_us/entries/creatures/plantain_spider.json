@@ -1,10 +1,11 @@
 {
  "name": "Plantain Spider",
- "icon": "neapolitan:plantain_spider_spawn_egg",
+ "icon": "neapolitan:banana_bundle",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Plantain Spider",
    "infos": "A $(l:creatures/spider)spider$(/l) which is hiding in $(block)bananas$(0)."
   },

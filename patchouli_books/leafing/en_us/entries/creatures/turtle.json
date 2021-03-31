@@ -1,10 +1,11 @@
 {
  "name": "Turtle",
- "icon": "minecraft:turtle_spawn_egg",
+ "icon": "minecraft:turtle_helmet",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description_breedable",
+   "showSeparator": true,
    "title": "Turtle",
    "breed1": "minecraft:seagrass",
    "infos": "Slowly and cute creatures. owo"

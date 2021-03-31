@@ -1,10 +1,11 @@
 {
  "name": "Cave Spider",
- "icon": "minecraft:cave_spider_spawn_egg",
+ "icon": "quark:root",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Cave Spider",
    "infos": "They give you a $(effect)poison effect$(0) when getting hit."
   },

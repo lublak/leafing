@@ -1,10 +1,11 @@
 {
  "name": "Stray",
- "icon": "minecraft:stray_spawn_egg",
+ "icon": "minecraft:tipped_arrow{Potion: \"minecraft:slowness\"}",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Stray",
    "infos": "A cold $(l:creatures/skeleton)skeleton$(0)."
   },

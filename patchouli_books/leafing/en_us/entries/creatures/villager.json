@@ -1,10 +1,11 @@
 {
  "name": "Villager",
- "icon": "minecraft:villager_spawn_egg",
+ "icon": "minecraft:bell",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Villager",
    "infos": "A tradeable villager."
   },

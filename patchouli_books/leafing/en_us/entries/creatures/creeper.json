@@ -1,10 +1,11 @@
 {
  "name": "Creeper",
- "icon": "minecraft:creeper_spawn_egg",
+ "icon": "minecraft:gunpowder",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Creeper",
    "infos": "Be careful...$(br)$(l:https://www.youtube.com/watch?v=cPJUBQd-PNM)Creeper! Oh man...$(/l)$(br)They are afraid of $(l:creatures/ocelot)ocelots$(/l)."
   },

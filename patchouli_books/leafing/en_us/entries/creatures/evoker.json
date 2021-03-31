@@ -1,10 +1,11 @@
 {
     "name": "Evoker",
-    "icon": "minecraft:evoker_spawn_egg",
+    "icon": "minecraft:iron_sword",
     "category": "patchouli:creatures",
     "pages": [
         {
             "type": "patchouli:entity_description",
+            "showSeparator": true,
             "title": "Evoker",
             "infos": "Spawns $(l:creatures/vex)vex$(/l)."
         },

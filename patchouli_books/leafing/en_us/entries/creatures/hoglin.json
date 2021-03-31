@@ -1,10 +1,11 @@
 {
  "name": "Hoglin",
- "icon": "minecraft:hoglin_spawn_egg",
+ "icon": "farmersdelight:ham",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description_breedable",
+   "showSeparator": true,
    "breed1": "minecraft:crimson_fungus",
    "title": "Hoglin",
    "infos": "Are afraid of $(block)warped fungus$(0)."

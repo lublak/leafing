@@ -9,7 +9,7 @@
     },
     {
       "type": "separator",
-      "guard": "#title->exists",
+      "guard": "#showSeparator",
       "x": -1,
       "y": -1
     },

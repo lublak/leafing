@@ -1,10 +1,11 @@
 {
     "name": "Parrot",
-    "icon": "minecraft:parrot_spawn_egg",
+    "icon": "minecraft:jungle_sapling",
     "category": "patchouli:creatures",
     "pages": [
         {
             "type": "patchouli:entity_description_tamable",
+            "showSeparator": true,
             "title": "Parrot",
             "taming1": "minecraft:melon_seeds",
             "taming2": "minecraft:wheat_seeds",

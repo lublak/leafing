@@ -1,10 +1,11 @@
 {
  "name": "Booflo",
- "icon": "endergetic:bolloom_fruit",
+ "icon": "endergetic:booflo_hide",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description_breedable_tamable",
+   "showSeparator": true,
    "title": "Booflo",
    "breed1": "endergetic:poise_cluster",
    "taming1": "endergetic:bolloom_fruit",

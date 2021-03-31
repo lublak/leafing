@@ -5,6 +5,7 @@
   "pages": [
     {
       "type": "patchouli:entity_description",
+      "showSeparator": true,
       "title": "Endermini",
       "infos": "Baby Enderman! (Like an $(l:creatures/enderman)Enderman$(/l) only in small)"
     },

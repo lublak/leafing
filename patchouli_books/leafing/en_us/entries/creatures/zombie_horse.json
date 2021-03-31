@@ -1,10 +1,11 @@
 {
  "name": "Zombie Horse",
- "icon": "minecraft:zombie_horse_spawn_egg",
+ "icon": "minecraft:rotten_flesh",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Zombie Horse",
    "infos": "A zombiefied $(l:creatures/horse)horse$(/l)."
   },

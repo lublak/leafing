@@ -1,10 +1,11 @@
 {
     "name": "Mule",
-    "icon": "minecraft:mule_spawn_egg",
+    "icon": "minecraft:chest",
     "category": "patchouli:creatures",
     "pages": [
         {
             "type": "patchouli:entity_description_breedable",
+            "showSeparator": true,
             "title": "Mule",
             "breed1": "minecraft:golden_carrot",
             "infos": "Mountable.$(br)$(rmb) with a $(item)chest$(0) to add them an $(thing)inventory$(0)."

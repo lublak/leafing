@@ -1,11 +1,14 @@
 {
  "name": "Adelie Penguin",
- "icon": "waddles:adelie_penguin_spawn_egg",
+ "icon": "minecraft:player_head{SkullOwner:{Id:[I;1394882412,1606174548,-1313648954,1563848504],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzJmYjQ3ODk0ZDBmYmFkMmEwYTdiNjc1MzY4MGYxYzFkYjBjNThiY2IyN2Y3MmFkOTM3ZmM2OTNlZDMxIn19fQ==\"}]}}}",
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description",
+   "type": "patchouli:entity_description_breedable",
+   "showSeparator": true,
    "title": "Adelie Penguin",
+   "breed1": "minecraft:cod",
+   "breed2": "minecraft:salmon",
    "infos": "They are cute. c:"
   },
   {

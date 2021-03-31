@@ -1,10 +1,11 @@
 {
  "name": "Drowned",
- "icon": "minecraft:drowned_spawn_egg",
+ "icon": "minecraft:trident",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Drowned",
    "infos": "A drowned $(l:creatures/zombie)zombie$(/l)."
   },

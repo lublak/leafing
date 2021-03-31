@@ -1,10 +1,11 @@
 {
   "name": "Wolf",
-  "icon": "minecraft:bone",
+  "icon": "farmersdelight:dog_food",
   "category": "patchouli:creatures",
   "pages": [
     {
-      "type": "patchouli:entity_description_more_breedable_tamable",
+      "type": "patchouli:entity_description_breedable_more_tamable",
+      "showSeparator": true,
       "title": "Wolf",
       "breed1": "minecraft:chicken",
       "breed2": "minecraft:cooked_chicken",

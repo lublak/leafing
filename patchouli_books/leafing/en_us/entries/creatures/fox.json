@@ -1,10 +1,11 @@
 {
     "name": "Fox",
-    "icon": "minecraft:fox_spawn_egg",
+    "icon": "byg:foxglove",
     "category": "patchouli:creatures",
     "pages": [
         {
             "type": "patchouli:entity_description_breedable",
+            "showSeparator": true,
             "title": "Fox",
             "breed1": "minecraft:chicken",
             "breed2": "minecraft:sweet_berries",

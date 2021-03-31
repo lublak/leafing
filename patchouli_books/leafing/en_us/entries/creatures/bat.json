@@ -5,6 +5,7 @@
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Bat",
    "infos": "I'm batman!"
   },

@@ -1,10 +1,11 @@
 {
  "name": "Cod",
- "icon": "minecraft:cod_spawn_egg",
+ "icon": "minecraft:cod",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Cod",
    "infos": "A fish."
   },

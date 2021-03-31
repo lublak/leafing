@@ -1,10 +1,11 @@
 {
  "name": "Zombified Piglin",
- "icon": "minecraft:zombified_piglin_spawn_egg",
+ "icon": "minecraft:golden_sword",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Zombified Piglin",
    "infos": "A zombiefied $(l:creatures/piglin)piglin$(/l).$(br)The new $(thing)pigmen."
   },

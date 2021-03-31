@@ -1,18 +1,19 @@
 {
- "name": "Guardian",
- "icon": "minecraft:guardian_spawn_egg",
- "category": "patchouli:creatures",
- "pages": [
-  {
-   "type": "patchouli:entity_description",
-   "title": "Guardian"
-  },
-  {
-   "type": "entity",
-   "entity": "minecraft:guardian",
-   "text": "of the galaxy!",
-   "scale": 0.3,
-   "offset": 0
-  }
- ]
+  "name": "Guardian",
+  "icon": "minecraft:prismarine",
+  "category": "patchouli:creatures",
+  "pages": [
+    {
+      "type": "patchouli:entity_description",
+      "showSeparator": true,
+      "title": "Guardian"
+    },
+    {
+      "type": "entity",
+      "entity": "minecraft:guardian",
+      "text": "of the galaxy!",
+      "scale": 0.3,
+      "offset": 0
+    }
+  ]
 }

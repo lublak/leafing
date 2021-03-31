@@ -1,10 +1,11 @@
 {
  "name": "Lizard",
- "icon": "cnb:lizard_spawn_egg",
+ "icon": "cnb:lizard_item_3{variant: 3}",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description_breedable",
+   "showSeparator": true,
    "title": "Lizard",
    "breed1": "someassemblyrequired:apple_slices",
    "infos": "A small friend from the jungles and deserts. Sometimes they spawn as $(effect)sad$(0) lizards but you can cheer them up with $(item)apple slices$(0)."

@@ -1,10 +1,11 @@
 {
  "name": "Skeleton",
- "icon": "minecraft:skeleton_spawn_egg",
+ "icon": "minecraft:skeleton_skull",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Skeleton",
    "infos": "$(l:https://www.youtube.com/watch?v=n_qbGJuxCYY)Spooky, Scary, Skeleton!$(/l)"
   },

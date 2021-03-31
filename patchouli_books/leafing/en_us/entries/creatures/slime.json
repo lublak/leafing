@@ -1,10 +1,11 @@
 {
  "name": "Slime",
- "icon": "minecraft:slime_spawn_egg",
+ "icon": "minecraft:slime_ball",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Slime",
    "infos": "*boing*"
   },

@@ -1,18 +1,19 @@
 {
-    "name": "Elder Guardian",
-    "icon": "minecraft:elder_guardian_spawn_egg",
-    "category": "patchouli:creatures",
-    "pages": [
-        {
-            "type": "patchouli:entity_description",
-            "title": "Elder Guardian",
-            "infos": "A minecraft underwater $(thing)boss."
-        },
-        {
-            "type": "entity",
-            "entity": "minecraft:elder_guardian",
-            "scale": 0.25,
-            "offset": 0
-        }
-    ]
+  "name": "Elder Guardian",
+  "icon": "quark:elder_prismarine",
+  "category": "patchouli:creatures",
+  "pages": [
+    {
+      "type": "patchouli:entity_description",
+      "showSeparator": true,
+      "title": "Elder Guardian",
+      "infos": "A minecraft underwater $(thing)boss."
+    },
+    {
+      "type": "entity",
+      "entity": "minecraft:elder_guardian",
+      "scale": 0.25,
+      "offset": 0
+    }
+  ]
 }

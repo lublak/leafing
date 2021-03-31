@@ -1,10 +1,11 @@
 {
  "name": "Piglin Brute",
- "icon": "minecraft:piglin_brute_spawn_egg",
+ "icon": "minecraft:golden_axe",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Piglin Brute",
    "infos": "The leader of the $(l:creatures/piglin)piglins$(/l)."
   },

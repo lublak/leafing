@@ -1,10 +1,11 @@
 {
     "name": "Phantom",
-    "icon": "minecraft:phantom_spawn_egg",
+    "icon": "minecraft:phantom_membrane",
     "category": "patchouli:creatures",
     "pages": [
         {
             "type": "patchouli:entity_description",
+            "showSeparator": true,
             "title": "Phantom",
             "infos": "They hunt you in the night, if you don't go to $(thing)sleep$(0)."
         },

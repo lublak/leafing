@@ -1,18 +1,49 @@
 {
  "name": "Toretoise",
- "icon": "quark:toretoise_spawn_egg",
+ "icon": "quark:red_crystal_cluster",
  "category": "patchouli:creatures",
  "pages": [
   {
-   "type": "patchouli:entity_description",
-   "title": "Toretoise",
-   "infos": "They defend themselves, if you hit them."
+    "type": "patchouli:entity_description",
+    "showSeparator": true,
+    "title": "Toretoise",
+    "infos": "They defend themselves, if you hit them. You can \"mine\" it with a pick axe."
   },
   {
-   "type": "entity",
-   "entity": "quark:toretoise",
-   "scale": 0.7,
-   "offset": 0
+    "type": "entity",
+    "entity": "quark:toretoise{oreType:0}",
+    "scale": 0.7,
+    "offset": 0
+  },
+  {
+    "type": "spotlight",
+    "item": "quark:root_item",
+		"title": "Feeding",
+    "text": "If you feed it, it can randomly generate a new $(thing)ore$(0) every minute."
+  },
+  {
+    "type": "entity",
+    "entity": "quark:toretoise{oreType:1}",
+    "scale": 0.7,
+    "offset": 0
+  },
+  {
+    "type": "entity",
+    "entity": "quark:toretoise{oreType:2}",
+    "scale": 0.7,
+    "offset": 0
+  },
+  {
+    "type": "entity",
+    "entity": "quark:toretoise{oreType:3}",
+    "scale": 0.7,
+    "offset": 0
+  },
+  {
+    "type": "entity",
+    "entity": "quark:toretoise{oreType:4}",
+    "scale": 0.7,
+    "offset": 0
   }
  ]
 }

@@ -1,10 +1,11 @@
 {
  "name": "Vex",
- "icon": "minecraft:vex_spawn_egg",
+ "icon": "fairylights:ghost_light{color: 16383998}",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Vex",
    "infos": "A $(thing)evil ghost/angel$(0) which will be spawned by $(l:creatures/evoker)evoker$(/l). They can go $(thing)through blocks$(0). It has an $(item)iron sword$(0)."
   },

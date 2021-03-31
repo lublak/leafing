@@ -1,10 +1,11 @@
 {
  "name": "Lilytad",
- "icon": "cnb:lilytad_spawn_egg",
+ "icon": "cnb:lilytad_flower",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Lilytad",
    "infos": "A cute little $(thing)swamp creature $(0)that likes to hide in $(block)shadow water$(0), disguising itself as a $(block)lilypad$(0). It's $(thing)flower$(0) can be sheared and will grow back after 15 minutes."
   },

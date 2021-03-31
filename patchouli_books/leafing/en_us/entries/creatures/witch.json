@@ -1,10 +1,11 @@
 {
  "name": "Witch",
- "icon": "minecraft:witch_spawn_egg",
+ "icon": "fairylights:witch_light{color: 3289650}",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Witch",
    "infos": "$(l:https://www.youtube.com/watch?v=39OpiNB6TCg)A witch.$(/l)"
   },

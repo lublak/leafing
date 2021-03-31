@@ -1,10 +1,11 @@
 {
     "name": "Zoglin",
-    "icon": "minecraft:zoglin_spawn_egg",
+    "icon": "adorn:quartz_post",
     "category": "patchouli:creatures",
     "pages": [
         {
             "type": "patchouli:entity_description",
+            "showSeparator": true,
             "title": "Zoglin",
             "infos": "A zombiefied $(l:creatures/hoglin)hoglin$(/l)."
         },

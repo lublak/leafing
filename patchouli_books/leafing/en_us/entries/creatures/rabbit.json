@@ -1,10 +1,11 @@
 {
  "name": "Rabbit",
- "icon": "minecraft:rabbit_spawn_egg",
+ "icon": "minecraft:rabbit_foot",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description_breedable",
+   "showSeparator": true,
    "title": "Rabbit",
    "breed1": "minecraft:carrot",
    "infos": "BUNNY!"

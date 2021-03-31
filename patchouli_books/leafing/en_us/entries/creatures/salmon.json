@@ -1,10 +1,11 @@
 {
  "name": "Salmon",
- "icon": "minecraft:salmon_spawn_egg",
+ "icon": "minecraft:salmon",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Salmon",
    "infos": "Like all $(thing)fish$(0)."
   },

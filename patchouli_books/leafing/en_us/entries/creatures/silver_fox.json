@@ -5,6 +5,7 @@
   "pages": [
     {
       "type": "patchouli:entity_description_breedable_tamable",
+      "showSeparator": true,
       "title": "Silver Fox",
       "breed1": "minecraft:chicken",
       "taming1": "minecraft:apple",

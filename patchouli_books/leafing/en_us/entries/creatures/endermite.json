@@ -1,10 +1,11 @@
 {
  "name": "Endermite",
- "icon": "minecraft:endermite_spawn_egg",
+ "icon": "charm:endermite_powder",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Endermite",
    "infos": "If throwing too much $(item)enderpearls$(0) then there will be a chance that one will spawn and attack you."
   },

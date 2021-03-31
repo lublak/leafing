@@ -1,10 +1,11 @@
 {
  "name": "Husk",
- "icon": "minecraft:husk_spawn_egg",
+ "icon": "waystones:sandy_waystone",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Husk",
    "infos": "A desert type of $(l:creatures/zombie)zombie$(/l)."
   },

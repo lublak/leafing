@@ -1,10 +1,11 @@
 {
  "name": "Crazed",
- "icon": "brazier:crazed_spawn_egg",
+ "icon": "brazier:brazier",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Crazed",
    "infos": "A magician which turns you on fire."
   },

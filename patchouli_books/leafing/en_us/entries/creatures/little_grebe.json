@@ -5,6 +5,7 @@
  "pages": [
   {
    "type": "patchouli:entity_description_breedable",
+   "showSeparator": true,
    "title": "Little Grebe",
    "breed1": "minecraft:salmon",
    "infos": "A cute little duck-like bird that lives in rivers and lakes and likes to eat $(item)fish$(0)."

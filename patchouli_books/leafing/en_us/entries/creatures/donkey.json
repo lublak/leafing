@@ -1,10 +1,11 @@
 {
  "name": "Donkey",
- "icon": "minecraft:donkey_spawn_egg",
+ "icon": "minecraft:leather",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Donkey",
    "infos": "Mountable.$(br)$(rmb) with a $(item)chest$(0) to add them an $(thing)inventory$(0)."
   },

@@ -1,10 +1,11 @@
 {
  "name": "Zombie",
- "icon": "minecraft:zombie_spawn_egg",
+ "icon": "minecraft:zombie_head",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Zombie",
    "infos": "An undead."
   },

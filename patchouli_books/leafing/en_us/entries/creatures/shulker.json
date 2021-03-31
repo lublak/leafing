@@ -1,10 +1,11 @@
 {
  "name": "Shulker",
- "icon": "minecraft:shulker_spawn_egg",
+ "icon": "minecraft:shulker_shell",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Shulker",
    "infos": "Don't get tricked by the $(thing)shulker$(0)! It hides in his $(thing)box$(0).$(br)It gives you a $(effect)levitation effect$(0) when hitted by it."
   },

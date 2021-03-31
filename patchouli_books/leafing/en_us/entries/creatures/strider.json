@@ -1,10 +1,11 @@
 {
  "name": "Strider",
- "icon": "minecraft:strider_spawn_egg",
+ "icon": "minecraft:warped_fungus",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description_breedable",
+   "showSeparator": true,
    "breed1": "minecraft:warped_fungus",
    "title": "Strider",
    "infos": "You can ride them like a $(l:creatures/pig)pig$(/l) but you need to hold a $(item)warped fungus on a stick$(0) to control them. They can $(thing)swim$(0) in $(block)lava$(0)."

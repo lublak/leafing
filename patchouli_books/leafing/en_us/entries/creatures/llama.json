@@ -1,10 +1,11 @@
 {
     "name": "Llama",
-    "icon": "minecraft:llama_spawn_egg",
+    "icon": "minecraft:lead",
     "category": "patchouli:creatures",
     "pages": [
         {
             "type": "patchouli:entity_description_breedable",
+            "showSeparator": true,
             "title": "Llama",
             "breed1": "minecraft:wheat",
             "infos": "You can $(rmb) with a $(item)carpet$(0) to decorate the llama."

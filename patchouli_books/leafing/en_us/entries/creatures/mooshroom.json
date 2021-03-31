@@ -1,10 +1,11 @@
 {
     "name": "Mooshroom",
-    "icon": "minecraft:mooshroom_spawn_egg",
+    "icon": "minecraft:red_mushroom",
     "category": "patchouli:creatures",
     "pages": [
         {
             "type": "patchouli:entity_description_breedable",
+            "showSeparator": true,
             "title": "Mooshroom",
             "breed1": "minecraft:wheat",
             "infos": "Can be turned into a cow with $(item)shears$(0) and will drop $(item)mushrooms$(0).$(br)Can be milked with a $(item)bucket$(0).$(br)$(rmb) with a $(item)bowl$(0) will give you a $(item)mushroom soup$(0)."

@@ -1,10 +1,11 @@
 {
  "name": "Spider",
- "icon": "minecraft:spider_spawn_egg",
+ "icon": "fairylights:spider_light{color: 3289650}",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Spider",
    "infos": "They can $(thing)climb$(0) on $(block)blocks$(0)."
   },

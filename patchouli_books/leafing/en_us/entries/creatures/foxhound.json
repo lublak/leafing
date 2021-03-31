@@ -1,10 +1,11 @@
 {
     "name": "Foxhound",
-    "icon": "quark:foxhound_spawn_egg",
+    "icon": "minecraft:furnace",
     "category": "patchouli:creatures",
     "pages": [
         {
             "type": "patchouli:entity_description_breedable_tamable",
+            "showSeparator": true,
             "title": "Foxhound",
             "breed1": "minecraft:rotten_flesh",
             "taming1": "minecraft:coal",
@@ -25,7 +26,7 @@
         },
         {
             "type": "entity",
-            "entity": "quark:foxhound",
+            "entity": "quark:foxhound{IsSlep: true}",
             "scale": 0.5,
             "offset": 0
         }

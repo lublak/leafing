@@ -1,10 +1,11 @@
 {
  "name": "Skeleton Horse",
- "icon": "minecraft:skeleton_horse_spawn_egg",
+ "icon": "minecraft:bone",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Skeleton Horse",
    "infos": "A sort of a $(l:creatures/horse)horse$(/l)."
   },

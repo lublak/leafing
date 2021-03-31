@@ -1,10 +1,11 @@
 {
  "name": "Horse",
- "icon": "minecraft:horse_spawn_egg",
+ "icon": "minecraft:saddle",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description_breedable",
+   "showSeparator": true,
    "title": "Horse",
    "breed1": "minecraft:golden_carrot"
   },

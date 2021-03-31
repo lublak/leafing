@@ -5,6 +5,7 @@
   "pages": [
     {
       "type": "patchouli:entity_description_breedable",
+      "showSeparator": true,
       "title": "Deer",
       "breed1": "minecraft:wheat",
       "infos": "Rudolph? Is that you?"

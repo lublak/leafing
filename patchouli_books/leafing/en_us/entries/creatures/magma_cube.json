@@ -1,10 +1,11 @@
 {
  "name": "Magma Cube",
- "icon": "minecraft:magma_cube_spawn_egg",
+ "icon": "minecraft:magma_cream",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Magma Cube",
    "infos": "A nether type of $(l:creatures/slime)slimes$(/l)."
   },

@@ -1,13 +1,14 @@
 {
     "name": "Bee",
-    "icon": "minecraft:bee_spawn_egg",
+    "icon": "minecraft:honeycomb",
     "category": "patchouli:creatures",
     "pages": [
         {
             "type": "patchouli:entity_description_breedable",
+            "showSeparator": true,
             "title": "Bee",
             "breed1": "minecraft:poppy",
-            "infos": "Bees are breedable with all $(item)small flowers$(0).$(br)I hope that you are nonallergic to bees."
+            "infos": "$(l:https://youtu.be/SyPjwxHxbus)I'm a Bee$(/l). Bees are breedable with all $(item)small flowers$(0).$(br)I hope that you are nonallergic to bees."
         },
         {
             "type": "entity",

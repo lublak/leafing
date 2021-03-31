@@ -5,6 +5,7 @@
   "pages": [
     {
       "type": "patchouli:entity_description",
+      "showSeparator": true,
       "title": "Squid",
       "infos": "Do you like tentacles? They even have eight of them. Can be mil ... inked with a $(item)glass bottle$(0)."
     },

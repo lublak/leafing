@@ -1,10 +1,11 @@
 {
  "name": "Vindicator",
- "icon": "minecraft:vindicator_spawn_egg",
+ "icon": "minecraft:iron_axe",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Vindicator",
    "infos": "A sort of a $(l:creatures/pillager)pillager$(/l). They have an $(item)iron axe$(0)."
   },

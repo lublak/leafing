@@ -5,6 +5,7 @@
   "pages": [
     {
       "type": "patchouli:entity_description_breedable_tamable",
+      "showSeparator": true,
       "title": "Beetle",
       "breed1": "minecraft:melon_slice",
       "taming1": "minecraft:melon_seeds",

@@ -5,6 +5,7 @@
   "pages": [
     {
       "type": "patchouli:entity_description_breedable",
+      "showSeparator": true,
       "title": "Frog",
       "breed1": "minecraft:brown_mushroom",
       "infos": "Hop hop. I'm a frog!"

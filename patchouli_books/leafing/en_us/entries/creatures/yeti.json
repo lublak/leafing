@@ -1,10 +1,11 @@
 {
  "name": "Yeti",
- "icon": "cnb:yeti_spawn_egg",
+ "icon": "cnb:yeti_antler",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description_breedable",
+   "showSeparator": true,
    "title": "Yeti",
    "breed1": "minecraft:sweet_berries",
    "infos": "Powerful beasts spawning in snowy tundra biomes which will remain neutral until the player gets too close to their babies, but you can earn their trust with $(item)melon slices$(0)."

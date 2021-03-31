@@ -1,10 +1,11 @@
 {
  "name": "Wrapped",
- "icon": "quark:wrapped_spawn_egg",
+ "icon": "minecraft:cobweb",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Wrapped",
    "infos": "A $(l:creatures/zombie)zombie$(/l)."
   },

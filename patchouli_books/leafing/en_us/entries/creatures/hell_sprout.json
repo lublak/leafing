@@ -5,6 +5,7 @@
   "pages": [
     {
       "type": "patchouli:entity_description_breedable",
+      "showSeparator": true,
       "title": "Hell Sprout",
       "breed1": "mysticalworld:cooked_aubergine",
       "infos": "A hell of a gardener. Plant $(item)nether wart crops$(0) on $(block)soul sand$(0)."

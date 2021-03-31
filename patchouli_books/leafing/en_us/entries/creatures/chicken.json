@@ -5,6 +5,7 @@
  "pages": [
   {
    "type": "patchouli:entity_description_breedable",
+   "showSeparator": true,
    "title": "Chicken",
    "breed1": "minecraft:melon_seeds",
    "breed2": "minecraft:wheat_seeds",

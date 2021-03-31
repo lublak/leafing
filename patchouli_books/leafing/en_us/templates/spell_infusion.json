@@ -8,6 +8,12 @@
       "y": -1
     },
     {
+      "type": "separator",
+      "guard": "#showSeparator",
+      "x": -1,
+      "y": -1
+    },
+    {
       "type": "item",
       "item": "#input",
       "framed": true,

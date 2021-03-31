@@ -1,10 +1,11 @@
 {
  "name": "Cat",
- "icon": "minecraft:cat_spawn_egg",
+ "icon": "byg:cattail",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description_breedable_tamable",
+   "showSeparator": true,
    "title": "Cat",
    "breed1": "minecraft:salmon",
    "taming1": "minecraft:salmon",

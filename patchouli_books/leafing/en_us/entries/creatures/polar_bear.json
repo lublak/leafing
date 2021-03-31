@@ -1,10 +1,11 @@
 {
  "name": "Polar Bear",
- "icon": "minecraft:polar_bear_spawn_egg",
+ "icon": "minecraft:snow_block",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Polar Bear",
    "infos": "Very white $(thing)bears$(0). owo"
   },

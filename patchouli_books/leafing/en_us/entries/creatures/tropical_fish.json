@@ -1,10 +1,11 @@
 {
  "name": "Tropical Fish",
- "icon": "minecraft:tropical_fish_spawn_egg",
+ "icon": "minecraft:tropical_fish",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Tropical Fish",
    "infos": "Like all $(thing)fish$(0)."
   },

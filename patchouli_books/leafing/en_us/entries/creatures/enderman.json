@@ -5,6 +5,7 @@
   "pages": [
     {
       "type": "patchouli:entity_description",
+      "showSeparator": true,
       "title": "Enderman",
       "infos": "Ey! Did you just look me in the eye?"
     },

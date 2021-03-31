@@ -1,10 +1,11 @@
 {
  "name": "Puff Bug",
- "icon": "endergetic:puff_bug_spawn_egg",
+ "icon": "endergetic:puffbug_bottle",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Puff Bug",
    "infos": "Puff Bugs will puff around and pollinate $(block)Bolloom Buds$(0)."
   },

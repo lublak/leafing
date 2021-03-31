@@ -1,10 +1,11 @@
 {
  "name": "Wandering Trader",
- "icon": "minecraft:wandering_trader_spawn_egg",
+ "icon": "adorn:trading_station",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Wandering Trader",
    "infos": "A wandering $(l:creatures/villager)villager$(/l) which is $(thing)tradeable$(0). Is also has 2-3 $(l:creatures/trader_llama)trader llamas$(/l)."
   },

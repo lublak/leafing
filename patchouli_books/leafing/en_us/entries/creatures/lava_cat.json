@@ -5,6 +5,7 @@
   "pages": [
     {
       "type": "patchouli:entity_description_breedable_tamable",
+      "showSeparator": true,
       "title": "Lava Cat",
       "breed1": "minecraft:blaze_powder",
       "taming1": "minecraft:blaze_rod",

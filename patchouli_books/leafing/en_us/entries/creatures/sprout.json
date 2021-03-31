@@ -5,6 +5,7 @@
   "pages": [
     {
       "type": "patchouli:entity_description_breedable",
+      "showSeparator": true,
       "title": "Sprout",
       "breed1": "mysticalworld:aubergine",
       "infos": "Like Bertie Bott's Every Flavour Beans, they are also available in different flavours and very sweet. Yummy. Depending on the Color, something else is dropped."

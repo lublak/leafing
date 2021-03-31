@@ -1,10 +1,11 @@
 {
  "name": "Pillager",
- "icon": "minecraft:pillager_spawn_egg",
+ "icon": "minecraft:crossbow",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Pillager",
    "infos": "A evil $(l:creatures/villager)villager$(/l)."
   },

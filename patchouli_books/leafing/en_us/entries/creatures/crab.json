@@ -1,10 +1,11 @@
 {
     "name": "Crab",
-    "icon": "quark:crab_spawn_egg",
+    "icon": "quark:crab_shell",
     "category": "patchouli:creatures",
     "pages": [
         {
             "type": "patchouli:entity_description_breedable",
+            "showSeparator": true,
             "title": "Crab",
             "breed1": "minecraft:tropical_fish",
             "infos": "Is breedable with every sort of fish.$(br)A crab dances to every song the $(l:https://www.youtube.com/watch?v=cE0wfjsybIQ)crab rave$(/l) dance."

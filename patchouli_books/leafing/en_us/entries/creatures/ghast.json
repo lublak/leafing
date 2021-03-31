@@ -1,10 +1,11 @@
 {
     "name": "Ghast",
-    "icon": "minecraft:ghast_spawn_egg",
+    "icon": "minecraft:ghast_tear",
     "category": "patchouli:creatures",
     "pages": [
         {
             "type": "patchouli:entity_description",
+            "showSeparator": true,
             "title": "Ghast"
         },
         {

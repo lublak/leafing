@@ -1,10 +1,11 @@
 {
  "name": "Stoneling",
- "icon": "quark:stoneling_spawn_egg",
+ "icon": "minecraft:stone",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description_breedable_tamable",
+   "showSeparator": true,
    "title": "Stoneling",
    "breed1": "minecraft:melon_slice",
    "taming1": "minecraft:melon_seeds",

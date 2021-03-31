@@ -1,10 +1,11 @@
 {
  "name": "Coral Squid",
- "icon": "charm:coral_squid_spawn_egg",
+ "icon": "minecraft:bubble_coral",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Coral Squid",
    "infos": "A very cute, colorized and tiny $(l:creatures/squid)squid$(/l). c:"
   },

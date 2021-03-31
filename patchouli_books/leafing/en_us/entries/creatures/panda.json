@@ -1,10 +1,11 @@
 {
     "name": "Panda",
-    "icon": "minecraft:panda_spawn_egg",
+    "icon": "minecraft:bamboo",
     "category": "patchouli:creatures",
     "pages": [
         {
             "type": "patchouli:entity_description_breedable",
+            "showSeparator": true,
             "title": "Panda",
             "breed1": "minecraft:bamboo",
             "infos": "$(l:https://minecraft.fandom.com/wiki/Panda)Pandas are very unique.$(/l)"

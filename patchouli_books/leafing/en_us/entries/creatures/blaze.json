@@ -1,10 +1,11 @@
 {
     "name": "Blaze",
-    "icon": "minecraft:blaze_spawn_egg",
+    "icon": "minecraft:blaze_rod",
     "category": "patchouli:creatures",
     "pages": [
         {
             "type": "patchouli:entity_description",
+            "showSeparator": true,
             "title": "Blaze",
             "infos": "Blazes are very hot, can fly and shooting with $(thing)fire$(0).$(br)They very much don't like $(block)water$(0)."
         },

@@ -1,10 +1,11 @@
 {
  "name": "Pig",
- "icon": "minecraft:pig_spawn_egg",
+ "icon": "minecraft:porkchop",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description_breedable",
+   "showSeparator": true,
    "title": "Pig",
    "breed1": "minecraft:carrot",
    "infos": "You can mount them by $(rmb) with a $(item)saddle$(0)."

@@ -1,10 +1,11 @@
 {
  "name": "Forgotten",
- "icon": "quark:forgotten_spawn_egg",
+ "icon": "quark:forgotten_hat",
  "category": "patchouli:creatures",
  "pages": [
   {
    "type": "patchouli:entity_description",
+   "showSeparator": true,
    "title": "Forgotten",
    "infos": "They have an enchanted $(item)sword and bow$(0).$(br)They will give you a $(effect)blindness effect$(0), if get shot."
   },

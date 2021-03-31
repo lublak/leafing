@@ -5,6 +5,7 @@
   "pages": [
     {
       "type": "patchouli:entity_description_breedable",
+      "showSeparator": true,
       "title": "Sheep",
       "breed1": "minecraft:wheat",
       "infos": "$(l:https://youtu.be/foFKXS6Nyho?t=91)Beep beep. I'm a sheep.$(/l)$(br)Can be dyed and sheared with $(item)shears$(0)."
