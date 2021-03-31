@@ -1,0 +1,65 @@
+{
+  "components": [
+    {
+      "type": "header",
+      "text": "#title",
+      "guard": "#title->exists",
+      "x": -1,
+      "y": -1
+    },
+    {
+      "type": "separator",
+      "guard": "#showSeparator",
+      "x": -1,
+      "y": -1
+    },
+    {
+      "type": "item",
+      "item": "#tool",
+      "framed": true,
+      "x": 10,
+      "y": 25
+    },
+    {
+      "type": "item",
+      "item": "#on",
+      "framed": true,
+      "x": 50,
+      "y": 25
+    },
+    {
+      "type": "text",
+      "text": "on",
+      "x": 34,
+      "y": 29
+    },
+    {
+      "type": "item",
+      "item": "#output",
+      "framed": true,
+      "x": 90,
+      "y": 25
+    },
+    {
+      "type": "header",
+      "text": "→",
+      "scale": 2,
+      "x": 79,
+      "y": 25
+    },
+    {
+      "type": "text",
+      "text": "To create $(item)#output->iname#$(0), use $(item)#tool->iname#$(0) on $(thing)#on->iname#$(0).$(br2)#text#",
+      "guard": "#text_before->exists->inv",
+      "x": 0,
+      "y": 50
+    },
+    {
+      "type": "text",
+      "text": "#text_before#$(br2)To create $(item)#output->iname#$(0), use $(item)#tool->iname#$(0) on $(thing)#on->iname#$(0).$(br2)#text#",
+      "guard": "#text_before->exists",
+      "x": 0,
+      "y": 50
+    }
+  ]
+}

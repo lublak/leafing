@@ -11,7 +11,7 @@
       "type": "spotlight",
       "item": "chiselsandbits:chisel_stone",
 			"title": "Chisel",
-      "text": "$(li)$(bold)$(lmb): Use the chisel in current mode$(li)$(bold)$(lmb)$(bold)+Alt$(): Open Chisel Menu$(li)$(bold)Shift+Scroll$(): Cycle through the modes"
+      "text": "$(li)$(bold)$(lmb): Use the chisel in current mode$(li)$(bold)$(k:mod.chiselsandbits.other.mode)$(): Open Chisel Menu$(li)$(bold)Shift+Scroll$(): Cycle through the modes"
     },
     {
       "type": "spotlight",
@@ -41,7 +41,7 @@
       "type": "spotlight",
       "item": "chiselsandbits:tape_measure",
 			"title": "Tape Measure",
-      "text": "$(li)$(bold)Hold $(rmb): Measure with current mode$(li)$(bold)Sneak+$(rmb): Clear current measurements$(li)$(bold)$(lmb)$(bold)+Alt$(): Open Measure Menu$(li)$(bold)Shift+Scroll$(): Cycle through the modes"
+      "text": "$(li)$(bold)Hold $(rmb): Measure with current mode$(li)$(bold)Sneak+$(rmb): Clear current measurements$(li)$(bold)$(k:mod.chiselsandbits.other.mode)$(): Open Measure Menu$(li)$(bold)Shift+Scroll$(): Cycle through the modes"
     },
     {
       "type": "spotlight",
