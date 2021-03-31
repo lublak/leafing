@@ -7,7 +7,7 @@
             "type": "patchouli:entity_description_breedable",
             "title": "Panda",
             "breed1": "minecraft:bamboo",
-            "infos": "$(l:https://minecraft.fandom.com/wiki/Panda)Pandas are very unique.(/l)"
+            "infos": "$(l:https://minecraft.fandom.com/wiki/Panda)Pandas are very unique.$(/l)"
         },
         {
             "type": "entity",
