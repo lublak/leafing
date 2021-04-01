@@ -18,6 +18,7 @@ import crafttweaker.api.BracketHandlers;
 	<item:minecraft:netherite_helmet>,
 	<item:ceramics:clay_helmet>,
 	<item:byg:ametrine_helmet>,
+	<item:minecraft:turtle_helmet>,
 ]);
 
 for candle_item_definition in <tag:items:buzzier_bees:candles>.getElements() {
