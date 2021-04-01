@@ -32,7 +32,7 @@
 	Mobs = true
 	Client = true
 	Oddities = true
-	Experimental = true
+	Experimental = false
 
 [automation]
 	"Chain Linkage" = false
