@@ -32,16 +32,16 @@
 	Mobs = true
 	Client = true
 	Oddities = true
-	Experimental = false
+	Experimental = true
 
 [automation]
-	"Chain Linkage" = true
-	"Chains Connect Blocks" = true
+	"Chain Linkage" = false
+	"Chains Connect Blocks" = false
 	Chute = true
 	"Color Slime" = true
 	"Dispensers Place Blocks" = false
 	"Ender Watcher" = true
-	"Endermites Form Shulkers" = true
+	"Endermites Form Shulkers" = false
 	"Feeding Trough" = true
 	Gravisand = true
 	"Iron Rod" = false
@@ -109,14 +109,14 @@
 	"Nether Brick Fence Gate" = true
 	"Paper Decor" = true
 	"Quilted Wool" = true
-	Rope = true
+	Rope = false
 	"Shallow Dirt" = true
 	Shingles = true
 	"Soul Sandstone" = true
 	"Stained Planks" = true
 	Stools = true
 	"Sturdy Stone" = true
-	"Tallow And Candles" = true
+	"Tallow And Candles" = false
 	Thatch = true
 	"Tie Leads To Fences" = true
 	Turf = true
@@ -125,7 +125,13 @@
 	"Variant Ladders" = true
 	"Vertical Planks" = false
 	"Vertical Slabs" = false
-	"Wooden Posts" = false
+	"Wooden Posts" = true
+
+	[building.cobblestone_bricks]
+		"Enable Blackstone Bricks" = true
+		"Enable Dirt Bricks" = true
+		"Enable Netherrack Bricks" = true
+		"Enable Basalt Bricks" = true
 
 	[building.compressed_blocks]
 		"Charcoal Block and Blaze Lantern Stay On Fire Forever" = true
@@ -198,7 +204,7 @@
 		"Change Names" = true
 
 	[building.variant_chests]
-		"Replace Worldgen Chests" = false
+		"Replace Worldgen Chests" = true
 		#Chests to put in each structure. The format per entry is "structure=chest", where "structure" is a structure ID, and "chest" is a block ID, which must correspond to a standard chest block.
 		"Structure Chests" = ["minecraft:village_plains=quark:oak_chest", "minecraft:igloo=quark:spruce_chest", "minecraft:village_snowy=quark:spruce_chest", "minecraft:village_taiga=quark:spruce_chest", "minecraft:desert_pyramid=quark:birch_chest", "minecraft:jungle_pyramid=quark:jungle_chest", "minecraft:village_desert=quark:jungle_chest", "minecraft:village_savanna=quark:acacia_chest", "minecraft:mansion=quark:dark_oak_chest", "minecraft:pillager_outpost=quark:dark_oak_chest", "minecraft:ruined_portal=quark:crimson_chest", "minecraft:bastion_remnant=quark:crimson_chest", "minecraft:fortress=quark:nether_brick_chest", "minecraft:endcity=quark:purpur_chest", "bettermineshafts:mineshaft=quark:oak_chest", "cobbler:shulker_factory=quark:purpur_chest", "conjurer_illager:theatre=quark:dark_oak_chest", "dungeoncrawl:dungeon=quark:oak_chest", "dungeons_plus:bigger_dungeon=quark:oak_chest", "dungeons_plus:end_ruins=quark:purpur_chest", "dungeons_plus:leviathan=quark:jungle_chest", "dungeons_plus:snowy_temple=quark:spruce_chest", "dungeons_plus:soul_prison=quark:warped_chest", "dungeons_plus:tower=quark:oak_chest", "dungeons_plus:warped_garden=quark:warped__chest", "hunterillager:hunterhouse=quark:oak_chest", "iceandfire:gorgon_temple=quark:jungle_chest", "pandoras_creatures:end_prison=quark:purpur_chest", "repurposed_structures:city_nether=quark:nether_brick_chest", "repurposed_structures:fortress_jungle=quark:jungle_chest", "repurposed_structures:igloo_grassy=quark:oak_chest", "repurposed_structures:igloo_stone=quark:spruce_chest", "repurposed_structures:mansion_birch=quark:birch_chest", "repurposed_structures:mansion_desert=quark:jungle_chest", "repurposed_structures:mansion_jungle=quark:jungle_chest", "repurposed_structures:mansion_oak=quark:oak_chest", "repurposed_structures:mansion_savanna=quark:acacia_chest", "repurposed_structures:mansion_snowy=quark:spruce_chest", "repurposed_structures:mansion_taiga=quark:spruce_chest", "repurposed_structures:mineshaft_birch=quark:birch_chest", "repurposed_structures:mineshaft_crimson=quark:crimson_chest", "repurposed_structures:mineshaft_desert=quark:jungle_chest", "repurposed_structures:mineshaft_end=quark:purpur_chest", "repurposed_structures:mineshaft_icy=quark:spruce_chest", "repurposed_structures:mineshaft_jungle=quark:jungle_chest", "repurposed_structures:mineshaft_nether=quark:nether_brick_chest", "repurposed_structures:mineshaft_ocean=quark:prismarine_chest", "repurposed_structures:mineshaft_savanna=quark:acacia_chest", "repurposed_structures:mineshaft_stone=quark:spruce_chest", "repurposed_structures:mineshaft_swamp_or_dark_forest=quark:dark_oak_chest", "repurposed_structures:mineshaft_taiga=quark:spruce_chest", "repurposed_structures:mineshaft_warped=quark:warped_chest", "repurposed_structures:outpost_badlands=quark:dark_oak_chest", "repurposed_structures:outpost_birch=quark:birch_chest", "repurposed_structures:outpost_crimson=quark:crimson_chest", "repurposed_structures:outpost_desert=quark:jungle_chest", "repurposed_structures:outpost_giant_tree_taiga=quark:spruce_chest", "repurposed_structures:outpost_icy=quark:spruce_chest", "repurposed_structures:outpost_jungle=quark:jungle_chest", "repurposed_structures:outpost_nether_brick=quark:nether_brick_chest", "repurposed_structures:outpost_oak=quark:oak_chest", "repurposed_structures:outpost_snowy=quark:spruce_chest", "repurposed_structures:outpost_taiga=quark:spruce_chest", "repurposed_structures:outpost_warped=quark:warped_chest", "repurposed_structures:pyramid_badlands=quark:dark_oak_chest", "repurposed_structures:pyramid_nether=quark:nether_brick_chest", "repurposed_structures:pyramid_snowy=quark:spruce_chest", "repurposed_structures:ruined_portal_end=quark:purpur_chest", "repurposed_structures:ruins_nether=quark:nether_brick_chest", "repurposed_structures:shipwreck_crimson=quark:crimson_chest", "repurposed_structures:shipwreck_end=quark:purpur_chest", "repurposed_structures:shipwreck_nether_bricks=quark:nether_brick_chest", "repurposed_structures:shipwreck_warped=quark:warped_chest", "repurposed_structures:stronghold_nether=quark:nether_brick_chest", "repurposed_structures:stronghold_stonebrick=quark:oak_chest", "repurposed_structures:temple_nether_basalt=quark:nether_brick_chest", "repurposed_structures:temple_nether_crimson=quark:crimson_chest", "repurposed_structures:temple_nether_soul=quark:warped_chest", "repurposed_structures:temple_nether_warped=quark:warped_chest", "repurposed_structures:temple_nether_wasteland=quark:nether_brick_chest", "repurposed_structures:village_badlands=quark:dark_oak_chest", "repurposed_structures:village_birch=quark:birch_chest", "repurposed_structures:village_crimson=quark:crimson_chest", "repurposed_structures:village_dark_oak=quark:dark_oak_chest", "repurposed_structures:village_giant_taiga=quark:spruce_chest", "repurposed_structures:village_jungle=quark:jungle_chest", "repurposed_structures:village_mountains=quark:spruce_chest", "repurposed_structures:village_oak=quark:oak_chest", "repurposed_structures:village_swamp=quark:oak_chest", "repurposed_structures:village_warped=quark:warped_chest", "valhelsia_structures:castle=quark:spruce_chest", "valhelsia_structures:castle_ruin=quark:oak_chest", "valhelsia_structures:desert_house=quark:spruce_chest", "valhelsia_structures:forge=quark:spruce_chest", "valhelsia_structures:player_house=quark:oak_chest", "valhelsia_structures:small_castle=quark:oak_chest", "valhelsia_structures:small_dungeon=quark:oak_chest", "valhelsia_structures:tower_ruin=quark:spruce_chest"]
 
@@ -206,14 +212,8 @@
 		"Change Names" = true
 		"Enable Iron Ladder" = true
 
-	[building.cobblestone_bricks]
-		"Enable Blackstone Bricks" = true
-		"Enable Dirt Bricks" = true
-		"Enable Netherrack Bricks" = true
-		"Enable Basalt Bricks" = true
-
 [management]
-	"Chests In Boats" = true
+	"Chests In Boats" = false
 	"Easy Transfering" = true
 	"Hotbar Changer" = true
 	"Inventory Sorting" = true
@@ -300,7 +300,7 @@
 		#How long it takes before the pickarang starts returning to the player if it doesn't hit anything.
 		Timeout = 20
 		#2 is Iron, 3 is Diamond.
-		"Harvest Level" = 2
+		"Harvest Level" = 3
 		#2 is Iron, 3 is Diamond.
 		"Netherite Harvest Level" = 3
 		#Set to -1 to have the Pickarang be unbreakable.
@@ -326,9 +326,9 @@
 		"Trowel Max Durability" = 255
 
 [tweaks]
-	"Skull Pikes" = false
+	"Skull Pikes" = true
 	"Armed Armor Stands" = true
-	"Automatic Recipe Unlock" = false
+	"Automatic Recipe Unlock" = true
 	"Axe Leaf Harvesting" = false
 	"Campfires Boost Elytra" = true
 	"Compasses Work Everywhere" = false
@@ -338,22 +338,22 @@
 	Emotes = true
 	"Enhanced Ladders" = true
 	"Glass Shard" = true
-	"Hoe Harvesting" = false
+	"Hoe Harvesting" = true
 	"Improved Sleeping" = true
-	"Infinity Bucket" = false
+	"Infinity Bucket" = true
 	"Lava Bucket As Trash" = true
 	"Lock Rotation" = true
 	"Note Block Mob Sounds" = true
 	"Pat The Dogs" = true
 	"Poison Potato Usage" = true
-	"Reacharound Placing" = false
-	"Replace Scaffolding" = false
+	"Reacharound Placing" = true
+	"Replace Scaffolding" = true
 	"Sign Editing" = true
 	"Simple Harvest" = true
-	"Snow Golem Player Heads" = false
+	"Snow Golem Player Heads" = true
 	"Springy Slime" = true
 	"Utility Recipes" = true
-	"Villagers Follow Emeralds" = false
+	"Villagers Follow Emeralds" = true
 
 	[tweaks.skull_pikes]
 		"Pike Range" = 5.0
@@ -396,7 +396,7 @@
 		#Allowed values: (0,)
 		"Afk Time" = 2400
 		#Allowed values: (0,1]
-		"Percent Req" = 0.6
+		"Percent Req" = 1.0
 
 	[tweaks.infinity_bucket]
 		Cost = 10
@@ -463,8 +463,8 @@
 		"Bone Meal Utility" = true
 
 [world]
-	"Big Dungeon" = false
-	"Big Stone Clusters" = false
+	"Big Dungeon" = true
+	"Big Stone Clusters" = true
 	Biotite = true
 	"Blossom Trees" = true
 	"Cave Roots" = true
@@ -475,7 +475,7 @@
 	"Monster Box" = true
 	"Nether Obsidian Spikes" = true
 	"New Stone Types" = true
-	"Realistic World Gen" = false
+	"Realistic World Gen" = true
 	Speleothems = true
 	"Spiral Spires" = true
 	"Underground Clay" = true
@@ -1163,9 +1163,6 @@
 				"Is Blacklist" = false
 
 	[world.cave_crystal_underground_biome]
-		#The chance that a crystal can grow, this is on average 1 in X world ticks, set to a higher value to make them grow slower. Minimum is 1, for every tick. Set to 0 to disable growth.
-		"Cave Crystal Growth Chance" = 5
-		"Crystals Craft Runes" = true
 		#Allowed values: [0,1]
 		"Crystal Chance" = 0.16
 		#Allowed values: [0,1]
@@ -1174,6 +1171,9 @@
 		"Crystal Cluster On Sides Chance" = 0.6
 		#Allowed values: [0,1]
 		"Double Crystal Chance" = 0.2
+		#The chance that a crystal can grow, this is on average 1 in X world ticks, set to a higher value to make them grow slower. Minimum is 1, for every tick. Set to 0 to disable growth.
+		"Cave Crystal Growth Chance" = 5
+		"Crystals Craft Runes" = true
 
 		[world.cave_crystal_underground_biome.biome_settings]
 			#Allowed values: [0,)
@@ -1449,7 +1449,7 @@
 	Crabs = true
 	Forgotten = true
 	Foxhound = true
-	Frogs = false
+	Frogs = true
 	Stonelings = true
 	Toretoise = true
 	Wraith = true
@@ -1596,7 +1596,7 @@
 	"Auto Walk Keybind" = true
 	"Back Button Keybind" = true
 	"Chest Searching" = true
-	"Greener Grass" = false
+	"Greener Grass" = true
 	"Improved Mount Hud" = true
 	"Improved Tooltips" = true
 	"Usage Ticker" = true
@@ -1736,7 +1736,7 @@
 		#Set this to true to make it so that if a totem is destroyed, the items it holds are destroyed alongside it rather than dropped
 		"Destroy Lost Items" = false
 		#Set this to false to only allow the owner of a totem to collect its items rather than any player
-		"Allow Anyone To Collect" = false
+		"Allow Anyone To Collect" = true
 		"Enable Soul Compass" = true
 
 [experimental]
