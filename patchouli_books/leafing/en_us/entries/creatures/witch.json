@@ -7,7 +7,7 @@
    "type": "patchouli:entity_description",
    "showSeparator": true,
    "title": "Witch",
-   "infos": "$(l:https://www.youtube.com/watch?v=39OpiNB6TCg)A witch.$(/l)"
+   "infos": "$(l:https://www.youtube.com/watch?v=39OpiNB6TCg)$(link)A witch.$(0)$(/l)"
   },
   {
    "type": "entity",

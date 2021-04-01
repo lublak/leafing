@@ -12,7 +12,7 @@
   {
    "type": "entity",
    "entity": "minecraft:vindicator",
-   "text": "$(l:https://www.youtube.com/watch?v=WDpipB4yehk)Here's Johnny!$(/l)",
+   "text": "$(l:https://www.youtube.com/watch?v=WDpipB4yehk)$(link)Here's Johnny!$(0)$(/l)",
    "scale": 1,
    "offset": 0
   }

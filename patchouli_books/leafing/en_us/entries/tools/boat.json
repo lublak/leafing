@@ -9,7 +9,7 @@
       "entity": "byg:boat{BYGType:\"blue_enchanted\"}",
       "scale": 0.6,
       "offset": 0,
-      "text": "$(l:https://youtu.be/7otAJa3jui8?t=18)Row Row Row Your Boat$(/l)"
+      "text": "$(l:https://youtu.be/7otAJa3jui8?t=18)$(link)Row Row Row Your Boat$(0)$(/l)"
     },
     {
       "type": "entity",

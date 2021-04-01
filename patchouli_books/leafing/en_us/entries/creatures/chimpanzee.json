@@ -8,7 +8,7 @@
    "showSeparator": true,
    "title": "Chimpanzee",
    "breed1": "neapolitan:banana_bunch",
-   "infos": "$(l:https://youtu.be/44LdLqgOpjo?t=38)Is That A Monkey?$(/l)"
+   "infos": "$(l:https://youtu.be/44LdLqgOpjo?t=38)$(link)Is That A Monkey?$(0)$(/l)"
   },
   {
    "type": "entity",

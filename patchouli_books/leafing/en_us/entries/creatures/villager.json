@@ -12,7 +12,7 @@
   {
    "type": "entity",
    "entity": "minecraft:villager",
-   "text": "$(l:https://www.youtube.com/watch?v=pz6mQHleihw)OMG there is my wood!$(/l)",
+   "text": "$(l:https://www.youtube.com/watch?v=pz6mQHleihw)$(link)OMG there is my wood!$(0)$(/l)",
    "scale": 1,
    "offset": 0
   }

@@ -7,7 +7,7 @@
    "type": "patchouli:entity_description",
    "showSeparator": true,
    "title": "Piglin",
-   "infos": "Are the $(l:creatures/villager)villagers$(/l) from the $(thing)nether$(0).$(br)You can trade with them by dropping $(item)gold$(0) infront of them.$(br)$(l:https://www.youtube.com/watch?v=cad2Kl_dGDA)Now take the step!$(/l)"
+   "infos": "Are the $(l:creatures/villager)villagers$(/l) from the $(thing)nether$(0).$(br)You can trade with them by dropping $(item)gold$(0) infront of them.$(br)$(l:https://www.youtube.com/watch?v=cad2Kl_dGDA)$(link)Now take the step!$(0)$(/l)"
   },
   {
    "type": "entity",

@@ -7,7 +7,7 @@
    "type": "patchouli:entity_description",
    "showSeparator": true,
    "title": "Skeleton",
-   "infos": "$(l:https://www.youtube.com/watch?v=n_qbGJuxCYY)Spooky, Scary, Skeleton!$(/l)"
+   "infos": "$(l:https://www.youtube.com/watch?v=n_qbGJuxCYY)$(link)Spooky, Scary, Skeleton!$(0)$(/l)"
   },
   {
    "type": "entity",

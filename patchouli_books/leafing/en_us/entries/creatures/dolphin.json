@@ -7,7 +7,7 @@
    "type": "patchouli:entity_description",
    "showSeparator": true,
    "title": "Dolphin",
-   "infos": "It's $(l:https://www.youtube.com/watch?v=EifnM3pRLdQ)Flipper!$(/l)"
+   "infos": "It's $(l:https://www.youtube.com/watch?v=EifnM3pRLdQ)$(link)Flipper!$(0)$(/l)"
   },
   {
    "type": "entity",

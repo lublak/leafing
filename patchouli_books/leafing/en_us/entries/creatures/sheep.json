@@ -8,7 +8,7 @@
       "showSeparator": true,
       "title": "Sheep",
       "breed1": "minecraft:wheat",
-      "infos": "$(l:https://youtu.be/foFKXS6Nyho?t=91)Beep beep. I'm a sheep.$(/l)$(br)Can be dyed and sheared with $(item)shears$(0)."
+      "infos": "$(l:https://youtu.be/foFKXS6Nyho?t=91)$(link)Beep beep. I'm a sheep.$(0)$(/l)$(br)Can be dyed and sheared with $(item)shears$(0)."
     },
     {
       "type": "entity",

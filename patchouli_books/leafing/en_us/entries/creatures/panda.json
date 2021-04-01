@@ -8,12 +8,12 @@
             "showSeparator": true,
             "title": "Panda",
             "breed1": "minecraft:bamboo",
-            "infos": "$(l:https://minecraft.fandom.com/wiki/Panda)Pandas are very unique.$(/l)"
+            "infos": "$(l:https://minecraft.fandom.com/wiki/Panda)$(link)Pandas are very unique.$(0)$(/l)"
         },
         {
             "type": "entity",
             "entity": "minecraft:panda",
-            "text": "$(l:https://www.youtube.com/watch?v=93hq0YU3Gqk)Bless you!$(/l)",
+            "text": "$(l:https://www.youtube.com/watch?v=93hq0YU3Gqk)$(link)Bless you!$(0)$(/l)",
             "scale": 0.5,
             "offset": 0
         }

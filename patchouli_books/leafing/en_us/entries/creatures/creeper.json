@@ -7,12 +7,12 @@
    "type": "patchouli:entity_description",
    "showSeparator": true,
    "title": "Creeper",
-   "infos": "Be careful...$(br)$(l:https://www.youtube.com/watch?v=cPJUBQd-PNM)Creeper! Oh man...$(/l)$(br)They are afraid of $(l:creatures/ocelot)ocelots$(/l)."
+   "infos": "Be careful...$(br)$(l:https://www.youtube.com/watch?v=cPJUBQd-PNM)$(link)Creeper! Oh man...$(0)$(/l)$(br)They are afraid of $(l:creatures/ocelot)ocelots$(/l)."
   },
   {
    "type": "entity",
    "entity": "minecraft:creeper",
-   "text": "$(l:https://www.youtube.com/watch?v=ZZujisNZuw0)OH HAI I'M A CREEPER!$(/l)",
+   "text": "$(l:https://www.youtube.com/watch?v=ZZujisNZuw0)$(link)OH HAI I'M A CREEPER!$(0)$(/l)",
    "scale": 1,
    "offset": 0
   }
