@@ -1,0 +1,65 @@
+{
+  "components": [
+    {
+      "type": "header",
+      "text": "#title",
+      "guard": "#title->exists",
+      "x": -1,
+      "y": -1
+    },
+    {
+      "type": "separator",
+      "guard": "#showSeparator",
+      "x": -1,
+      "y": -1
+    },
+    {
+      "type": "item",
+      "item": "#item1",
+      "framed": true,
+      "x": 10,
+      "y": 25
+    },
+    {
+      "type": "item",
+      "item": "#item2",
+      "framed": true,
+      "x": 50,
+      "y": 25
+    },
+    {
+      "type": "text",
+      "text": "+",
+      "x": 36,
+      "y": 29
+    },
+    {
+      "type": "item",
+      "item": "#in",
+      "framed": true,
+      "x": 90,
+      "y": 25
+    },
+    {
+      "type": "text",
+      "text": "in",
+      "scale": 2,
+      "x": 74,
+      "y": 29
+    },
+    {
+      "type": "text",
+      "text": "Insert $(item)#item1->iname#$(0) and $(item)#item2->iname#$(0) in $(thing)#in->iname#$(0).$(br2)#text#",
+      "guard": "#text_before->exists->inv",
+      "x": 0,
+      "y": 50
+    },
+    {
+      "type": "text",
+      "text": "#text_before#$(br2)Insert $(item)#item1->iname#$(0) and $(item)#item2->iname#$(0) in $(thing)#in->iname#$(0).$(br2)#text#",
+      "guard": "#text_before->exists",
+      "x": 0,
+      "y": 50
+    }
+  ]
+}
