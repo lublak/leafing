@@ -1,0 +1,42 @@
+{
+  "name": "Tinyredstone",
+  "icon": "tinyredstone:redstone_panel{BlockEntityTag: {color: 4673362, cells: {\"44\": {data: {strong: 0, color: 16383998, lit: 1, weak: 12}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.RedstoneLamp\", direction: 3}, \"22\": {data: {changePending: -1, extended: 0}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.StickyPiston\", direction: 5}, \"34\": {data: {strong: 0, color: 16383998, lit: 1, weak: 13}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.RedstoneLamp\", direction: 4}, \"35\": {data: {output: 1, input: 1, locked: 0, ticks: 2, queue: \"11\"}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.Repeater\", direction: 4}, \"46\": {data: {output: 1}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.Torch\", direction: 5}, \"14\": {data: {strong: 0, color: 16383998, weak: 0}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.TinyBlock\", direction: 3}, \"58\": {data: {back: 1, front: 1, right: 0, strength: 11, left: 0}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.RedstoneDust\", direction: 5}, \"38\": {data: {active: 0}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.Lever\", direction: 5}, \"49\": {data: {strong: 0, color: 16383998, lit: 1, weak: 14}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.RedstoneLamp\", direction: 3}, \"27\": {data: {back: 1, front: 1, right: 0, strength: 15, left: 0}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.RedstoneDust\", direction: 4}, \"17\": {data: {color: 16777215}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.TransparentBlock\", direction: 3}, \"19\": {data: {changePending: -1, extended: 1}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.StickyPiston\", direction: 3}, \"50\": {data: {back: 1, front: 1, right: 0, strength: 12, left: 0}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.RedstoneDust\", direction: 4}, \"40\": {data: {back: 1, front: 1, right: 0, strength: 15, left: 0}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.RedstoneDust\", direction: 3}, \"62\": {data: {back: 1, front: 1, right: 0, strength: 14, left: 0}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.RedstoneDust\", direction: 4}, \"41\": {data: {back: 1, front: 1, right: 0, strength: 14, left: 1}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.RedstoneDust\", direction: 3}, \"30\": {data: {back: 1, front: 0, right: 0, strength: 0, left: 1}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.RedstoneDust\", direction: 2}, \"42\": {data: {back: 1, front: 1, right: 1, strength: 13, left: 1}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.RedstoneDust\", direction: 4}, \"31\": {data: {output: 0, input1: 0, changePending: -1, input2: 0, subtract: 0}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.Comparator\", direction: 2}, \"43\": {data: {back: 1, front: 1, right: 1, strength: 12, left: 0}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.RedstoneDust\", direction: 3}, \"54\": {data: {back: 1, front: 1, right: 0, strength: 15, left: 0}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.RedstoneDust\", direction: 4}}}}",
+  "category": "patchouli:automation",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "tinyredstone:redstone_panel",
+      "text": "$(l:automation/redstone)Redstone$(/l)! But tiny! Each panel can hold up to 64 components in an 8x8 grid."
+    },
+    {
+      "type": "entity",
+      "name": "Redstone Panel",
+      "entity": "minecraft:armor_stand{Invisible:1b,ShowArms:1b,ArmorItems:[{},{},{},{}],HandItems:[{},{id:\"tinyredstone:redstone_panel\",Count:1,tag:{BlockEntityTag: {color: 4673362, cells: {\"44\": {data: {strong: 0, color: 16383998, lit: 1, weak: 12}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.RedstoneLamp\", direction: 3}, \"22\": {data: {changePending: -1, extended: 0}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.StickyPiston\", direction: 5}, \"34\": {data: {strong: 0, color: 16383998, lit: 1, weak: 13}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.RedstoneLamp\", direction: 4}, \"35\": {data: {output: 1, input: 1, locked: 0, ticks: 2, queue: \"11\"}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.Repeater\", direction: 4}, \"46\": {data: {output: 1}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.Torch\", direction: 5}, \"14\": {data: {strong: 0, color: 16383998, weak: 0}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.TinyBlock\", direction: 3}, \"58\": {data: {back: 1, front: 1, right: 0, strength: 11, left: 0}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.RedstoneDust\", direction: 5}, \"38\": {data: {active: 0}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.Lever\", direction: 5}, \"49\": {data: {strong: 0, color: 16383998, lit: 1, weak: 14}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.RedstoneLamp\", direction: 3}, \"27\": {data: {back: 1, front: 1, right: 0, strength: 15, left: 0}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.RedstoneDust\", direction: 4}, \"17\": {data: {color: 16777215}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.TransparentBlock\", direction: 3}, \"19\": {data: {changePending: -1, extended: 1}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.StickyPiston\", direction: 3}, \"50\": {data: {back: 1, front: 1, right: 0, strength: 12, left: 0}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.RedstoneDust\", direction: 4}, \"40\": {data: {back: 1, front: 1, right: 0, strength: 15, left: 0}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.RedstoneDust\", direction: 3}, \"62\": {data: {back: 1, front: 1, right: 0, strength: 14, left: 0}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.RedstoneDust\", direction: 4}, \"41\": {data: {back: 1, front: 1, right: 0, strength: 14, left: 1}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.RedstoneDust\", direction: 3}, \"30\": {data: {back: 1, front: 0, right: 0, strength: 0, left: 1}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.RedstoneDust\", direction: 2}, \"42\": {data: {back: 1, front: 1, right: 1, strength: 13, left: 1}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.RedstoneDust\", direction: 4}, \"31\": {data: {output: 0, input1: 0, changePending: -1, input2: 0, subtract: 0}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.Comparator\", direction: 2}, \"43\": {data: {back: 1, front: 1, right: 1, strength: 12, left: 0}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.RedstoneDust\", direction: 3}, \"54\": {data: {back: 1, front: 1, right: 0, strength: 15, left: 0}, class: \"com.dannyandson.tinyredstone.blocks.panelcells.RedstoneDust\", direction: 4}}}}}],Pose:{LeftArm:[19f,17f,26f]}}",
+      "scale": 3,
+      "offset": -0.41
+    },
+    {
+      "type": "patchouli:item_page",
+      "title": "Tiny Stuff",
+      "item1": "tinyredstone:tiny_redstone",
+      "item2": "tinyredstone:tiny_redstone_torch",
+      "item3": "tinyredstone:tiny_repeater",
+      "item4": "tinyredstone:tiny_redstone_block",
+      "item5": "tinyredstone:tiny_comparator",
+      "item6": "tinyredstone:tiny_solid_block",
+      "item7": "tinyredstone:tiny_piston",
+      "item8": "tinyredstone:tiny_sticky_piston",
+      "item9": "tinyredstone:tiny_redstone_lamp",
+      "item10": "tinyredstone:tiny_transparent_block",
+      "item11": "tinyredstone:tiny_button",
+      "item12": "tinyredstone:tiny_stone_button",
+      "item13": "tinyredstone:tiny_observer",
+      "item14": "tinyredstone:tiny_super_repeater",
+      "item15": "tinyredstone:tiny_lever",
+      "item16": "tinyredstone:blueprint",
+      "item17": "tinyredstone:redstone_wrench",
+      "item18": "tinyredstone:dark_panel_cover",
+      "item19": "tinyredstone:light_panel_cover"
+    }
+  ]
+}
