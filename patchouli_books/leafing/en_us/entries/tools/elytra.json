@@ -1,0 +1,24 @@
+{
+  "name": "Elytra",
+  "icon": "minecraft:elytra",
+  "category": "patchouli:tools",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "minecraft:elytra",
+      "text": "You can fly with it!"
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:firework_rocket",
+			"title": "Firework Rocket",
+      "text": "You need it to pick up speed."
+    },
+    {
+      "type": "spotlight",
+      "item": "customizableelytra:customizable_elytra{RepairCost: 0, BlockEntityTag: {ForgeData: {multibeds: {}}, Patterns: [{Pattern: \"cre\", Color: 13}], Base: 14}}",
+			"title": "Colorful Elytra",
+      "text": "You can combine your elytra with almost any banner and color."
+    }
+  ]
+}
