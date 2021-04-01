@@ -1,0 +1,12 @@
+{
+  "name": "Backpack",
+  "icon": "quark:backpack",
+  "category": "patchouli:tools",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "quark:backpack",
+      "text": "Allows you to carry more stuff around. Spends more on your chestplate slot."
+    }
+  ]
+}
