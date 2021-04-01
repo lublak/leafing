@@ -1,0 +1,29 @@
+{
+  "name": "Navigation",
+  "icon": "minecraft:filled_map",
+  "category": "patchouli:tools",
+  "pages": [
+    {
+      "type": "text",
+      "text": "A big map with minimap."
+    },
+    {
+      "type": "spotlight",
+      "item": "antiqueatlas:empty_antique_atlas",
+      "title": "Antique Atlas",
+      "text": "A big map with minimap."
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:compass",
+      "title": "Compass",
+      "text": "Point to the world spawn or to a $(block)lodestone$(0)."
+    },
+    {
+      "type": "spotlight",
+      "item": "inspirations:north_compass",
+			"title": "North Compass",
+      "text": "Points towards to north."
+    }
+  ]
+}
