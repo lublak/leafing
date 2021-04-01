@@ -3,5 +3,75 @@
   "icon": "quark:redstone_randomizer",
   "category": "patchouli:automation",
   "pages": [
+    {
+      "type": "text",
+      "text": "Redstone activates or controls mechanisms. If you need more information there is the internet."
+    },
+    {
+      "type": "patchouli:item_info_page",
+      "title": "Some stuff",
+      "item1": "minecraft:redstone",
+      "item1_text": "transmit redstone power",
+      "item2": "minecraft:redstone_torch",
+      "item2_text": "powers circuits",
+      "item3": "minecraft:observer",
+      "item3_text": "detect block changes",
+      "item4": "minecraft:repeater",
+      "item4_text": "repeat and delays the$(br)signal, can be locked",
+      "item5": "minecraft:comparator",
+      "item5_text": "compare/subtract 2 signals$(br)or measure a container",
+      "item6": "supplementaries:crank",
+      "item6_text": "choose between 16 different power states"
+    },
+    {
+      "type": "patchouli:item_info_page",
+      "title": "Some stuff",
+      "item1": "minecraft:stone_pressure_plate",
+      "item1_text": "detect only entities",
+      "item2": "supplementaries:cog_block",
+      "item2_text": "transmit redstone power",
+      "item3": "online_detector:online_detector",
+      "item3_text": "detect if a player is$(br)online",
+      "item4": "quark:redstone_randomizer",
+      "item4_text": "random left or right",
+      "item5": "quark:redstone_inductor",
+      "item5_text": "sum of 3 inputs,$(br)can be locked",
+      "item6": "quark:weather_sensor",
+      "item6_text": "detects weather"
+    },
+    {
+      "type": "patchouli:item_info_page",
+      "title": "Some stuff",
+      "item1": "minecraft:stone_button",
+      "item1_text": "10 tick signal",
+      "item2": "minecraft:oak_button",
+      "item2_text": "15 tick signal",
+      "item3": "minecraft:tripwire_hook",
+      "item3_text": "detect entities when$(br)passing through",
+      "item4": "minecraft:redstone_block",
+      "item4_text": "powers circuits",
+      "item5": "minecraft:daylight_detector",
+      "item5_text": "detects daylight",
+      "item6": "minecraft:lever",
+      "item6_text": "on and off"
+    },
+    {
+      "type": "patchouli:item_info_page",
+      "title": "Some stuff",
+      "item1": "charm:redstone_sand",
+      "item1_text": "like the $(block)redstone block$(0),$(br)but falls like sand",
+      "item2": "quark:obsidian_pressure_plate",
+      "item2_text": "detect only players",
+      "item3": "quark:ender_watcher",
+      "item3_text": "emits a signal when a$(br)player is looking at it",
+      "item4": "inspirations:redstone_charger",
+      "item4_text": "emits a pulse for one$(br)second, shift for on tick",
+      "item5": "create:redstone_link",
+      "item5_text": "wireless redstone",
+      "item5": "create:redstone_contact",
+      "item5_text": "sends when two of the same type are connected",
+      "item6": "minecraft:trapped_chest",
+      "item6_text": "produces redstone power$(br)when opened"
+    }
   ]
 }
