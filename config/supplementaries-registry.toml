@@ -12,60 +12,60 @@
 #Enable and disable blocks / entities
 [registration]
 
-	[registration.blocks]
-		planter = true
-		clock_block = true
-		pedestal = true
-		wind_vane = true
-		redstone_illuminator = true
-		notice_board = true
-		crank = true
-		jar = true
-		faucet = true
-		turn_table = true
-		piston_launcher = true
-		speaker_block = true
-		sign_post = true
-		hanging_sign = true
-		bellows = true
-		sconce = true
-		sconce_green = false
-		sconce_ender = true
-		sconce_soul = true
-		candelabra = true
-		cage = true
-		item_shelf = true
-		sconce_lever = true
-		cog_block = true
-		candle_holder = true
-		globe = true
-		hourglass = true
-		sack = true
-		blackboard = true
-		safe = true
-		copper_lantern = true
-		flute = true
-		gold_trapdoor = true
-		gold_door = true
-		bamboo_spikes = true
-		stone_lamp = true
-		checker_block = true
-		netherite_door = true
-		netherite_trapdoor = true
-		pancake = true
-		lock_block = true
-		#WIP
-		laser_block = false
-		#WIP
-		flag = false
-		flax = true
-		rope = true
-		rope_arrow = true
-		pulley_block = true
-		fodder = true
-		bomb = true
-		magma_cream_block = true
-
 	[registration.entities]
 		firefly = true
+
+	[registration.blocks]
+		clock_block = true
+		speaker_block = true
+		sack = true
+		#WIP
+		laser_block = false
+		bellows = true
+		hanging_sign = true
+		bomb = true
+		cage = true
+		bamboo_spikes = true
+		hourglass = true
+		jar = true
+		sconce_ender = true
+		rope_arrow = true
+		checker_block = true
+		stone_lamp = true
+		cog_block = true
+		crank = true
+		copper_lantern = true
+		pancake = true
+		piston_launcher = true
+		netherite_trapdoor = true
+		fodder = true
+		globe = true
+		sconce = true
+		candelabra = true
+		safe = true
+		sconce_lever = true
+		sign_post = true
+		pedestal = true
+		blackboard = true
+		netherite_door = true
+		sconce_soul = true
+		candle_holder = true
+		#WIP
+		flag = false
+		rope = true
+		notice_board = true
+		redstone_illuminator = true
+		lock_block = true
+		flax = true
+		planter = true
+		wind_vane = true
+		item_shelf = true
+		turn_table = true
+		faucet = true
+		gold_trapdoor = true
+		magma_cream_block = true
+		sconce_green = false
+		flute = true
+		pulley_block = true
+		gold_door = true
 

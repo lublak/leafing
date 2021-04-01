@@ -4,9 +4,6 @@
 
 	#Stats for floral
 	[drinks.floral]
-		#Hunger restored when drinking this drink.
-		#Range: 0 ~ 20
-		hunger = 2
 		#Saturation restored when drinking this drink.
 		#Range: 0.0 ~ 10.0
 		saturation = 0.5
@@ -14,12 +11,12 @@
 		#Set to 0 to disable the effect.
 		#Range: 0 ~ 10
 		level = 2
+		#Hunger restored when drinking this drink.
+		#Range: 0 ~ 20
+		hunger = 2
 
 	#Stats for green
 	[drinks.green]
-		#Hunger restored when drinking this drink.
-		#Range: 0 ~ 20
-		hunger = 3
 		#Saturation restored when drinking this drink.
 		#Range: 0.0 ~ 10.0
 		saturation = 0.5
@@ -27,12 +24,25 @@
 		#Set to 0 to disable the effect.
 		#Range: 0 ~ 600
 		time = 150
+		#Hunger restored when drinking this drink.
+		#Range: 0 ~ 20
+		hunger = 3
+
+	#Stats for chai
+	[drinks.chai]
+		#Saturation restored when drinking this drink.
+		#Range: 0.0 ~ 10.0
+		saturation = 0.6
+		#Time in seconds for the caffeine effect from drinking this tea.
+		#Set to 0 to disable the effect.
+		#Range: 0 ~ 600
+		time = 150
+		#Hunger restored when drinking this drink.
+		#Range: 0 ~ 20
+		hunger = 5
 
 	#Stats for black
 	[drinks.black]
-		#Hunger restored when drinking this drink.
-		#Range: 0 ~ 20
-		hunger = 4
 		#Saturation restored when drinking this drink.
 		#Range: 0.0 ~ 10.0
 		saturation = 0.8
@@ -40,25 +50,12 @@
 		#Set to 0 to disable the effect.
 		#Range: 0 ~ 600
 		time = 210
-
-	#Stats for chai
-	[drinks.chai]
 		#Hunger restored when drinking this drink.
 		#Range: 0 ~ 20
-		hunger = 5
-		#Saturation restored when drinking this drink.
-		#Range: 0.0 ~ 10.0
-		saturation = 0.6
-		#Time in seconds for the caffeine effect from drinking this tea.
-		#Set to 0 to disable the effect.
-		#Range: 0 ~ 600
-		time = 150
+		hunger = 4
 
 	#Stats for chorus
 	[drinks.chorus]
-		#Hunger restored when drinking this drink.
-		#Range: 0 ~ 20
-		hunger = 3
 		#Saturation restored when drinking this drink.
 		#Range: 0.0 ~ 10.0
 		saturation = 0.9
@@ -66,17 +63,20 @@
 		#Set to 0 to disable the effect.
 		#Range: 0 ~ 600
 		time = 150
+		#Hunger restored when drinking this drink.
+		#Range: 0 ~ 20
+		hunger = 3
 
 	#Stats for cocoa
 	[drinks.cocoa]
-		#Hunger restored when drinking this drink.
-		#Range: 0 ~ 20
-		hunger = 4
 		#Saturation restored when drinking this drink.
 		#Range: 0.0 ~ 10.0
 		saturation = 0.6
 		#If true, drinking cocoa clears status effects like milk
 		clear_effects = true
+		#Hunger restored when drinking this drink.
+		#Range: 0 ~ 20
+		hunger = 4
 
 #Options related to filling the teapot
 [teapot]

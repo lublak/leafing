@@ -13,16 +13,16 @@
 		amount = 1
 
 [image]
-	#The maximum size of an image in bytes when transferred to the server
-	#Higher values mean more delay/lag between taking an image and getting it into your inventory
-	#Range: 50000 ~ 1000000
-	max_size = 200000
+	#If it is allowed to upload custom images
+	allow_upload = true
 	#The amount of jpeg compression applied to the image
 	#If the image exceeds the 'max_image_size', it will get compressed anyways
 	#Range: 0.1 ~ 1.0
 	compression = 0.5
-	#If it is allowed to upload custom images
-	allow_upload = true
+	#The maximum size of an image in bytes when transferred to the server
+	#Higher values mean more delay/lag between taking an image and getting it into your inventory
+	#Range: 50000 ~ 1000000
+	max_size = 200000
 
 [image_frame]
 	#If only the owner can modify or break the image frame

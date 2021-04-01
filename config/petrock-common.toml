@@ -1,0 +1,15 @@
+
+#WorldGen Settings
+[worldgen]
+	#World Gen? [DEFAULT: true]
+	worldgen_enabled = true
+	#The chance for Stoneium Ore to generate underground, 1 in X chunks. Bigger number means more rare [DEFAULT: 5]
+	#Range: 1 ~ 1000
+	stoneium_ore_chance = 5
+	#Size of a Vain [DEFAULT: 10]
+	#Range: 1 ~ 50
+	stoneium_ore_vain_size = 10
+	#The maximum Y level that Stoneium can spawn underground [DEFAULT: 80]
+	#Range: 0 ~ 255
+	stoneium_ore_ymax = 80
+
