@@ -1,0 +1,25 @@
+{
+    "name": "PetRock",
+    "icon": "petrock:stoneiumore",
+    "category": "patchouli:creatures",
+    "pages": [
+        {
+            "type": "patchouli:entity_description_tamable",
+            "showSeparator": true,
+            "title": "PetRock",
+            "taming1": "petrock:stoneium",
+            "infos": "Everyone wants a good friend. "
+        },
+        {
+            "type": "entity",
+            "entity": "petrock:petrock",
+            "scale": 1.2,
+            "offset": -0.2
+        },
+        {
+            "type": "spotlight",
+            "item": "patchouli:guide_book{\"patchouli:book\": \"petrock:petrock_care_guide\"}",
+            "text": "One petrock please!"
+        }
+    ]
+}
