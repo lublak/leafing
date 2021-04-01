@@ -3,5 +3,9 @@
   "icon": "create:wrench",
   "category": "patchouli:automation",
   "pages": [
+    {
+      "type": "text",
+      "text": "You want to make something automatically? You want to build a cool lift? With create, almost anything is possible. Check out the $(thing)advancements$(0)."
+    }
   ]
 }
