@@ -1,0 +1,49 @@
+{
+  "name": "Music",
+  "icon": "xercamusic:music_sheet",
+  "category": "patchouli:tools",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Yes, you can make music in Minecraft. There are even real instruments."
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:note_block",
+			"title": "Note Block",
+      "text": "Plays a single note. You can adjust it with $(rmb)."
+    },
+    {
+      "type": "patchouli:insert_2",
+      "item1": "xercamusic:music_sheet",
+      "item2": "xercamusic:piano",
+      "in": "xercamusic:music_box",
+			"title": "Music Box",
+      "text": "Compose your own music. The music box adapts to the $(item)instrument$(0)."
+    },
+    {
+      "type": "patchouli:item_page",
+      "item1": "xercamusic:guitar",
+      "item2": "xercamusic:lyre",
+      "item3": "xercamusic:banjo",
+      "item4": "xercamusic:drum",
+      "item5": "xercamusic:cymbal",
+      "item6": "xercamusic:drum_kit",
+      "item7": "xercamusic:xylophone",
+      "item8": "xercamusic:tubular_bell",
+      "item9": "xercamusic:sansula",
+      "item10": "xercamusic:violin",
+      "item11": "xercamusic:cello",
+      "item12": "xercamusic:flute",
+      "item13": "xercamusic:saxophone",
+      "item14": "xercamusic:god",
+			"title": "Instruments"
+    },
+    {
+      "type": "spotlight",
+      "item": "xercamusic:metronome",
+			"title": "Note Block",
+      "text": "Tick tick tick. You can adjust it with $(rmb)."
+    }
+  ]
+}
