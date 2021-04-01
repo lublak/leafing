@@ -1,7 +1,31 @@
 {
-  "name": "Create",
+  "name": "Framed Blocks",
   "icon": "blockcarpentry:frame_stairs",
   "category": "patchouli:deco",
   "pages": [
+    {
+      "type": "text",
+      "text": "Framed blocks can take on the appearance of any $(thing)Block$(0). With $(item)Glowstone Dust$(0) the light level can be increased. In addition, the following items can be attached to a block:$(li)$(item)Grass$(0)$(li)$(item)Snowball$(0)$(li)$(item)Vines$(0)$(li)$(item)Gundpowder$(0)$(br)There are also the illusion types."
+    },
+    {
+      "type": "spotlight",
+      "item": "blockcarpentry:hammer",
+      "text": "Removes the assigned block"
+    },
+    {
+      "type": "spotlight",
+      "item": "blockcarpentry:texture_wrench",
+      "text": "switch between the textures of the block"
+    },
+    {
+      "type": "spotlight",
+      "item": "blockcarpentry:chisel",
+      "text": "choose between different designs"
+    },
+    {
+      "type": "spotlight",
+      "item": "blockcarpentry:paintbrush",
+      "text": "choose between different texture designs"
+    }
   ]
 }
