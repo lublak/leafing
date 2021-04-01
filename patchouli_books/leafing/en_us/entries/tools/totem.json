@@ -1,0 +1,25 @@
+{
+  "name": "Totem",
+  "icon": "minecraft:totem_of_undying",
+  "category": "patchouli:tools",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "minecraft:totem_of_undying",
+			"title": "Totem of Undying",
+      "text": "Can save holders from death. It just has to be in your inventory. It is consumed in the process."
+    },
+    {
+      "type": "entity",
+      "entity": "quark:totem",
+			"title": "Totem of Holding",
+      "text": "When you die, your items are automatically held in it. If you die again, all items will drop to the floor."
+    },
+    {
+      "type": "spotlight",
+      "item": "quark:soul_compass",
+			"title": "Soul Compass",
+      "text": "You can find your death spot with a $(item)Soul Compass$(0)."
+    }
+  ]
+}
