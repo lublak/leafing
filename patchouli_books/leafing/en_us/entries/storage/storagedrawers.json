@@ -3,5 +3,9 @@
   "icon": "storagedrawers:compacting_drawers_3",
   "category": "patchouli:storage",
   "pages": [
+    {
+      "type": "text",
+      "text": "Is an alternative to the standard $(item)chests$(0).$(li)$(bold)$(rmb): Insert full stack$(li)$(bold)2x$(rmb): Insert all compatible stacks$(li)$(bold)$(lmb): Remove a single item$(li)$(bold)Shift+$(lmb): Remove a full stack$(li)$(bold)Shift+$(rmb)$(bold) (empty hand)$(): Open the ui"
+    }
   ]
 }
