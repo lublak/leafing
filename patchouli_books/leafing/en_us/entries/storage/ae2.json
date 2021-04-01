@@ -3,5 +3,9 @@
   "icon": "appliedenergistics2:64k_storage_cell",
   "category": "patchouli:storage",
   "pages": [
+    {
+      "type": "text",
+      "text": "The ME system is a very large memory. It can also automatically forward items to other systems. However, the automatic creation of items must be left to $(l:automation/create)create$(/l). For more details look at: $(l:https://ae-mod.info/Getting-Started/)Official Homepage$(/l)."
+    }
   ]
 }
