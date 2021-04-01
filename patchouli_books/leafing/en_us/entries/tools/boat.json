@@ -1,0 +1,23 @@
+{
+  "name": "Boat",
+  "icon": "byg:blue_enchanted_boat",
+  "category": "patchouli:tools",
+  "pages": [
+    {
+      "type": "entity",
+      "name": "Boat",
+      "entity": "byg:boat{BYGType:\"blue_enchanted\"}",
+      "scale": 0.6,
+      "offset": 0,
+      "text": "$(l:https://youtu.be/7otAJa3jui8?t=18)Row Row Row Your Boat$(/l)"
+    },
+    {
+      "type": "entity",
+			"name": "Ship",
+      "entity": "smallships:galley",
+      "scale": 0.7,
+      "offset": 1.8,
+      "text": "Is a boat too small for you? With Shift+$(rmb) you can open its inventory."
+    }
+  ]
+}
