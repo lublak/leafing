@@ -1,0 +1,23 @@
+{
+  "name": "Cart",
+  "icon": "minecraft:chest_minecart",
+  "category": "patchouli:tools",
+  "pages": [
+    {
+      "type": "entity",
+      "entity": "minecraft:chest_minecart",
+      "name": "Minecarts",
+      "scale": 0.7,
+      "offset": 0,
+      "text": "Runs on $(item)rails$(0)"
+    },
+    {
+      "type": "entity",
+			"name": "Astikor Carts",
+      "entity": "astikorcarts:supply_cart",
+      "scale": 0.4,
+      "offset": 0,
+      "text": "Can be pulled by horses."
+    }
+  ]
+}
