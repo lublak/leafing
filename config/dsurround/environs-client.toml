@@ -31,9 +31,9 @@
 	#Range: 0 ~ 3
 	"Maximum Bands" = 3
 	#Enable/disable Aurora processing
-	Auroras = true
+	Auroras = false
 	#Enable/disable Firefly effect around plants
-	Fireflies = true
+	Fireflies = false
 	#Enable/disable Fountain Jets spraying
 	"Fountain Jets" = true
 	#Enable/disable Water Splash effects when water spills down

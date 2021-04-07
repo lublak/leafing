@@ -2,9 +2,9 @@
 #Select A GUI Style
 [gui_style]
 	#Allowed Values: DEFAULT, VANILLA
-	"Embroidery Thread" = "DEFAULT"
+	"Embroidery Thread" = "VANILLA"
 	#Allowed Values: DEFAULT, VANILLA
-	"Bed/Ladder Builder" = "DEFAULT"
+	"Bed/Ladder Builder" = "VANILLA"
 	#Allowed Values: DEFAULT, VANILLA
-	"Blanket Loom" = "DEFAULT"
+	"Blanket Loom" = "VANILLA"
 

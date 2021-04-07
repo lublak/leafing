@@ -6,11 +6,11 @@
 	#Integrate with Oh The Biomes You Go.
 	bygIntegration = true
 	#Integrate with Immersive Engineering.
-	ieIntegration = true
+	ieIntegration = false
 	#Generate classic chairs.
 	generateClassicChairs = true
 	#Integrate with Biomes O Plenty.
-	bopIntegration = true
+	bopIntegration = false
 	#Generate benches.
 	generateBenches = true
 	#Generate short stools.

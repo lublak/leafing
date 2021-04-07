@@ -18,7 +18,7 @@
 	#Enable conversion of stereo sounds to mono format for spacial play
 	"Enable Stereo to Mono Conversion" = true
 	#Possible sounds to play when client reaches main game menu
-	"Startup Sound List" = ["minecraft:entity.experience_orb.pickup", "minecraft:entity.chicken.egg", "minecraft:ambient.underwater.exit"]
+	"Startup Sound List" = ["minecraft:entity.experience_orb.pickup"]
 
 #Defines parameters for special effects
 ["Effect Options"]

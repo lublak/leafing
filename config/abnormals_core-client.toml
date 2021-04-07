@@ -5,11 +5,11 @@
 	#Slabfish patron hat settings.
 	[client.slabfishSettings]
 		#If the slabfish hat's custom type should be enabled. If false, the default swamp slabfish appears; Default: True
-		typeEnabled = true
+		typeEnabled = false
 		#If the slabfish hat's backpack should be enabled; Default: True
-		backpackEnabled = true
+		backpackEnabled = false
 		#If the slabfish hat's sweater should be enabled; Default: True
-		sweaterEnabled = true
+		sweaterEnabled = false
 		#If the slabfish hat should be enabled; Default: True
 		enabled = false
 

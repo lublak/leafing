@@ -6,7 +6,7 @@
 		#Allowed Values: DEFAULT, MOSSY, SANDY, BIOME
 		worldGenStyle = "BIOME"
 		#NOT YET IMPLEMENTED: Set to true if waystones should be added to the generation of villages. THIS OPTION DOES NOT WORK YET.
-		addVillageStructure = false
+		addVillageStructure = true
 		#Approximate chunk distance between waystones generated freely in world generation. Set to 0 to disable generation.
 		#Range: > 0
 		worldGenFrequency = 30

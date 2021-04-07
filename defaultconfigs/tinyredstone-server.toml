@@ -7,5 +7,5 @@
 #Feature Settings
 [feature]
 	#Should it be possible to export or import the blueprint as json? (default:true)
-	json_blueprint = true
+	json_blueprint = false
 

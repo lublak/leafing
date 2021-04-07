@@ -31,7 +31,7 @@
 					[server.server.balancing.server.balancing.bag]
 						#mod.chiselsandbits.config.server.balancing.server.balancing.bag.stack-size.comment
 						#Range: > -2147483648
-						stack-size = 512
+						stack-size = 4096
 
 					[server.server.balancing.server.balancing.tools]
 						#mod.chiselsandbits.config.server.balancing.server.balancing.tools.damage.comment

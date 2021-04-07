@@ -2,7 +2,7 @@
 #WorldGen Settings
 [worldgen]
 	#World Gen? [DEFAULT: true]
-	worldgen_enabled = true
+	worldgen_enabled = false
 	#The chance for Stoneium Ore to generate underground, 1 in X chunks. Bigger number means more rare [DEFAULT: 5]
 	#Range: 1 ~ 1000
 	stoneium_ore_chance = 5

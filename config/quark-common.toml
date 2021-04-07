@@ -32,7 +32,7 @@
 	Mobs = true
 	Client = true
 	Oddities = true
-	Experimental = false
+	Experimental = true
 
 [automation]
 	"Chain Linkage" = false
@@ -461,6 +461,9 @@
 		"Torches Burn" = true
 		#Can bones be smelted down to bone meal?
 		"Bone Meal Utility" = true
+
+	[tweaks.note_block_mob_sounds]
+		"Enable Vocaloid" = true
 
 [world]
 	"Big Dungeon" = true
@@ -1658,7 +1661,7 @@
 	Crate = false
 	Magnets = true
 	"Matrix Enchanting" = true
-	Pipes = true
+	Pipes = false
 	"Totem Of Holding" = true
 
 	[oddities.backpack]
