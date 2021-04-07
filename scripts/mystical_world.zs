@@ -1,3 +1,6 @@
+import crafttweaker.api.loot.modifiers.CommonLootModifiers;
+import crafttweaker.api.entity.MCEntityType;
+
 function remove_mystical_ore_stuff(name as string, remove_items as bool, ingot as bool) as void {
 	if(remove_items) {
 		removeAndHideMultipleItems([
@@ -84,6 +87,9 @@ removeAndHideMultipleItems([
 	<item:mysticalworld:cactus_sword>,
 	<item:mysticalworld:cactus_spear>,
 ]);
+
+val frog = (<entitytype:mysticalworld:frog> as MCEntityType);
+frog.addLootModifier("leafing_mysticalworld_frog_clear", CommonLootModifiers.clearLoot());
 
 // TODO:
 
