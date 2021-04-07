@@ -17,7 +17,7 @@
       "entity": "astikorcarts:supply_cart",
       "scale": 0.4,
       "offset": 0,
-      "text": "Can be pulled by horses."
+      "text": "Can be pulled by horses. Press $(k:astikorcarts.desc:key.keyboard.r) to attach or deattach."
     }
   ]
 }

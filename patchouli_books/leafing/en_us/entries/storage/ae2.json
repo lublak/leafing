@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "The ME system is a very large memory. It can also automatically forward items to other systems. However, the automatic creation of items must be left to $(l:automation/create)create$(/l). For more details look at: $(l:https://ae-mod.info/Getting-Started/)$(link)Official Homepage$(0)$(/l)."
+      "text": "The ME system is a very large memory. It can also automatically forward items to other systems. However, the automatic creation of items must be left to $(l:automation/create)create$(/l) (we removed it). For more details look at: $(l:https://ae-mod.info/Getting-Started/)$(link)Official Homepage$(0)$(/l)."
     }
   ]
 }
