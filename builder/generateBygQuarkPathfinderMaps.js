@@ -2,7 +2,6 @@ const biomesFile = '../config/byg/byg-biomes.json';
 const langFile = 'https://raw.githubusercontent.com/CorgiTaco/BYG/Forge-1.16.X/src/main/resources/assets/byg/lang/en_us.json';
 
 const fs = require('fs/promises');
-const https = require('https');
 const got = require('got');
 const colorthief = require('colorthief');
 
