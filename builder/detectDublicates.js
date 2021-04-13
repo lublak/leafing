@@ -23,12 +23,10 @@ function similarity(s1, s2) {
       const item = result[3];
       const has = data.find(d => similarity(item, d.item) > 0.7 && d.mod != mod);
       if(has) {
-        const sim = similarity(item, has.item);
         has.similar.push({
           type: type,
           mod: mod,
-          item: item,
-          sim: sim
+          item: item
         });
       } else {
         data.push({
@@ -43,7 +41,6 @@ function similarity(s1, s2) {
     if(data.length > 0) {
       console.log(data[0].type);
       for (const d of data) {
-        
         if(d.similar.length > 0) {
           i += d.similar.length + 1;
           console.log([d.mod + ':' + d.item].concat(d.similar.map(x => x.mod + ':' + x.item)));
