@@ -1,0 +1,121 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  renderorder = foreground
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = bottom-right
+  x = -218
+  action = movebutton
+  y = -89
+}
+
+customization {
+  identifier = %id=400382%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = bottom-right
+  x = -215
+  action = movebutton
+  y = -67
+}
+
+customization {
+  identifier = %id=502382%
+  width = 201
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = bottom-right
+  x = -62
+  action = movebutton
+  y = -44
+}
+
+customization {
+  identifier = %id=604382%
+  orientation = bottom-right
+  x = -34
+  action = movebutton
+  y = -43
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 125
+  slim = false
+  actionid = 0d3467c0-2158-4c76-a1aa-049ae6cf14241618344031831
+  action = addentity
+  y = 211
+  scale = 40
+  playername = %playername%
+  parrot = false
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = bottom-right
+  x = -216
+  action = movebutton
+  y = -112
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = bottom-right
+  x = -215
+  action = movebutton
+  y = -136
+}
+
+customization {
+  orientation = top-left
+  delayappearanceseconds = 0.3
+  path = assets/leafing.png
+  fadein = true
+  fadeinspeed = 1.0
+  x = 22
+  width = 100
+  action = addtexture
+  actionid = fd5dc465-4ecc-471d-bc4e-b3766fb0037e1618345676417
+  y = 15
+  delayappearance = true
+  delayappearanceeverytime = false
+  height = 100
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 172
+  action = addtext
+  actionid = bbde0016-be00-47ca-b7fd-ca2d9189b8861618348052600
+  y = 32
+  scale = 8.0
+  alignment = left
+  value = Leafing
+}
+

@@ -1,0 +1,1 @@
+const configJson = '../config.json';

@@ -50,7 +50,6 @@
 		netherite_door = true
 		sconce_soul = true
 		candle_holder = true
-		#WIP
 		flag = false
 		rope = true
 		notice_board = true
@@ -68,4 +67,5 @@
 		flute = true
 		pulley_block = true
 		gold_door = true
+		crimson_lantern = true
 

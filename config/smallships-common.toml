@@ -1,7 +1,7 @@
 #
 #Version, do not change!##
 #Range: > 0
-Version = 2
+Version = 3
 
 #Small Ships Config:
 [Ships]
@@ -41,6 +41,18 @@ Version = 2
 	#	default: 0.4
 	#Range: 0.0 ~ 1.0
 	WarGalleyTurnFactor = 0.4
+	#
+	#----Drakkar Speed Factor.----
+	#	(takes effect after restart)
+	#	default: 1.25
+	#Range: 0.0 ~ 2.0
+	DrakkarSpeedFactor = 1.25
+	#
+	#----Drakkar Turn Factor.----
+	#	(takes effect after restart)
+	#	default: 0.3
+	#Range: 0.0 ~ 1.0
+	DrakkarTurnFactor = 0.3
 	#
 	#----Should Ships Make Swimming sounds?----
 	#	(takes effect after restart)
