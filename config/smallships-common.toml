@@ -1,7 +1,7 @@
 #
-#Version, do not change!##
+###Version, do not change!##
 #Range: > 0
-Version = 3
+Version = 4
 
 #Small Ships Config:
 [Ships]
@@ -53,6 +53,13 @@ Version = 3
 	#	default: 0.3
 	#Range: 0.0 ~ 1.0
 	DrakkarTurnFactor = 0.3
+	#
+	#----Drakkar Ice Break Speed.----
+	#	(takes effect after restart)
+	#	higher values = slower break speed
+	#	default: 2.0
+	#Range: 0.0 ~ 100.0
+	DrakkarIceBreakSpeed = 2.0
 	#
 	#----Should Ships Make Swimming sounds?----
 	#	(takes effect after restart)

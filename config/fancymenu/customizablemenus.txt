@@ -6,3 +6,15 @@ net.minecraft.client.gui.screen.MainMenuScreen {
 net.minecraft.client.gui.screen.WorldLoadProgressScreen {
 }
 
+net.minecraft.client.gui.screen.inventory.CreativeScreen {
+}
+
+net.minecraft.client.gui.screen.IngameMenuScreen {
+}
+
+net.optifine.gui.GuiChatOF {
+}
+
+net.minecraft.client.gui.screen.OptionsScreen {
+}
+
