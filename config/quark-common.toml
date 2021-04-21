@@ -295,7 +295,38 @@
 		#
 		#Here's an example of a map to locate Ice Mountains:
 		#minecraft:ice_mountains,2,8,14,7FE4FF,Ice Mountains Pathfinder Map
-		Customs = []
+		Customs = [
+			byg:allium_fields,5,26,32,EC7CC4,Allium Fields Pathfinder Map
+			byg:amaranth_fields,5,26,32,CE4142,Amaranth Fields Pathfinder Map
+			byg:ancient_forest,5,36,44,4E8371,Ancient Forest Pathfinder Map
+			byg:araucaria_savanna,5,26,32,718333,Araucaria Savanna Pathfinder Map
+			byg:crag_gardens,5,36,44,4E8371,Crag Gardens Pathfinder Map
+			byg:dead_sea,5,26,32,4E8371,Dead Sea Pathfinder Map
+			byg:dover_mountains,4,22,28,C4C4C4,Dover Mountains Pathfinder Map
+			byg:ebony_woods,4,12,18,443C2C,Ebony Woods Pathfinder Map
+			byg:enchanted_forest,5,36,44,25345D,Enchanted Forest Pathfinder Map
+			byg:enchanted_grove,5,36,44,25345D,Enchanted Grove Pathfinder Map
+			byg:glowshroom_bayou,5,36,44,2C4478,Glowshroom Bayou Pathfinder Map
+			byg:great_lakes,4,22,28,4E8371,Great Lakes Pathfinder Map
+			byg:guiana_shield,4,22,28,4E8371,Guiana Shield Pathfinder Map
+			byg:jacaranda_forest,4,12,18,744C3C,Jacaranda Forest Pathfinder Map
+			byg:mangrove_marshes,4,12,18,CCC4C4,Mangrove Marshes Pathfinder Map
+			byg:mojave_desert,4,22,28,4E8371,Mojave Desert Pathfinder Map
+			byg:orchard,4,22,28,AC9C8C,Orchard Pathfinder Map
+			byg:red_desert,5,26,32,904527,Red Desert Pathfinder Map
+			byg:red_rock_mountains,4,12,18,904527,Red Rock Mountains Pathfinder Map
+			byg:redwood_tropics,5,36,44,845C2C,Redwood Tropics Pathfinder Map
+			byg:rose_fields,5,26,32,D4040C,Rose Fields Pathfinder Map
+			byg:shattered_glacier,5,26,32,4E8371,Shattered Glacier Pathfinder Map
+			byg:skyris_highlands,5,26,32,445C74,Skyris Highlands Pathfinder Map
+			byg:snowy_coniferous_forest,4,12,18,4E8371,Snowy Coniferous Forest Pathfinder Map
+			byg:stone_forest,5,36,44,6C6434,Stone Forest Pathfinder Map
+			byg:the_black_forest,4,12,18,7C757C,The Black Forest Pathfinder Map
+			byg:tropical_fungal_forest,4,22,28,496E61,Tropical Fungal Forest Pathfinder Map
+			byg:twilight_valley,5,26,32,4E8371,Twilight Valley Pathfinder Map
+			byg:weeping_witch_forest,5,36,44,4E8371,Weeping Witch Forest Pathfinder Map
+			byg:woodlands,4,12,18,4E8371,Woodlands Pathfinder Map
+		]
 		"Xp From Trade" = 5
 
 	[tools.pickarang]
