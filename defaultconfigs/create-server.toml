@@ -37,6 +37,9 @@
 	#
 	#When true, allows any Druidcraft woodcutter recipes to be processed by a Mechanical Saw.
 	allowWoodcuttingOnSaw = true
+	#
+	#When true, allows the Mechanical Press to process entire stacks at a time.
+	bulkPressing = false
 
 #
 #Parameters and abilities of Create's kinetic mechanisms

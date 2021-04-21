@@ -3,6 +3,10 @@
 [performance]
 	#Should redstone torches output light to the surrounding area? (default:false)
 	torch_light = false
+	#Maximum redstone tick delay for super repeaters. 10 redstone ticks = 1 second.
+	#Large numbers require more memory. (default:100)
+	#Range: > 4
+	super_repeater_max = 100
 
 #Feature Settings
 [feature]
