@@ -39,7 +39,7 @@
 [automation]
 	"Chain Linkage" = false
 	"Chains Connect Blocks" = false
-	Chute = true
+	Chute = false
 	"Color Slime" = true
 	"Dispensers Place Blocks" = false
 	"Ender Watcher" = true
@@ -369,21 +369,21 @@
 	"Double Door Opening" = true
 	"Dragon Scales" = true
 	Emotes = true
-	"Enhanced Ladders" = true
+	"Enhanced Ladders" = false
 	"Glass Shard" = true
-	"Hoe Harvesting" = true
+	"Hoe Harvesting" = false
 	"Improved Sleeping" = true
 	"Infinity Bucket" = true
-	"Lava Bucket As Trash" = true
-	"Lock Rotation" = true
+	"Lava Bucket As Trash" = false
+	"Lock Rotation" = false
 	"Note Block Mob Sounds" = true
 	"Pat The Dogs" = true
 	"Poison Potato Usage" = true
-	"Reacharound Placing" = true
-	"Replace Scaffolding" = true
+	"Reacharound Placing" = false
+	"Replace Scaffolding" = false
 	"Sign Editing" = true
 	"Simple Harvest" = true
-	"Snow Golem Player Heads" = true
+	"Snow Golem Player Heads" = false
 	"Springy Slime" = true
 	"Utility Recipes" = true
 	"Villagers Follow Emeralds" = true
@@ -496,19 +496,19 @@
 		"Bone Meal Utility" = true
 
 [world]
-	"Big Dungeon" = true
-	"Big Stone Clusters" = true
+	"Big Dungeon" = false
+	"Big Stone Clusters" = false
 	Biotite = true
 	"Blossom Trees" = true
 	"Cave Roots" = true
 	"Chorus Vegetation" = true
-	Crevices = true
+	Crevices = false
 	"Fairy Rings" = true
-	"Mega Caves" = true
+	"Mega Caves" = false
 	"Monster Box" = true
 	"Nether Obsidian Spikes" = true
 	"New Stone Types" = true
-	"Realistic World Gen" = true
+	"Realistic World Gen" = false
 	Speleothems = true
 	"Spiral Spires" = true
 	"Underground Clay" = true
@@ -1482,7 +1482,7 @@
 	Crabs = true
 	Forgotten = true
 	Foxhound = true
-	Frogs = true
+	Frogs = false
 	Stonelings = true
 	Toretoise = true
 	Wraith = true
@@ -1689,7 +1689,7 @@
 [oddities]
 	Backpack = true
 	Crate = false
-	Magnets = true
+	Magnets = false
 	"Matrix Enchanting" = true
 	Pipes = false
 	"Totem Of Holding" = true
