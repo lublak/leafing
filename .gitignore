@@ -1,3 +1,4 @@
 
 *.bak
 /builder/node_modules
+/builder/BYG

@@ -1,7 +1,7 @@
 
 [hatRandomisation]
 	#Random Seed used for Hat Randomisation, rarity, spawn chance, etc. Leave blank for random generated seed.
-	randSeed = "j='T1B|22nBd]z5N+R_r"
+	randSeed = ""
 	#For Client Config: Spawn chance when on servers that do not have Hats installed.
 	#For Server Config: Spawn chance for entities which support hats.
 	#Range: 0.0 ~ 1.0
