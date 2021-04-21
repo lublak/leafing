@@ -1,8 +1,5 @@
 type = customizablemenus
 
-net.minecraft.client.gui.screen.MainMenuScreen {
-}
-
 net.minecraft.client.gui.screen.WorldLoadProgressScreen {
 }
 
@@ -16,5 +13,8 @@ net.optifine.gui.GuiChatOF {
 }
 
 net.minecraft.client.gui.screen.OptionsScreen {
+}
+
+net.minecraft.client.gui.screen.MainMenuScreen {
 }
 

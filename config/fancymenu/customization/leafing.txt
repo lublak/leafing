@@ -6,6 +6,11 @@ customization-meta {
 }
 
 customization {
+  path = assets/background.png
+  action = texturizebackground
+}
+
+customization {
   identifier = %id=400346%
   action = hidebutton
 }
@@ -17,10 +22,10 @@ customization {
 
 customization {
   identifier = %id=400382%
-  orientation = bottom-right
-  x = -218
+  orientation = mid-centered
+  x = -100
   action = movebutton
-  y = -89
+  y = 47
 }
 
 customization {
@@ -31,91 +36,236 @@ customization {
 }
 
 customization {
-  identifier = %id=502382%
-  orientation = bottom-right
-  x = -215
-  action = movebutton
-  y = -67
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttontexture
+  backgroundhovered = assets/options_hover.png
+  backgroundnormal = assets/options.png
+}
+
+customization {
+  identifier = %id=400382%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
 }
 
 customization {
   identifier = %id=502382%
-  width = 201
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 71
+}
+
+customization {
+  identifier = %id=502382%
+  width = 200
   action = resizebutton
   height = 20
 }
 
 customization {
-  identifier = %id=376382%
-  orientation = bottom-right
-  x = -62
-  action = movebutton
-  y = -44
+  identifier = %id=502382%
+  action = setbuttonlabel
+  value = 
 }
 
 customization {
-  identifier = %id=604382%
-  orientation = bottom-right
-  x = -34
-  action = movebutton
-  y = -43
+  identifier = %id=502382%
+  action = setbuttontexture
+  backgroundhovered = assets/quit_game_hover.png
+  backgroundnormal = assets/quit_game.png
 }
 
 customization {
-  showname = true
-  orientation = top-left
-  crouching = false
-  x = 125
+  identifier = %id=502382%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  orientation = mid-centered
+  delayappearanceseconds = 1.0
   slim = false
+  scale = 40
+  showname = true
+  crouching = false
+  x = -130
   actionid = 0d3467c0-2158-4c76-a1aa-049ae6cf14241618344031831
   action = addentity
-  y = 211
-  scale = 40
+  y = 90
+  delayappearance = true
   playername = %playername%
   parrot = false
+  delayappearanceeverytime = false
 }
 
 customization {
   identifier = %id=400322%
-  orientation = bottom-right
-  x = -216
+  orientation = mid-centered
+  x = -100
   action = movebutton
-  y = -112
+  y = 23
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttontexture
+  backgroundhovered = assets/multiplayer_hover.png
+  backgroundnormal = assets/multiplayer.png
+}
+
+customization {
+  identifier = %id=400322%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
 }
 
 customization {
   identifier = %id=400298%
-  orientation = bottom-right
-  x = -215
+  orientation = mid-centered
+  x = -100
   action = movebutton
-  y = -136
+  y = -1
 }
 
 customization {
-  orientation = top-left
-  delayappearanceseconds = 0.3
-  path = assets/leafing.png
+  identifier = %id=400298%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttontexture
+  backgroundhovered = assets/singleplayer_hover.png
+  backgroundnormal = assets/singleplayer.png
+}
+
+customization {
+  identifier = %id=400298%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  identifier = %id=400298%
+  seconds = 1.0
+  onlyfirsttime = true
   fadein = true
   fadeinspeed = 1.0
-  x = 22
+  action = hidebuttonfor
+}
+
+customization {
+  orientation = mid-centered
+  delayappearanceseconds = 0.5
+  path = assets/logo_gray.png
+  fadein = true
+  fadeinspeed = 1.0
+  x = -50
   width = 100
   action = addtexture
-  actionid = fd5dc465-4ecc-471d-bc4e-b3766fb0037e1618345676417
-  y = 15
+  actionid = f1b428cd-1c7b-4d6d-a3e4-af8c3d499b891619026952153
+  y = -109
   delayappearance = true
   delayappearanceeverytime = false
   height = 100
 }
 
 customization {
-  orientation = top-left
-  shadow = false
-  x = 172
-  action = addtext
-  actionid = bbde0016-be00-47ca-b7fd-ca2d9189b8861618348052600
-  y = 32
-  scale = 8.0
-  alignment = left
-  value = Leafing
+  orientation = mid-centered
+  delayappearanceseconds = 1.0
+  path = assets/logo.png
+  fadein = true
+  fadeinspeed = 1.0
+  x = -50
+  width = 100
+  action = addtexture
+  actionid = 36b1f2b1-1a52-46b2-8e94-d6998628bdb11619026922468
+  y = -109
+  delayappearance = true
+  delayappearanceeverytime = false
+  height = 100
+}
+
+customization {
+  identifier = %id=604382%
+  orientation = mid-centered
+  x = 104
+  action = movebutton
+  y = 71
+}
+
+customization {
+  identifier = %id=604382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=604382%
+  action = setbuttontexture
+  backgroundhovered = assets/accessibility_hover.png
+  backgroundnormal = assets/accessibility.png
+}
+
+customization {
+  identifier = %id=604382%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = mid-centered
+  x = 104
+  action = movebutton
+  y = 47
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttontexture
+  backgroundhovered = assets/lang_hover.png
+  backgroundnormal = assets/lang.png
+}
+
+customization {
+  identifier = %id=376382%
+  seconds = 1.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
 }
 
