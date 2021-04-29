@@ -1,8 +1,5 @@
 type = customizablemenus
 
-net.minecraft.client.gui.screen.WorldLoadProgressScreen {
-}
-
 net.minecraft.client.gui.screen.inventory.CreativeScreen {
 }
 
