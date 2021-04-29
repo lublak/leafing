@@ -1,0 +1,45 @@
+{
+  "name": "Tinkers Construct",
+  "icon": "tconstruct:smeltery_controller",
+  "category": "patchouli:tools",
+  "pages": [
+    {
+      "type": "text",
+      "text": "And gives a lot of information books. Look inside!$(br)Use the $(block)Part Builder$(0) to build parts for the $(block)Casting Table$(0)."
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [ "     ", " TWW ", "W   W", "W   W", "W   W", " WWW " ],
+          [ "  F  ", " TBS ", "W   W", "W   W", "W   W", " WWW " ],
+          [ "  C  ", "     ", " BBB ", " B0B ", " BBB ", "     " ]
+        ],
+        "mapping": {
+          " ": "ANY",
+          "T": "#tconstruct:melter_tanks",
+          "F": "tconstruct:faucet[facing=west]",
+          "C": "tconstruct:casting_table",
+          "B": "#tconstruct:smeltery/floor",
+          "W": "#tconstruct:smeltery/wall",
+          "0": "#tconstruct:smeltery/floor",
+          "S": "tconstruct:smeltery_controller[facing=west]"
+        },
+        "symmetrical": true,
+        "offset"     : [0, 1, 0],
+        "view_offset": [0, 0, 0]
+      },
+      "text": "Basic Smeltery"
+    },
+    {
+      "type": "spotlight",
+      "item": "tconstruct:materials_and_you",
+      "title": "Materials and You"
+    },
+    {
+      "type": "spotlight",
+      "item": "tconstruct:tinkers_gadgetry",
+      "title": "Tinkers Gadgetry"
+    }
+  ]
+}

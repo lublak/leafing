@@ -11,7 +11,7 @@
     {
       "type": "text",
       "title": "Things",
-      "text": "$(li)$(l:get_started/color)Color$(/l)$(li)$(l:gui/jei)Jei$(/l)$(li)$(l:gui/probe)Probe$(/l)$(li)$(l:gui/extra_controls)Extra Controls$(/l)$(li)$(l:tools/backpack)Backpack$(/l)$(li)$(l:tools/navigation)Navigation$(/l)$(li)$(l:tools/totem)Totem$(/l)"
+      "text": "$(li)$(l:get_started/color)Color$(/l)$(li)$(l:gui/jei)Jei$(/l)$(li)$(l:gui/probe)Probe$(/l)$(li)$(l:gui/extra_controls)Extra Controls$(/l)$(li)$(l:tools/backpack)Backpack$(/l)$(li)$(l:tools/navigation)Navigation$(/l)$(li)$(l:tools/tinkers)Tinkers Construct$(/l)$(li)$(l:tools/totem)Totem$(/l)"
     }
   ]
 }
