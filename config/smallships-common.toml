@@ -42,15 +42,15 @@ Version = 4
 	#Range: 0.0 ~ 1.0
 	WarGalleyTurnFactor = 0.4
 	#
-	#----Drakkar Speed Factor.----
+	#----Row Boat Speed Factor.----
 	#	(takes effect after restart)
-	#	default: 1.25
+	#	default: 1.0
 	#Range: 0.0 ~ 2.0
 	DrakkarSpeedFactor = 1.25
 	#
-	#----Drakkar Turn Factor.----
+	#----Row Boat Turn Factor.----
 	#	(takes effect after restart)
-	#	default: 0.3
+	#	default: 0.8
 	#Range: 0.0 ~ 1.0
 	DrakkarTurnFactor = 0.3
 	#
@@ -65,4 +65,9 @@ Version = 4
 	#	(takes effect after restart)
 	#	default: true
 	PlaySwimmSound = true
+	#
+	#----Should Ships Make WaterMobs flee?----
+	#	(takes effect after restart)
+	#	default: true
+	WaterMobFlee = true
 
